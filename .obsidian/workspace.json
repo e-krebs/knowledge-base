@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "769e2695425bbc60",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba3bd1682d144af3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a99c2852e1258bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/Rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d391038cd43388d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "16e6e7ed5212f8e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "064d0946cd85fb27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6475e229d109b362",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2db434ab4e85f903",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cfc3266681a4df4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c60a959f45f9db3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "361adb1aee20be4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "programming/Rust.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "64efcceeae8113cc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "programming/Rust.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d68cb3bf60795de1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e26b54a419cda276",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "programming/Rust.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a99c2852e1258bb3",
+  "lastOpenFiles": [
+    "README.md",
+    "programming/Rust.md"
+  ]
+}
