@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Rust.md",
+                "file": "programming/Node.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Rust.md",
+                "file": "programming/Node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Rust.md",
+                "file": "programming/Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Rust.md"
+                "file": "programming/Node.md"
               }
             }
           }
@@ -136,9 +136,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a99c2852e1258bb3",
+  "active": "064d0946cd85fb27",
   "lastOpenFiles": [
-    "README.md",
-    "programming/Rust.md"
+    "programming/Rust.md",
+    "programming/Node.md",
+    "README.md"
   ]
 }
