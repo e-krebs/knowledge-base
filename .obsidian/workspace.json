@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f600c3d433533747",
+        "id": "b7032222a75b1f40",
         "type": "tabs",
         "children": [
           {
-            "id": "d4722b4199d61174",
+            "id": "5fc44ca6e0d84fe8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -125,16 +125,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "d4722b4199d61174",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5fc44ca6e0d84fe8",
   "lastOpenFiles": [
-    "programming/Node/general.md",
-    "Games.md",
     "programming/Node/Libraries.md",
+    "programming/Node/React-ish.md",
+    "programming/Node/general.md",
+    "programming/Code playground.md",
     "programming/Typescript.md",
     "programming/Rust.md",
+    "programming/Regex.md",
+    "Data viz.md",
+    "Games.md",
     "README.md"
   ]
 }
