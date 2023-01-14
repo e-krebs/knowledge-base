@@ -11,11 +11,76 @@
             "id": "5fc44ca6e0d84fe8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/Typescript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f307da7541e9941f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/Typescript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "786dc194ec94fbd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/React-ish.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "945cd75496270e6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/css.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d46837765b6029db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data viz.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db1442b43af2fd90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/Regex.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -81,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +163,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e26b54a419cda276",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "programming/Regex.md"
               }
             }
           },
@@ -112,16 +189,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "e26b54a419cda276",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -137,17 +207,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fc44ca6e0d84fe8",
+  "active": "db1442b43af2fd90",
   "lastOpenFiles": [
-    "programming/Node/Libraries.md",
-    "programming/Node/React-ish.md",
     "programming/Node/general.md",
-    "programming/Code playground.md",
-    "programming/Typescript.md",
-    "programming/Rust.md",
-    "programming/Regex.md",
+    "Art.md",
     "Data viz.md",
     "Games.md",
-    "README.md"
+    "programming/Rust.md",
+    "programming/css.md",
+    "programming/Ressources.md",
+    "programming/React-ish.md",
+    "programming/Tests.md",
+    "programming/Node/Libraries.md"
   ]
 }
