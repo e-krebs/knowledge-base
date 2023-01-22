@@ -7,7 +7,10 @@
 [clip-path maker](https://bennettfeely.com/clippy/)
 
 ## tips
+[css only tooltips](https://shrutibalasa.substack.com/p/css-only-tooltip-using-attr-22-10-26)
 [horizontal line on both sides of text](https://shrutibalasa.substack.com/p/css-simplified-issue-24-23-01-05)
+[floating label for input in css](https://shrutibalasa.substack.com/p/floating-label-for-input-in-css-22-10-19)
+[split background color with one line of css](https://shrutibalasa.substack.com/p/split-background-color-with-one-line-22-11-09)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)
