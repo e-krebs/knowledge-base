@@ -4,3 +4,5 @@
 [creating realistic art with css](https://frontend.horse/articles/realistic-art-with-css/)
 
 [frontend horse](https://frontend.horse/articles/)
+[dreamy blur effect](https://yuanchuan.dev/dreamy-blur)
+[refraction, dispersion, ...](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)
