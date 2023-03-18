@@ -6,3 +6,7 @@
 [frontend horse](https://frontend.horse/articles/)
 [dreamy blur effect](https://yuanchuan.dev/dreamy-blur)
 [refraction, dispersion, ...](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)
+
+### generative sketches
+https://yuanchuan.dev/daily-sketch-1
+https://yuanchuan.dev/daily-sketch-2

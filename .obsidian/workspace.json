@@ -8,139 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5fc44ca6e0d84fe8",
+            "id": "d2d8306b808b7c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdb02f140594e723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Art.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f076ae9fbf1c4138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7b924f57c210514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/SVG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f307da7541e9941f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Typescript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "786dc194ec94fbd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/React-ish.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "945cd75496270e6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/css.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d46837765b6029db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data viz.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db1442b43af2fd90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Typescript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a41124dcb4eddc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Node/Libraries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12d4bee5ff3d0a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools.md",
+                "file": "programming/Typescript/Utility types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/algorithms.md",
+                "file": "programming/Typescript/Utility types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/algorithms.md",
+                "file": "programming/Typescript/Utility types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/algorithms.md"
+                "file": "programming/Typescript/Utility types.md"
               }
             }
           },
@@ -255,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f076ae9fbf1c4138",
+  "active": "d2d8306b808b7c66",
   "lastOpenFiles": [
-    "Art.md",
+    "programming/Typescript.md",
+    "programming/packages.md",
+    "programming/Multi-platform.md",
     "programming/css.md",
-    "programming/html.md",
+    "programming/SVG.md",
     "programming/tools.md",
-    "programming/React-ish.md",
-    "programming/Javascript.md",
+    "programming/Ressources.md",
     "programming/_memo.md",
     "programming/Node/Libraries.md",
-    "programming/Ressources.md",
-    "programming/Typescript.md"
+    "Art.md"
   ]
 }
