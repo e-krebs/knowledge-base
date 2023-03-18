@@ -5,6 +5,7 @@
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
 [tailwind palette](https://www.tints.dev)
 [tailwind: dark mode without "dark:''](https://twitter.com/adamwathan/status/1618069941323960320?s=12&t=UadSm0obIwqysSPM4ObJsg&ref=tailwind-weekly)
+[box shadows in tailwind](https://manuarora.in/boxshadows)
 
 [clip-path maker](https://bennettfeely.com/clippy/)
 
@@ -17,9 +18,11 @@
 [text in narrow spaces](https://shrutibalasa.substack.com/p/this-css-property-helps-you-display?utm_medium=email)
 [grid-like background image](https://twitter.com/lukyvj/status/1621552822650011649?s=12&t=_FIZlJNPpheJyFEmiUfahw)
 [border gradient](https://twitter.com/jonathan_wilke/status/1610524049758724097?ref=tailwind-weekly)
+[remove all styling](https://twitter.com/aschmelyun/status/1626928769507393536?s=12&t=YbGgFvPkrLL7xqbMKHnflA)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)
 [light bulb](https://codepen.io/jh3y/pen/VwjgdLj)
 [viking shield](https://codepen.io/LukyVj/pen/nYeorg)
 [tilting cards](https://codepen.io/LukyVj/pen/oNPgXXO)
+[grainy & gradient text](https://codepen.io/LukyVj/full/poOjqBv)
