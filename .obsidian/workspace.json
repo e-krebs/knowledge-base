@@ -11,11 +11,28 @@
             "id": "aa59e5c4af366c55",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/packages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af397418a9be0a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/Typescript/general.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/Typescript/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/Typescript/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/Typescript/general.md"
+              }
             }
           },
           {
@@ -138,17 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa59e5c4af366c55",
+  "active": "af397418a9be0a18",
   "lastOpenFiles": [
-    "Art.md",
-    "Inspiration.md",
-    "programming/css.md",
     "programming/Typescript/Utility types.md",
-    "programming/Typescript.md",
+    "programming/Typescript/general.md",
+    "programming/SVG/general.md",
+    "programming/SVG/SVG sprites.md",
+    "programming/SVG",
+    "programming/frontend architecture.md",
     "programming/packages.md",
-    "programming/Multi-platform.md",
-    "programming/SVG.md",
     "programming/tools.md",
-    "programming/Ressources.md"
+    "Games.md",
+    "Art.md",
+    "programming/Ressources.md",
+    "programming/React-ish.md",
+    "programming/css.md",
+    "Inspiration.md",
+    "programming/Multi-platform.md"
   ]
 }

@@ -1,5 +1,13 @@
 [modern css](https://moderncss.dev/)
 
+## animations
+[animated icons](https://useanimations.com/)
+[tips for better transitions & animations](https://joshcollinsworth.com/blog/great-transitions)
+[advanced animation (cubic bezier, etc.)](https://www.smashingmagazine.com/2022/10/advanced-animations-css/)
+[cubic-bezier.com](https://cubic-bezier.com/)
+[shared element transitions](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
+[image decorations & animations](https://css-tricks.com/fancy-image-decorations-outlines-and-complex-animations/)
+
 ## tools
 [tailwind shades](https://www.tailwindshades.com)
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
@@ -19,6 +27,7 @@
 [grid-like background image](https://twitter.com/lukyvj/status/1621552822650011649?s=12&t=_FIZlJNPpheJyFEmiUfahw)
 [border gradient](https://twitter.com/jonathan_wilke/status/1610524049758724097?ref=tailwind-weekly)
 [remove all styling](https://twitter.com/aschmelyun/status/1626928769507393536?s=12&t=YbGgFvPkrLL7xqbMKHnflA)
+[color-mix()](https://una.im/color-mix-opacity/)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)

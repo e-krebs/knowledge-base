@@ -8,3 +8,5 @@
 [constraint-base tile generators](https://www.boristhebrave.com/2021/10/31/constraint-based-tile-generators/)
 
 [How To Build A Real-Time Multi-User Game From Scratch](https://www.smashingmagazine.com/2021/10/real-time-multi-user-game/)
+
+[html5 deck of cards](https://github.com/deck-of-cards/deck-of-cards)
