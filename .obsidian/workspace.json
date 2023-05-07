@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5d2236f6c5eba863",
+        "id": "3d08bfc1520f6a77",
         "type": "tabs",
         "children": [
           {
-            "id": "aa59e5c4af366c55",
+            "id": "0c1c4fa2b24d724f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/packages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af397418a9be0a18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Typescript/general.md",
+                "file": "programming/Javascript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "palette",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Typescript/general.md",
+                "file": "programming/Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Typescript/general.md",
+                "file": "programming/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Typescript/general.md"
+                "file": "programming/Javascript.md"
               }
             }
           },
@@ -159,21 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af397418a9be0a18",
+  "active": "0c1c4fa2b24d724f",
   "lastOpenFiles": [
-    "programming/Typescript/Utility types.md",
-    "programming/Typescript/general.md",
+    "programming/frontend architecture.md",
+    "programming/_memo.md",
+    "programming/Node/general.md",
+    "programming/Node/Libraries.md",
+    "programming/css.md",
+    "Art.md",
+    "programming/html.md",
+    "programming/Icons.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
-    "programming/SVG",
-    "programming/frontend architecture.md",
     "programming/packages.md",
+    "Untitled.canvas",
+    "programming/Typescript/general.md",
+    "programming/Typescript/Utility types.md",
+    "programming/SVG",
     "programming/tools.md",
     "Games.md",
-    "Art.md",
     "programming/Ressources.md",
     "programming/React-ish.md",
-    "programming/css.md",
     "Inspiration.md",
     "programming/Multi-platform.md"
   ]

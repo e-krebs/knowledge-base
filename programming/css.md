@@ -7,6 +7,7 @@
 [cubic-bezier.com](https://cubic-bezier.com/)
 [shared element transitions](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
 [image decorations & animations](https://css-tricks.com/fancy-image-decorations-outlines-and-complex-animations/)
+[tips for better CSS transition & animations](https://joshcollinsworth.com/blog/great-transitions)
 
 ## tools
 [tailwind shades](https://www.tailwindshades.com)
@@ -14,6 +15,7 @@
 [tailwind palette](https://www.tints.dev)
 [tailwind: dark mode without "dark:''](https://twitter.com/adamwathan/status/1618069941323960320?s=12&t=UadSm0obIwqysSPM4ObJsg&ref=tailwind-weekly)
 [box shadows in tailwind](https://manuarora.in/boxshadows)
+[generate color palette](https://coolors.co/generate)
 
 [clip-path maker](https://bennettfeely.com/clippy/)
 
@@ -28,6 +30,8 @@
 [border gradient](https://twitter.com/jonathan_wilke/status/1610524049758724097?ref=tailwind-weekly)
 [remove all styling](https://twitter.com/aschmelyun/status/1626928769507393536?s=12&t=YbGgFvPkrLL7xqbMKHnflA)
 [color-mix()](https://una.im/color-mix-opacity/)
+[vertical text](https://shrutibalasa.substack.com/p/create-accessible-vertical-text)
+[:is() selector to avoid repetition](https://shrutibalasa.substack.com/p/have-you-used-the-is-selector-to)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)
@@ -35,3 +39,8 @@
 [viking shield](https://codepen.io/LukyVj/pen/nYeorg)
 [tilting cards](https://codepen.io/LukyVj/pen/oNPgXXO)
 [grainy & gradient text](https://codepen.io/LukyVj/full/poOjqBv)
+[iOS animated switch](https://buildui.com/recipes/ios-animated-switch)
+[buttons with rainbow gradient](https://codepen.io/LukyVj/pen/bGmELYR)
+[dial](https://codepen.io/LukyVj/pen/xxyEYMJ)
+[gradient that follows mouse](https://buildui.com/recipes/spotlight)
+[Mac OS dock](https://buildui.com/recipes/magnified-dock)

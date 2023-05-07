@@ -5,5 +5,3 @@
 [svgviewer.dev](https://www.svgviewer.dev/)
 
 [svg animation](https://www.smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/)
-
-### svg sprites
