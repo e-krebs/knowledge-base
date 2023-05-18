@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d08bfc1520f6a77",
+        "id": "25a36aba42d2d10c",
         "type": "tabs",
         "children": [
           {
-            "id": "0c1c4fa2b24d724f",
+            "id": "969d95caac30fe15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Javascript.md",
+                "file": "programming/css.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "5ae9aae532c3e9fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Javascript.md",
+                "file": "programming/css.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Javascript.md",
+                "file": "programming/css.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Javascript.md"
+                "file": "programming/css.md"
               }
             }
           },
@@ -146,20 +154,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c1c4fa2b24d724f",
+  "active": "969d95caac30fe15",
   "lastOpenFiles": [
+    "Carrier.md",
+    "Carrier.canvas",
+    "programming/css.md",
+    "programming/Javascript.md",
     "programming/frontend architecture.md",
     "programming/_memo.md",
     "programming/Node/general.md",
     "programming/Node/Libraries.md",
-    "programming/css.md",
     "Art.md",
     "programming/html.md",
     "programming/Icons.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
     "programming/packages.md",
-    "Untitled.canvas",
     "programming/Typescript/general.md",
     "programming/Typescript/Utility types.md",
     "programming/SVG",

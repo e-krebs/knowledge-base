@@ -32,6 +32,10 @@
 [color-mix()](https://una.im/color-mix-opacity/)
 [vertical text](https://shrutibalasa.substack.com/p/create-accessible-vertical-text)
 [:is() selector to avoid repetition](https://shrutibalasa.substack.com/p/have-you-used-the-is-selector-to)
+[responsive design with clamp](https://shrutibalasa.substack.com/p/create-responsive-designs-with-css)
+[hue saturation lightness for color shades](https://shrutibalasa.substack.com/p/mastering-color-shades-in-css-with-variables)
+[collapsible Q&A / Accordion without JS](https://shrutibalasa.substack.com/p/collapsible-q-and-as-with-pure-html)
+[fancy image shape](https://shrutibalasa.substack.com/p/make-your-images-interesting-with)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)
@@ -44,3 +48,5 @@
 [dial](https://codepen.io/LukyVj/pen/xxyEYMJ)
 [gradient that follows mouse](https://buildui.com/recipes/spotlight)
 [Mac OS dock](https://buildui.com/recipes/magnified-dock)
+[rotating exhagon gradient border](https://codepen.io/LukyVj/pen/gOBeKOv)
+[Apple fitness-like loaders](https://codepen.io/LukyVj/pen/rNqvowZ)
