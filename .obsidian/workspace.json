@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "25a36aba42d2d10c",
+        "id": "0dcd1bdbad08eaa2",
         "type": "tabs",
         "children": [
           {
-            "id": "969d95caac30fe15",
+            "id": "c3f946c75d7fb8d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/css.md",
+                "file": "programming/Javascript/string comparison.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "cfc3266681a4df4a",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/css.md",
+                "file": "programming/Javascript/string comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/css.md",
+                "file": "programming/Javascript/string comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/css.md"
+                "file": "programming/Javascript/string comparison.md"
               }
             }
           },
@@ -154,30 +154,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "969d95caac30fe15",
+  "active": "064d0946cd85fb27",
   "lastOpenFiles": [
-    "Carrier.md",
-    "Carrier.canvas",
-    "programming/css.md",
-    "programming/Javascript.md",
-    "programming/frontend architecture.md",
-    "programming/_memo.md",
+    "programming/Javascript/general.md",
+    "programming/Javascript/string comparison.md",
     "programming/Node/general.md",
-    "programming/Node/Libraries.md",
-    "Art.md",
-    "programming/html.md",
-    "programming/Icons.md",
+    "programming/Javascript",
+    "programming/packages.md",
+    "programming/tools.md",
+    "programming/Multi-platform.md",
+    "programming/Ressources.md",
+    "programming/css.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
-    "programming/packages.md",
+    "programming/Tests.md",
     "programming/Typescript/general.md",
+    "programming/Node/Libraries.md",
     "programming/Typescript/Utility types.md",
-    "programming/SVG",
-    "programming/tools.md",
-    "Games.md",
-    "programming/Ressources.md",
-    "programming/React-ish.md",
+    "programming/Icons.md",
     "Inspiration.md",
-    "programming/Multi-platform.md"
+    "Design.md",
+    "Carrier.md",
+    "Carrier.canvas",
+    "programming/frontend architecture.md",
+    "programming/_memo.md",
+    "Art.md",
+    "programming/html.md",
+    "programming/SVG",
+    "Games.md",
+    "programming/React-ish.md"
   ]
 }

@@ -4,6 +4,12 @@
 
 ## Types
 [Amplify Zod](https://github.com/alii/azs)
+[validate data (zod alternative)](https://valibot.dev/)
+[type-safe env var](https://www.jacobparis.com/content/type-safe-env)
 
 ## Tips
 [Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)
+[number range](https://catchts.com/range-numbers)
+
+## advanced
+[AST viewer](https://ts-ast-viewer.com/)

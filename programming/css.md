@@ -36,6 +36,7 @@
 [hue saturation lightness for color shades](https://shrutibalasa.substack.com/p/mastering-color-shades-in-css-with-variables)
 [collapsible Q&A / Accordion without JS](https://shrutibalasa.substack.com/p/collapsible-q-and-as-with-pure-html)
 [fancy image shape](https://shrutibalasa.substack.com/p/make-your-images-interesting-with)
+[nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)
@@ -50,3 +51,5 @@
 [Mac OS dock](https://buildui.com/recipes/magnified-dock)
 [rotating exhagon gradient border](https://codepen.io/LukyVj/pen/gOBeKOv)
 [Apple fitness-like loaders](https://codepen.io/LukyVj/pen/rNqvowZ)
+[animated pride flags](https://www.joshwcomeau.com/animation/pride-flags/)
+[temporary highlight](https://buildui.com/recipes/highlight)

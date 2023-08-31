@@ -15,7 +15,7 @@ Omit certain keys → `Omit<T, 'age'>`
 ### Union
 `type License = 'DC' | 'Marvel'`
 Get value from union → `Extract<License, 'DC'>`
-Omit value from union → `Exclud<License, 'Marvel'>`
+Omit value from union → `Exclude<License, 'Marvel'>`
 
 ## Function & Class
 Get function parameters → `Parameters<typeof function>`
