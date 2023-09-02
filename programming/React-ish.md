@@ -11,3 +11,6 @@
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)
+
+## Migrations
+[to RSC](https://www.mux.com/blog/what-are-react-server-components)

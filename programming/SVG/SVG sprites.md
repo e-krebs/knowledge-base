@@ -1,3 +1,5 @@
+>Bonus: [online SVG sprite optimization](https://sprite-your-svgs.vercel.app/)
+
 1. Create an SVG sprite containing the symbols you want to reuse:
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
