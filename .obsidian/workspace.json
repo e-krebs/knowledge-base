@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/SVG/SVG sprites.md",
+                "file": "Art.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/SVG/SVG sprites.md",
+                "file": "Art.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/SVG/SVG sprites.md",
+                "file": "Art.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/SVG/SVG sprites.md"
+                "file": "Art.md"
               }
             }
           },
@@ -157,6 +157,13 @@
   "active": "4fda8298f54811b6",
   "lastOpenFiles": [
     "programming/React-ish.md",
+    "programming/bun.md",
+    "programming/SVG/general.md",
+    "programming/css/general.md",
+    "programming/css/tailwind css.md",
+    "programming/Tests.md",
+    "programming/css",
+    "programming/SVG/SVG sprites.md",
     "programming/Javascript/string comparison.md",
     "programming/Javascript/general.md",
     "programming/Node/general.md",
@@ -165,10 +172,6 @@
     "programming/tools.md",
     "programming/Multi-platform.md",
     "programming/Ressources.md",
-    "programming/css.md",
-    "programming/SVG/general.md",
-    "programming/SVG/SVG sprites.md",
-    "programming/Tests.md",
     "programming/Typescript/general.md",
     "programming/Node/Libraries.md",
     "programming/Typescript/Utility types.md",

@@ -1,4 +1,7 @@
 [modern css](https://moderncss.dev/)
+[conditional css :has :nth-last-child](https://ishadeed.com/article/conditional-css-has-nth-last-child/)
+[CSS object-fit and object-position](https://www.sitepoint.com/using-css-object-fit-object-position-properties/)
+[stacking](https://polypane.app/blog/offset-parent-and-stacking-context-positioning-elements-in-all-three-dimensions/)
 
 ## animations
 [animated icons](https://useanimations.com/)
@@ -10,13 +13,8 @@
 [tips for better CSS transition & animations](https://joshcollinsworth.com/blog/great-transitions)
 
 ## tools
-[tailwind shades](https://www.tailwindshades.com)
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
-[tailwind palette](https://www.tints.dev)
-[tailwind: dark mode without "dark:''](https://twitter.com/adamwathan/status/1618069941323960320?s=12&t=UadSm0obIwqysSPM4ObJsg&ref=tailwind-weekly)
-[box shadows in tailwind](https://manuarora.in/boxshadows)
 [generate color palette](https://coolors.co/generate)
-
 [clip-path maker](https://bennettfeely.com/clippy/)
 
 ## tips

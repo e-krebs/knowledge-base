@@ -1,5 +1,6 @@
 ## basics
 [interactive SVG reference](https://fffuel.co/sssvg/)
+[understanding svg paths](https://www.nan.fyi/svg-paths)
 
 [svg in js](https://kurtextrem.de/posts/svg-in-js)
 
