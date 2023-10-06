@@ -21,10 +21,12 @@
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
 [react-aria (styling guide)](https://react-spectrum.adobe.com/react-aria/styling.html)
+[react-aria-components client side routing](https://react-spectrum.adobe.com/react-aria/routing.html)
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)
 [Strongly Type useRef with ElementRef](https://www.totaltypescript.com/strongly-type-useref-with-elementref)
 [avoid flash of empty UI](https://www.jameskerr.blog/posts/use-data-transition/)
+[about memoization](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)
 
 [iOS-like modal with react-aria-components & framer-motion](https://codesandbox.io/s/quirky-tharp-or0qip?file=/src/App.js)

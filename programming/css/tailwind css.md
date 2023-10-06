@@ -5,4 +5,6 @@
 [box shadows in tailwind](https://manuarora.in/boxshadows)
 [color generator](https://uicolors.app/create)
 
+[tailwind merge](https://github.com/dcastil/tailwind-merge)
+
 [animation examples](https://github.com/canopas/tailwind-animations-examples)

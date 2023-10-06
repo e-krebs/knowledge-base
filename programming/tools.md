@@ -1,6 +1,7 @@
 [platform for building dev portals](https://backstage.io/)
 [edge database](https://www.edgedb.com/)
 [tunelling](https://github.com/unjs/untun)
+[penpot - figma alternative](https://penpot.app/)
 
 ## vs code
 [two slash queries](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries)

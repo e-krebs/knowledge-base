@@ -15,7 +15,10 @@
 [hue saturation lightness for color shades](https://shrutibalasa.substack.com/p/mastering-color-shades-in-css-with-variables)
 [collapsible Q&A / Accordion without JS](https://shrutibalasa.substack.com/p/collapsible-q-and-as-with-pure-html)
 [fancy image shape](https://shrutibalasa.substack.com/p/make-your-images-interesting-with)
+
+### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
+[then math behind](https://cloudfour.com/thinks/the-math-behind-nesting-rounded-corners/)
 
 ## cool stuff
 [day/night toggle](https://codepen.io/bnthor/pen/WQBNxO)

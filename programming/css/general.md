@@ -3,6 +3,7 @@
 [CSS object-fit and object-position](https://www.sitepoint.com/using-css-object-fit-object-position-properties/)
 [stacking](https://polypane.app/blog/offset-parent-and-stacking-context-positioning-elements-in-all-three-dimensions/)
 [css 3d effects for images](https://www.smashingmagazine.com/2023/07/shines-perspective-rotations-css-3d-effects-images/)
+[]
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)

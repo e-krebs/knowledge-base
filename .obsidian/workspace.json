@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "152161e4ef6b6e5b",
+        "id": "f322addef44c2bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "4fda8298f54811b6",
+            "id": "3fbe248c9586de0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/React/general.md",
+                "file": "programming/React/RSC.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "palette",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/React/general.md",
+                "file": "programming/React/RSC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/React/general.md",
+                "file": "programming/React/RSC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/React/general.md"
+                "file": "programming/React/RSC.md"
               }
             }
           },
@@ -164,17 +164,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fda8298f54811b6",
+  "active": "3fbe248c9586de0f",
   "lastOpenFiles": [
-    "programming/css/tailwind css.md",
+    "programming/React/general.md",
+    "programming/tools.md",
+    "programming/React/RSC.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/general.md",
-    "programming/html.md",
-    "programming/tools.md",
+    "programming/css/tailwind css.md",
     "programming/_memo.md",
+    "programming/Typescript/general.md",
+    "programming/Node/Libraries.md",
+    "programming/Node/general.md",
+    "programming/html.md",
     "programming/Ressources.md",
-    "programming/React/RSC.md",
-    "programming/React/general.md",
     "programming/React",
     "Art.md",
     "programming/bun.md",
@@ -184,12 +187,9 @@
     "programming/SVG/SVG sprites.md",
     "programming/Javascript/string comparison.md",
     "programming/Javascript/general.md",
-    "programming/Node/general.md",
     "programming/Javascript",
     "programming/packages.md",
     "programming/Multi-platform.md",
-    "programming/Typescript/general.md",
-    "programming/Node/Libraries.md",
     "programming/Typescript/Utility types.md",
     "programming/Icons.md",
     "Inspiration.md",
