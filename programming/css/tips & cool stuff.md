@@ -15,6 +15,7 @@
 [hue saturation lightness for color shades](https://shrutibalasa.substack.com/p/mastering-color-shades-in-css-with-variables)
 [collapsible Q&A / Accordion without JS](https://shrutibalasa.substack.com/p/collapsible-q-and-as-with-pure-html)
 [fancy image shape](https://shrutibalasa.substack.com/p/make-your-images-interesting-with)
+[dark mode in 3 lines of css](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
@@ -36,3 +37,4 @@
 [animated pride flags](https://www.joshwcomeau.com/animation/pride-flags/)
 [temporary highlight](https://buildui.com/recipes/highlight)
 [fun with stroke-dasharray](https://yuanchuan.dev/fun-with-stroke-dasharray)
+[css border animation](https://web.dev/articles/css-border-animations)

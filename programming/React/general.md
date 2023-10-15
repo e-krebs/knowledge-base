@@ -1,5 +1,6 @@
 ## Composition
 [parents & owners](https://julesblom.com/writing/parents-owners-data-flow)
+[UI composition](https://kyleshevlin.com/ui-composition)
 
 ## State management
 [signal](https://preactjs.com/blog/signal-boosting/)
@@ -14,6 +15,7 @@
 [react charts](https://www.react-graph-gallery.com/)
 [server component for syntax highlighting](https://bright.codehike.org/)
 [useEffect +Async ](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)
+[useHooks](https://usehooks.com/)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
@@ -22,6 +24,7 @@
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
 [react-aria (styling guide)](https://react-spectrum.adobe.com/react-aria/styling.html)
 [react-aria-components client side routing](https://react-spectrum.adobe.com/react-aria/routing.html)
+[neo brutalism](https://neobrutalism-components.vercel.app/)
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)

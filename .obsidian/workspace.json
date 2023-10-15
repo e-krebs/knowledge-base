@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/React/RSC.md",
+                "file": "Inspiration.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/React/RSC.md",
+                "file": "Inspiration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/React/RSC.md",
+                "file": "Inspiration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/React/RSC.md"
+                "file": "Inspiration.md"
               }
             }
           },
@@ -166,31 +166,31 @@
   },
   "active": "3fbe248c9586de0f",
   "lastOpenFiles": [
+    "Art.md",
     "programming/React/general.md",
-    "programming/tools.md",
-    "programming/React/RSC.md",
+    "programming/html.md",
+    "programming/Javascript/general.md",
+    "programming/Typescript/general.md",
+    "programming/Typescript/Utility types.md",
+    "programming/Node/general.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/general.md",
+    "programming/React/RSC.md",
+    "programming/tools.md",
     "programming/css/tailwind css.md",
     "programming/_memo.md",
-    "programming/Typescript/general.md",
     "programming/Node/Libraries.md",
-    "programming/Node/general.md",
-    "programming/html.md",
     "programming/Ressources.md",
     "programming/React",
-    "Art.md",
     "programming/bun.md",
     "programming/SVG/general.md",
     "programming/Tests.md",
     "programming/css",
     "programming/SVG/SVG sprites.md",
     "programming/Javascript/string comparison.md",
-    "programming/Javascript/general.md",
     "programming/Javascript",
     "programming/packages.md",
     "programming/Multi-platform.md",
-    "programming/Typescript/Utility types.md",
     "programming/Icons.md",
     "Inspiration.md",
     "Design.md",
