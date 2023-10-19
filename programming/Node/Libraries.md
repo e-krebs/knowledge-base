@@ -7,3 +7,6 @@
 
 ## real time
 [partykit](https://github.com/partykit/partykit)
+
+## file change detector
+[turbo watch](https://github.com/gajus/turbowatch)
