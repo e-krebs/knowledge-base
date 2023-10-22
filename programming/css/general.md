@@ -20,6 +20,7 @@
 [image decorations & animations](https://css-tricks.com/fancy-image-decorations-outlines-and-complex-animations/)
 [tips for better CSS transition & animations](https://joshcollinsworth.com/blog/great-transitions)
 [linear for better animations](https://fullystacked.net/posts/linear/)
+[animate along a path](https://www.smashingmagazine.com/2023/10/animate-along-path-css/)
 
 ## tools
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
