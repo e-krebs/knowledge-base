@@ -4,6 +4,8 @@
 [env var validation using zod](https://env.t3.gg/)
 [native dotenv in node 20.6](https://francoisbest.com/posts/2023/dotenv-is-dead)
 
+[understand node.js event loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
+
 ## npm
 [typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)
 [node modules doctor](https://github.com/ranyitz/qnm)
