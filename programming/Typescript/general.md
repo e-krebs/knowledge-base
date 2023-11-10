@@ -7,6 +7,7 @@
 [validate data (zod alternative)](https://valibot.dev/)
 [type-safe env var](https://www.jacobparis.com/content/type-safe-env)
 [data validation server-side](https://vinejs.dev/docs/introduction)
+[narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
 
 ## Tips
 [Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)

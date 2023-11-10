@@ -5,6 +5,7 @@
 [native dotenv in node 20.6](https://francoisbest.com/posts/2023/dotenv-is-dead)
 
 [understand node.js event loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
+[event loop (youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ## npm
 [typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)

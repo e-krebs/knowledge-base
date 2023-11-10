@@ -2,6 +2,7 @@
 [edge database](https://www.edgedb.com/)
 [tunelling](https://github.com/unjs/untun)
 [penpot - figma alternative](https://penpot.app/)
+[MySQL platform](https://planetscale.com/)
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)

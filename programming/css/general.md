@@ -5,11 +5,14 @@
 [css 3d effects for images](https://www.smashingmagazine.com/2023/07/shines-perspective-rotations-css-3d-effects-images/)
 [relative color syntax](https://developer.chrome.com/blog/css-relative-color-syntax/)
 [blend modes](https://garden.bradwoods.io/notes/css/blend-modes)
+[print layout](https://iangmcdowell.com/blog/posts/laying-out-a-book-with-css/)
+[margin collapsing](https://medium.com/@RitikaAgrawal08/the-6-must-know-rules-of-margin-collapsing-in-css-56968836827d)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
 [css type safety](https://nerdy.dev/cant-break-this-design-system)
 [transitioning to height: auto](https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/) [more](https://css-tricks.com/css-grid-can-do-auto-height-transitions/)
+[centering](https://stackdiary.com/centering-in-css/)
 
 ## animations
 [animated icons](https://useanimations.com/)
