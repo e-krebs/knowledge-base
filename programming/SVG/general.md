@@ -12,3 +12,4 @@
 
 ## resources
 [brand icons](https://simpleicons.org/)
+[shapes](https://shapes.framer.website/)

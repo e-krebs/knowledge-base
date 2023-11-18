@@ -16,6 +16,7 @@
 [server component for syntax highlighting](https://bright.codehike.org/)
 [useEffect +Async ](https://krassnig.dev/blog/you-might-not-need-a-use-effect-async-hook.html)
 [useHooks](https://usehooks.com/)
+[react google maps](https://visgl.github.io/react-google-maps/)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)

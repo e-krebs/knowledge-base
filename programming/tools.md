@@ -3,6 +3,7 @@
 [tunelling](https://github.com/unjs/untun)
 [penpot - figma alternative](https://penpot.app/)
 [MySQL platform](https://planetscale.com/)
+[Rspack bundler](https://www.rspack.dev/)
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)
