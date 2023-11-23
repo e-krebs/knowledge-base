@@ -7,6 +7,7 @@
 [blend modes](https://garden.bradwoods.io/notes/css/blend-modes)
 [print layout](https://iangmcdowell.com/blog/posts/laying-out-a-book-with-css/)
 [margin collapsing](https://medium.com/@RitikaAgrawal08/the-6-must-know-rules-of-margin-collapsing-in-css-56968836827d)
+[css grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
