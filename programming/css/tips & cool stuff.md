@@ -17,6 +17,7 @@
 [fancy image shape](https://shrutibalasa.substack.com/p/make-your-images-interesting-with)
 [dark mode in 3 lines of css](https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj)
 [circular text](https://dev.to/jh3y/circular-text-with-css-57jf)
+[radial gradient](https://css-irl.info/radial-gradients-and-css-trigonometric-functions/)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)

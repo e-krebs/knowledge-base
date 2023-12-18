@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inspiration.md",
+                "file": "programming/Ressources.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inspiration.md",
+                "file": "programming/Ressources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inspiration.md",
+                "file": "programming/Ressources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inspiration.md"
+                "file": "programming/Ressources.md"
               }
             }
           },
@@ -179,24 +179,24 @@
   },
   "active": "8f448370b3c183e9",
   "lastOpenFiles": [
-    "Art.md",
+    "programming/tools.md",
+    "programming/css/general.md",
+    "programming/Javascript/general.md",
+    "programming/React/explanation.md",
+    "programming/React/general.md",
+    "programming/css/tips & cool stuff.md",
+    "programming/SVG/general.md",
     "Inspiration.md",
+    "Art.md",
     "programming/Typescript/general.md",
     "programming/packages.md",
     "programming/Ressources.md",
     "programming/Node/Libraries.md",
-    "programming/Javascript/general.md",
     "programming/Javascript/string comparison.md",
-    "programming/tools.md",
     "debugging.md",
-    "programming/css/general.md",
     "programming/frontend architecture.md",
-    "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
     "programming/general.md",
-    "programming/React/explanation.md",
-    "programming/React/general.md",
-    "programming/css/tips & cool stuff.md",
     "programming/css/tailwind css.md",
     "programming/Node/general.md",
     "programming/Tests.md",

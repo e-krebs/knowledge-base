@@ -3,3 +3,5 @@
 
 [forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
 [refs in React: from access to DOM to imperative API](https://www.developerway.com/posts/refs-from-dom-to-api)
+
+[concurrency in React](https://sinja.io/blog/guide-to-concurrency-in-react-18)

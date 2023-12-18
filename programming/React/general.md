@@ -20,6 +20,7 @@
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
+[detect nested components](https://www.aleksandrhovhannisyan.com/blog/react-context-nested-components/)
 
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
@@ -37,3 +38,4 @@
 
 [iOS-like modal with react-aria-components & framer-motion](https://codesandbox.io/s/quirky-tharp-or0qip?file=/src/App.js)
 [build.ui recipes](https://buildui.com/recipes)
+[animated toast](https://buildui.com/recipes/animated-toast)

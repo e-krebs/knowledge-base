@@ -3,3 +3,5 @@
 
 ## images
 [lorem faces](https://loremfaces.com/)
+
+[Manu Arora's resources](https://manuarora.in/resources)
