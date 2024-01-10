@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Ressources.md",
+                "file": "programming/React/explanation.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rada",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Ressources.md",
+                "file": "programming/React/explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Ressources.md",
+                "file": "programming/React/explanation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Ressources.md"
+                "file": "programming/React/explanation.md"
               }
             }
           },
@@ -179,20 +179,21 @@
   },
   "active": "8f448370b3c183e9",
   "lastOpenFiles": [
-    "programming/tools.md",
+    "programming/React/general.md",
+    "programming/React/explanation.md",
+    "programming/Typescript/general.md",
+    "programming/Typescript/Utility types.md",
+    "programming/css/tips & cool stuff.md",
     "programming/css/general.md",
     "programming/Javascript/general.md",
-    "programming/React/explanation.md",
-    "programming/React/general.md",
-    "programming/css/tips & cool stuff.md",
+    "programming/Javascript/string comparison.md",
+    "programming/Ressources.md",
+    "programming/tools.md",
     "programming/SVG/general.md",
     "Inspiration.md",
     "Art.md",
-    "programming/Typescript/general.md",
     "programming/packages.md",
-    "programming/Ressources.md",
     "programming/Node/Libraries.md",
-    "programming/Javascript/string comparison.md",
     "debugging.md",
     "programming/frontend architecture.md",
     "programming/SVG/SVG sprites.md",
@@ -204,7 +205,6 @@
     "Design.md",
     "README.md",
     "Games.md",
-    "programming/linting.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

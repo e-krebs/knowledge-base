@@ -4,6 +4,7 @@
 [why fetch does not reject on error response](https://kettanaito.com/blog/why-fetch-promise-doesnt-reject-on-error-responses)
 [web workers - multithreading](https://www.smashingmagazine.com/2023/04/potential-web-workers-multithreading-web/)
 [devalue: JSON.stringify on steroids](https://github.com/Rich-Harris/devalue)
+[use Maps more & Objects less](https://www.builder.io/blog/maps)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

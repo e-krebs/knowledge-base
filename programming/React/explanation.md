@@ -5,3 +5,7 @@
 [refs in React: from access to DOM to imperative API](https://www.developerway.com/posts/refs-from-dom-to-api)
 
 [concurrency in React](https://sinja.io/blog/guide-to-concurrency-in-react-18)
+
+[React's cache function](https://unicorn-utterances.com/posts/explaining-reacts-cache-function)
+
+[handle errors in React](https://www.developerway.com/posts/how-to-handle-errors-in-react)

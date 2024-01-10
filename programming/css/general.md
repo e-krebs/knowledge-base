@@ -15,6 +15,7 @@
 [css type safety](https://nerdy.dev/cant-break-this-design-system)
 [transitioning to height: auto](https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/) [more](https://css-tricks.com/css-grid-can-do-auto-height-transitions/)
 [centering](https://stackdiary.com/centering-in-css/)
+[responsive design in 2023](https://ishadeed.com/article/responsive-design/)
 
 ## animations
 [animated icons](https://useanimations.com/)
