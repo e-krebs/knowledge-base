@@ -5,6 +5,8 @@
 [MySQL platform](https://planetscale.com/)
 [Rspack bundler](https://www.rspack.dev/)
 [RxDB local database for Js applications](https://rxdb.info/)
+[json visualization](https://jsoncrack.com/)
+
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)
 [biome – formatter & linter](https://biomejs.dev/)

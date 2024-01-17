@@ -41,3 +41,4 @@
 [fun with stroke-dasharray](https://yuanchuan.dev/fun-with-stroke-dasharray)
 [css border animation](https://web.dev/articles/css-border-animations)
 [glow on hover (with react)](https://github.com/codaworks/react-glow)
+[3d in css](https://garden.bradwoods.io/notes/css/3d)

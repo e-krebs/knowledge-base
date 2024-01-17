@@ -22,6 +22,7 @@
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
 [detect nested components](https://www.aleksandrhovhannisyan.com/blog/react-context-nested-components/)
+[why did you render](https://github.com/welldone-software/why-did-you-render)
 
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
@@ -31,6 +32,8 @@
 [neo brutalism](https://neobrutalism-components.vercel.app/)
 [radix UI](https://www.radix-ui.com/)
 [shadcdn ui](https://ui.shadcn.com/)
+[components for interactive math](https://mafs.dev/)
+
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)
 [Strongly Type useRef with ElementRef](https://www.totaltypescript.com/strongly-type-useref-with-elementref)

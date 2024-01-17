@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/React/general.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/React/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/React/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/React/explanation.md"
+                "file": "programming/React/general.md"
               }
             }
           },
@@ -156,7 +156,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -179,16 +181,17 @@
   },
   "active": "8f448370b3c183e9",
   "lastOpenFiles": [
-    "programming/React/general.md",
+    "programming/tools.md",
+    "programming/Tests.md",
     "programming/React/explanation.md",
-    "programming/Typescript/general.md",
-    "programming/Typescript/Utility types.md",
+    "programming/React/general.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/general.md",
     "programming/Javascript/general.md",
+    "programming/Typescript/general.md",
+    "programming/Typescript/Utility types.md",
     "programming/Javascript/string comparison.md",
     "programming/Ressources.md",
-    "programming/tools.md",
     "programming/SVG/general.md",
     "Inspiration.md",
     "Art.md",
@@ -200,7 +203,6 @@
     "programming/general.md",
     "programming/css/tailwind css.md",
     "programming/Node/general.md",
-    "programming/Tests.md",
     "programming/_memo.md",
     "Design.md",
     "README.md",

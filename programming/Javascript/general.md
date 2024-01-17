@@ -5,6 +5,7 @@
 [web workers - multithreading](https://www.smashingmagazine.com/2023/04/potential-web-workers-multithreading-web/)
 [devalue: JSON.stringify on steroids](https://github.com/Rich-Harris/devalue)
 [use Maps more & Objects less](https://www.builder.io/blog/maps)
+[upgrade deep dependencies using yarn](https://medium.com/@ayushya/upgrading-javascript-packages-deep-dependencies-using-yarn-8b5983d5fb6b)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
