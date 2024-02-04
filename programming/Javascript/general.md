@@ -6,6 +6,7 @@
 [devalue: JSON.stringify on steroids](https://github.com/Rich-Harris/devalue)
 [use Maps more & Objects less](https://www.builder.io/blog/maps)
 [upgrade deep dependencies using yarn](https://medium.com/@ayushya/upgrading-javascript-packages-deep-dependencies-using-yarn-8b5983d5fb6b)
+[biometric auth](https://stackoverflow.blog/2022/11/16/biometric-authentication-for-web-devs/)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
