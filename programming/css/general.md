@@ -11,6 +11,8 @@
 [scroll snapping](https://www.smashingmagazine.com/2023/12/css-scroll-snapping-aligned-global-page-layout-case-study/)
 [border-image](https://www.smashingmagazine.com/2024/01/css-border-image-property/)
 [12 Modern CSS One-Line Upgrades](https://moderncss.dev/12-modern-css-one-line-upgrades/)
+[colors formats](https://www.joshwcomeau.com/css/color-formats/)
+[interactive flexbox guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)

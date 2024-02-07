@@ -11,8 +11,12 @@
             "id": "7d503ecee2663c40",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/React/general.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/React/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/React/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/React/general.md"
+              }
             }
           },
           {
@@ -160,10 +168,14 @@
   },
   "active": "7d503ecee2663c40",
   "lastOpenFiles": [
+    "programming/React/explanation.md",
+    "programming/React/RSC.md",
+    "programming/React/general.md",
     "programming/css/general.md",
+    "Art.md",
+    "programming/SVG/general.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/tailwind css.md",
-    "programming/React/general.md",
     "programming/_memo.md",
     "programming/Node/Libraries.md",
     "programming/Node/general.md",
@@ -172,12 +184,9 @@
     "programming/Javascript/string comparison.md",
     "programming/tools.md",
     "programming/Tests.md",
-    "programming/React/explanation.md",
     "programming/Typescript/Utility types.md",
     "programming/Ressources.md",
-    "programming/SVG/general.md",
     "Inspiration.md",
-    "Art.md",
     "programming/packages.md",
     "debugging.md",
     "programming/frontend architecture.md",
@@ -185,7 +194,6 @@
     "programming/general.md",
     "Design.md",
     "README.md",
-    "Games.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

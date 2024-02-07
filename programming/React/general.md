@@ -11,6 +11,10 @@
 [swr](https://swr.vercel.app/)
 [toggle + request & optimistic update (useMutation)](https://www.propelauth.com/post/using-usemutation-to-make-an-advanced-toggle-in-react)
 
+## react router
+[complete guide to React router](https://ui.dev/react-router-tutorial)
+[location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
+
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)
 [server component for syntax highlighting](https://bright.codehike.org/)

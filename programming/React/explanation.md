@@ -1,6 +1,8 @@
 [why react renders](https://ui.dev/why-react-renders)
 [the journey of a react component](https://alexsidorenko.com/react-journey)
 
+[how virtual DOM in implemented in React](https://angularindepth.com/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
+
 [forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
 [refs in React: from access to DOM to imperative API](https://www.developerway.com/posts/refs-from-dom-to-api)
 
@@ -14,3 +16,9 @@
 [how to debounce & throttle in react](https://www.developerway.com/posts/debouncing-in-react)
 
 [Optimizing React performance without refs and memo](https://alexsidorenko.com/blog/react-optimize-rerenders-without-refs-memo/)
+[avoiding useEffect with callback refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
+[separating events from effects](https://react.dev/learn/separating-events-from-effects)
+[removing Effect dependencies](https://react.dev/learn/removing-effect-dependencies)
+
+[PureComponent vs. Functional Components with hooks](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks)
+
