@@ -12,3 +12,7 @@
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
 [destructuring with Js generators](https://macarthur.me/posts/destructuring-with-generators)
 [build a modern JS framework](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
+
+## date libraries
+[tempo](https://tempo.formkit.com/)
+[react spectrum - @internationalized/date](https://react-spectrum.adobe.com/internationalized/date/index.html)

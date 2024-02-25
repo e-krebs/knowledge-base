@@ -23,6 +23,8 @@
 [react google maps](https://visgl.github.io/react-google-maps/)
 [plate - text editor](https://platejs.org/)
 [color picker](https://polar.sh/emilwidlund/posts/a-new-kind-of-color-picker-with-react-typescript)
+[intersection observer with React](https://www.builder.io/blog/react-intersection-observer)
+[react print pdf](https://github.com/OnedocLabs/react-print-pdf)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
