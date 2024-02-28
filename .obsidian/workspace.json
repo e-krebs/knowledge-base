@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1dee9bb67b92796",
+        "id": "2f6c474db1fd975a",
         "type": "tabs",
         "children": [
           {
-            "id": "7d503ecee2663c40",
+            "id": "5e78851e66e1c365",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/SVG/general.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fffuel",
+                "query": "component",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/SVG/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/SVG/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "programming/SVG/general.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,34 +158,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d503ecee2663c40",
+  "active": "5e78851e66e1c365",
   "lastOpenFiles": [
+    "Games.md",
+    "programming/Typescript/general.md",
+    "programming/Node/Libraries.md",
+    "programming/Javascript/general.md",
+    "programming/Javascript/string comparison.md",
+    "programming/css/general.md",
+    "programming/general.md",
+    "programming/_memo.md",
+    "programming/tools.md",
+    "programming/html.md",
+    "programming/Icons.md",
+    "programming/linting.md",
+    "programming/packages.md",
+    "programming/Multi-platform.md",
     "Art.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
     "programming/React/general.md",
     "programming/React/explanation.md",
-    "programming/Javascript/general.md",
-    "programming/Javascript/string comparison.md",
     "Carrier.md",
-    "programming/css/general.md",
-    "programming/Typescript/general.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/tailwind css.md",
     "programming/React/RSC.md",
-    "programming/_memo.md",
-    "programming/Node/Libraries.md",
     "programming/Node/general.md",
-    "programming/tools.md",
     "programming/Tests.md",
     "programming/Typescript/Utility types.md",
-    "programming/Ressources.md",
-    "Inspiration.md",
-    "programming/packages.md",
-    "debugging.md",
-    "programming/frontend architecture.md",
-    "programming/general.md",
-    "Design.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

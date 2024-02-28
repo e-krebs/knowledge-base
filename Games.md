@@ -10,3 +10,5 @@
 [How To Build A Real-Time Multi-User Game From Scratch](https://www.smashingmagazine.com/2021/10/real-time-multi-user-game/)
 
 [html5 deck of cards](https://github.com/deck-of-cards/deck-of-cards)
+
+[JavaScript procedural generator for Mazes, Terrains, and Biomes](https://github.com/yantra-core/Labyrinthos.js)
