@@ -14,6 +14,7 @@
 [12 Modern CSS One-Line Upgrades](https://moderncss.dev/12-modern-css-one-line-upgrades/)
 [colors formats](https://www.joshwcomeau.com/css/color-formats/)
 [interactive flexbox guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+[revert-layer (css reset)](https://www.mayank.co/blog/revert-layer)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)

@@ -13,6 +13,7 @@
 
 [svg animation](https://www.smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/)
 [moving along a path](https://www.smashingmagazine.com/2023/02/putting-gears-motion-animating-cars-with-html-svg/)
+[svg loading spinner](https://fffuel.co/svg-spinner/)
 
 ## resources
 [brand icons](https://simpleicons.org/)

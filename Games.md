@@ -12,3 +12,5 @@
 [html5 deck of cards](https://github.com/deck-of-cards/deck-of-cards)
 
 [JavaScript procedural generator for Mazes, Terrains, and Biomes](https://github.com/yantra-core/Labyrinthos.js)
+
+[how planet works](https://www.boristhebrave.com/2022/12/18/how-does-planet-work/)

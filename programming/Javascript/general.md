@@ -7,6 +7,8 @@
 [use Maps more & Objects less](https://www.builder.io/blog/maps)
 [upgrade deep dependencies using yarn](https://medium.com/@ayushya/upgrading-javascript-packages-deep-dependencies-using-yarn-8b5983d5fb6b)
 [biometric auth](https://stackoverflow.blog/2022/11/16/biometric-authentication-for-web-devs/)
+[data structures (Map, Set, Stack, Queue, Tree)](https://profy.dev/article/javascript-data-structures)
+[compress an image before upload](https://pqina.nl/blog/compress-image-before-upload)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

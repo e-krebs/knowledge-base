@@ -11,8 +11,12 @@
             "id": "5e78851e66e1c365",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/React/explanation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "component",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/React/explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/React/explanation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/React/explanation.md"
+              }
             }
           },
           {
@@ -160,25 +168,25 @@
   },
   "active": "5e78851e66e1c365",
   "lastOpenFiles": [
+    "programming/SVG/general.md",
+    "programming/SVG/SVG sprites.md",
+    "programming/general.md",
+    "programming/Multi-platform.md",
+    "programming/css/general.md",
+    "programming/Javascript/general.md",
     "Games.md",
+    "programming/React/general.md",
+    "programming/React/explanation.md",
     "programming/Typescript/general.md",
     "programming/Node/Libraries.md",
-    "programming/Javascript/general.md",
     "programming/Javascript/string comparison.md",
-    "programming/css/general.md",
-    "programming/general.md",
     "programming/_memo.md",
     "programming/tools.md",
     "programming/html.md",
     "programming/Icons.md",
     "programming/linting.md",
     "programming/packages.md",
-    "programming/Multi-platform.md",
     "Art.md",
-    "programming/SVG/general.md",
-    "programming/SVG/SVG sprites.md",
-    "programming/React/general.md",
-    "programming/React/explanation.md",
     "Carrier.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/tailwind css.md",
