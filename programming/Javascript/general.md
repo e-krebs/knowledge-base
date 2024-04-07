@@ -9,6 +9,7 @@
 [biometric auth](https://stackoverflow.blog/2022/11/16/biometric-authentication-for-web-devs/)
 [data structures (Map, Set, Stack, Queue, Tree)](https://profy.dev/article/javascript-data-structures)
 [compress an image before upload](https://pqina.nl/blog/compress-image-before-upload)
+[pragmatic drag & drop](https://github.com/atlassian/pragmatic-drag-and-drop)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

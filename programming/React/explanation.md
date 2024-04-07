@@ -4,9 +4,13 @@
 [how virtual DOM in implemented in React](https://angularindepth.com/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
 
 [forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
+[How To Use forwardRef With Generic Components](https://www.totaltypescript.com/forwardref-with-generic-components)
+
 [refs in React: from access to DOM to imperative API](https://www.developerway.com/posts/refs-from-dom-to-api)
 
 [concurrency in React](https://sinja.io/blog/guide-to-concurrency-in-react-18)
+[Concurent React (and some Suspense)](https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense)
+
 [Concurrent React, External Stores, and Tearing](https://interbolt.org/blog/react-ui-tearing/)
 
 [React's cache function](https://unicorn-utterances.com/posts/explaining-reacts-cache-function)

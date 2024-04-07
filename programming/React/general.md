@@ -10,10 +10,12 @@
 [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react)
 [swr](https://swr.vercel.app/)
 [toggle + request & optimistic update (useMutation)](https://www.propelauth.com/post/using-usemutation-to-make-an-advanced-toggle-in-react)
+[Fetching data in React: the case of lost Promises](https://www.developerway.com/posts/fetching-in-react-lost-promises)
 
 ## react router
 [complete guide to React router](https://ui.dev/react-router-tutorial)
 [location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
+[typesafe React router in 500 lines](https://sinja.io/blog/build-typesafe-react-router-from-scratch)
 
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)
@@ -47,6 +49,8 @@
 [Strongly Type useRef with ElementRef](https://www.totaltypescript.com/strongly-type-useref-with-elementref)
 [avoid flash of empty UI](https://www.jameskerr.blog/posts/use-data-transition/)
 [about memoization](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)
+[performant React apps with Context](https://www.developerway.com/posts/how-to-write-performant-react-apps-with-context)
+[A faster React.memo](https://romgrk.com/posts/react-fast-memo/)
 
 [iOS-like modal with react-aria-components & framer-motion](https://codesandbox.io/s/quirky-tharp-or0qip?file=/src/App.js)
 [build.ui recipes](https://buildui.com/recipes)

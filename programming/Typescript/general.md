@@ -1,5 +1,6 @@
 ## linting
 [Method Shorthand Syntax Considered Harmful](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)
+[markcheck – test Markdown code blocks](https://github.com/rauschma/markcheck)
 
 ## typesafe string literal/router
 [Extract parameter types from string literal types with TypeScript](https://lihautan.com/extract-parameters-type-from-string-literal-types-with-typescript)
@@ -25,3 +26,4 @@
 ## libraries
 [motion - animated videos using Canvas API](https://motioncanvas.io/)
 [path to regex](https://github.com/pillarjs/path-to-regexp)
+[replaces spread: default composer](https://aralroca.com/blog/default-composer) [GitHub](https://github.com/aralroca/default-composer)
