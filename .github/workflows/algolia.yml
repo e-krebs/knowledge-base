@@ -1,0 +1,25 @@
+name: algolia-index
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  algolia-index:
+    name: algolia-index
+    runs-on: ubuntu-latest
+    steps:
+      # ...
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+
+      # run any `bun` or `bunx` command
+      - run: bun install
+      - name: create .env file
+        run: |
+          touch .env
+          echo APPID=${{ secrets.APPID }} >> .env
+          echo APIKEY=${{ secrets.APIKEY }} >> .env
+          echo INDEXNAME=${{ secrets.INDEXNAME }} >> .env
+      - run: bun run algolia
