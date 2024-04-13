@@ -17,3 +17,4 @@ https://yuanchuan.dev/daily-sketch-3
 https://yuanchuan.dev/daily-sketch-4
 
 [azulejo](https://github.com/nemutas/azulejo)
+[faces](https://github.com/zengm-games/facesjs)

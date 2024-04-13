@@ -23,6 +23,7 @@
 [centering](https://stackdiary.com/centering-in-css/)
 [responsive design in 2023](https://ishadeed.com/article/responsive-design/)
 [how to center a div](https://www.joshwcomeau.com/css/center-a-div/)
+[Design Systems: Easy Troubleshooting And Maintenance](https://www.smashingmagazine.com/2024/04/iconography-design-systems-troubleshooting-maintenance/)
 
 ## animations
 [animated icons](https://useanimations.com/)
