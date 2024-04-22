@@ -34,6 +34,7 @@
 [detect nested components](https://www.aleksandrhovhannisyan.com/blog/react-context-nested-components/)
 [why did you render](https://github.com/welldone-software/why-did-you-render)
 [react ts form (zod-based)](https://github.com/iway1/react-ts-form)
+[The Best Way to Write React Forms](https://ianmitchell.dev/blog/the-best-way-to-write-react-forms)
 
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)

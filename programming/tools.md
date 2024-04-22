@@ -11,6 +11,7 @@
 [dprint – formatter](https://dprint.dev/)
 [biome – formatter & linter](https://biomejs.dev/)
 [biome → prettier challenge](https://biomejs.dev/blog/biome-wins-prettier-challenge/)
+[biome – migrate from eslint/prettier](https://biomejs.dev/blog/biome-v1-7/)
 
 ## vs code
 [two slash queries](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries)

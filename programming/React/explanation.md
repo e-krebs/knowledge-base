@@ -10,6 +10,7 @@
 
 [concurrency in React](https://sinja.io/blog/guide-to-concurrency-in-react-18)
 [Concurent React (and some Suspense)](https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense)
+[Exploring using Suspense with React Query](https://www.teemutaskula.com/blog/exploring-query-suspense)
 
 [Concurrent React, External Stores, and Tearing](https://interbolt.org/blog/react-ui-tearing/)
 
