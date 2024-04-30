@@ -11,8 +11,12 @@
             "id": "0a61b0ebb3e14415",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/React/explanation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/React/explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/React/explanation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/React/explanation.md"
+              }
             }
           },
           {
@@ -160,14 +168,16 @@
   },
   "active": "0a61b0ebb3e14415",
   "lastOpenFiles": [
-    "programming/general.md",
-    "programming/Typescript/general.md",
-    "programming/React/explanation.md",
-    "programming/Node/general.md",
-    "programming/Javascript/general.md",
-    "programming/css/general.md",
-    "programming/css/tailwind css.md",
     "programming/React/general.md",
+    "programming/React/explanation.md",
+    "programming/Typescript/general.md",
+    "programming/Javascript/general.md",
+    "programming/Javascript/string comparison.md",
+    "programming/Typescript/Utility types.md",
+    "programming/css/general.md",
+    "programming/general.md",
+    "programming/Node/general.md",
+    "programming/css/tailwind css.md",
     "programming/tools.md",
     "programming/_memo.md",
     "programming/bun.md",
@@ -175,9 +185,7 @@
     "programming/React/RSC.md",
     "Art.md",
     "programming/Tests.md",
-    "programming/Typescript/Utility types.md",
     "programming/Node/Libraries.md",
-    "programming/Javascript/string comparison.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
     "programming/Multi-platform.md",

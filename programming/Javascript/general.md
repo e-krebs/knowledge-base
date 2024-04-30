@@ -10,6 +10,8 @@
 [data structures (Map, Set, Stack, Queue, Tree)](https://profy.dev/article/javascript-data-structures)
 [compress an image before upload](https://pqina.nl/blog/compress-image-before-upload)
 [pragmatic drag & drop](https://github.com/atlassian/pragmatic-drag-and-drop)
+[Intl.Segmenter to split strings](https://web.dev/blog/intl-segmenter)
+[HTML attributes vs DOM properties](https://jakearchibald.com/2024/attributes-vs-properties/)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

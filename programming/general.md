@@ -5,3 +5,5 @@
 [documented collection of UI components](https://uiplaybook.dev/)
 
 [Dealing with diverged git branches](https://jvns.ca/blog/2024/02/01/dealing-with-diverged-git-branches/)
+
+[how to write a code formatter](https://yorickpeterse.com/articles/how-to-write-a-code-formatter/)

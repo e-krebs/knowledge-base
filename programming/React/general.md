@@ -28,6 +28,7 @@
 [intersection observer with React](https://www.builder.io/blog/react-intersection-observer)
 [react print pdf](https://github.com/OnedocLabs/react-print-pdf)
 [sitemap & RSS feed in Next.js](https://spacejelly.dev/posts/how-to-add-a-sitemap-rss-feed-in-next-js-app-router)
+[semantic autocomplete](https://github.com/Mihaiii/semantic-autocomplete)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)

@@ -15,6 +15,7 @@
 [colors formats](https://www.joshwcomeau.com/css/color-formats/)
 [interactive flexbox guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 [revert-layer (css reset)](https://www.mayank.co/blog/revert-layer)
+[cascade & specificity](https://piccalil.li/blog/a-primer-on-the-cascade-and-specificity/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
@@ -24,6 +25,9 @@
 [responsive design in 2023](https://ishadeed.com/article/responsive-design/)
 [how to center a div](https://www.joshwcomeau.com/css/center-a-div/)
 [Design Systems: Easy Troubleshooting And Maintenance](https://www.smashingmagazine.com/2024/04/iconography-design-systems-troubleshooting-maintenance/)
+[styling external links with attribute selectors](https://css-irl.info/styling-external-links-with-attribute-selectors/)
+[breaking aspect-ratio](https://frontendmasters.com/blog/things-that-can-break-aspect-ratio-in-css/)
+[anchor positioning: drawing a line to connect elements](https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning/)
 
 ## animations
 [animated icons](https://useanimations.com/)

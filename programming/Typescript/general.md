@@ -17,6 +17,7 @@
 [Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)
 [number range](https://catchts.com/range-numbers)
 [Wrangling tuple types](https://kyleshevlin.com/wrangling-tuple-types/)
+[intro to TSConfig for js developers](https://deno.com/blog/intro-to-tsconfig)
 
 ## advanced
 [AST viewer](https://ts-ast-viewer.com/)
@@ -27,3 +28,6 @@
 [motion - animated videos using Canvas API](https://motioncanvas.io/)
 [path to regex](https://github.com/pillarjs/path-to-regexp)
 [replaces spread: default composer](https://aralroca.com/blog/default-composer) [GitHub](https://github.com/aralroca/default-composer)
+[Effect: helps to handle synchronous & asynchronous programs/tasks](https://effect.website/)
+
+[Building a CLI from scratch with TypeScript and oclif](https://www.joshcanhelp.com/oclif/)
