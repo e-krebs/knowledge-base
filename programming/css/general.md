@@ -43,5 +43,9 @@
 ## tools
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
 [generate color palette](https://coolors.co/generate)
-[clip-path maker](https://bennettfeely.com/clippy/)
 [create color gradients](https://gradient.style/)
+
+## css shapes
+[clip-path maker](https://bennettfeely.com/clippy/)
+[The Modern Guide For Making CSS Shapes](https://www.smashingmagazine.com/2024/05/modern-guide-making-css-shapes/)
+[Collection of CSS-only Shapes](https://css-shape.com/)

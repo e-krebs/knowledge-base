@@ -18,3 +18,7 @@ https://yuanchuan.dev/daily-sketch-4
 
 [azulejo](https://github.com/nemutas/azulejo)
 [faces](https://github.com/zengm-games/facesjs)
+
+## music
+[printing music with css grid](https://cruncher.ch/blog/printing-music-with-css-grid/)
+[render music in html](https://github.com/stephband/scribe)

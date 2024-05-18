@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/Typescript/general.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "susp",
+                "query": "default-c",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/Typescript/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/React/explanation.md",
+                "file": "programming/Typescript/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/React/explanation.md"
+                "file": "programming/Typescript/general.md"
               }
             }
           },
@@ -168,32 +169,32 @@
   },
   "active": "0a61b0ebb3e14415",
   "lastOpenFiles": [
-    "programming/React/general.md",
+    "programming/Regex.md",
+    "programming/Node/general.md",
+    "programming/Icons.md",
+    "programming/css/general.md",
+    "programming/html.md",
+    "Art.md",
     "programming/React/explanation.md",
+    "programming/React/general.md",
     "programming/Typescript/general.md",
     "programming/Javascript/general.md",
     "programming/Javascript/string comparison.md",
     "programming/Typescript/Utility types.md",
-    "programming/css/general.md",
     "programming/general.md",
-    "programming/Node/general.md",
     "programming/css/tailwind css.md",
     "programming/tools.md",
     "programming/_memo.md",
     "programming/bun.md",
     "programming/css/tips & cool stuff.md",
     "programming/React/RSC.md",
-    "Art.md",
     "programming/Tests.md",
     "programming/Node/Libraries.md",
     "programming/SVG/general.md",
     "programming/SVG/SVG sprites.md",
     "programming/Multi-platform.md",
     "Games.md",
-    "programming/html.md",
-    "programming/Icons.md",
     "programming/linting.md",
-    "programming/packages.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

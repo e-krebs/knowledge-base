@@ -27,7 +27,7 @@
 ## libraries
 [motion - animated videos using Canvas API](https://motioncanvas.io/)
 [path to regex](https://github.com/pillarjs/path-to-regexp)
-[replaces spread: default composer](https://aralroca.com/blog/default-composer) [GitHub](https://github.com/aralroca/default-composer)
+[replaces spread: default composer](https://aralroca.com/blog/default-composer) [default-composer GitHub](https://github.com/aralroca/default-composer)
 [Effect: helps to handle synchronous & asynchronous programs/tasks](https://effect.website/)
 
 [Building a CLI from scratch with TypeScript and oclif](https://www.joshcanhelp.com/oclif/)

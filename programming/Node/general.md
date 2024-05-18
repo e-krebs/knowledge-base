@@ -10,3 +10,4 @@
 ## npm
 [typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)
 [node modules doctor](https://github.com/ranyitz/qnm)
+[How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
