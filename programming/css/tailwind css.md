@@ -6,5 +6,6 @@
 [color generator](https://uicolors.app/create)
 
 [tailwind merge](https://github.com/dcastil/tailwind-merge)
+[tailwindcss signals](https://github.com/brandonmcconnell/tailwindcss-signals)
 
 [animation examples](https://github.com/canopas/tailwind-animations-examples)

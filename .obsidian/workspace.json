@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f99fbf5cc5d8ea86",
+        "id": "f922a2d7ea0960e3",
         "type": "tabs",
         "children": [
           {
-            "id": "0a61b0ebb3e14415",
+            "id": "4545bc36ed1dcbb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Typescript/general.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -73,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Typescript/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Typescript/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "programming/Typescript/general.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,26 +158,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a61b0ebb3e14415",
+  "active": "4545bc36ed1dcbb0",
   "lastOpenFiles": [
+    "programming/wasm.md",
+    "programming/html.md",
+    "programming/css/tips & cool stuff.md",
+    "programming/css/general.md",
+    "programming/css/tailwind css.md",
+    "programming/Typescript/general.md",
     "programming/Regex.md",
     "programming/Node/general.md",
     "programming/Icons.md",
-    "programming/css/general.md",
-    "programming/html.md",
     "Art.md",
     "programming/React/explanation.md",
     "programming/React/general.md",
-    "programming/Typescript/general.md",
     "programming/Javascript/general.md",
     "programming/Javascript/string comparison.md",
     "programming/Typescript/Utility types.md",
     "programming/general.md",
-    "programming/css/tailwind css.md",
     "programming/tools.md",
     "programming/_memo.md",
     "programming/bun.md",
-    "programming/css/tips & cool stuff.md",
     "programming/React/RSC.md",
     "programming/Tests.md",
     "programming/Node/Libraries.md",
@@ -194,7 +186,6 @@
     "programming/SVG/SVG sprites.md",
     "programming/Multi-platform.md",
     "Games.md",
-    "programming/linting.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

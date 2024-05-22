@@ -22,6 +22,7 @@
 [Top 5 CSS Mistakes made by Front End Engineers](https://www.greatfrontend.com/blog/top-css-mistakes-made-by-front-end-engineers)
 [What You Need to Know about Modern CSS (Spring 2024 Edition)](https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/)
 [Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript](https://www.smashingmagazine.com/2024/03/setting-persisting-color-scheme-preferences-css-javascript/)
+[Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)

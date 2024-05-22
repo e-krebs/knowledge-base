@@ -28,6 +28,8 @@
 [styling external links with attribute selectors](https://css-irl.info/styling-external-links-with-attribute-selectors/)
 [breaking aspect-ratio](https://frontendmasters.com/blog/things-that-can-break-aspect-ratio-in-css/)
 [anchor positioning: drawing a line to connect elements](https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning/)
+[CSS linear-gradients](https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/)
+[CSS radial-gradients](https://patrickbrosset.com/articles/2022-10-24-do-you-really-understand-CSS-radial-gradients/)
 
 ## animations
 [animated icons](https://useanimations.com/)
