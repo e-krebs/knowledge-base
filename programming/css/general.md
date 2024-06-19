@@ -16,6 +16,8 @@
 [interactive flexbox guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 [revert-layer (css reset)](https://www.mayank.co/blog/revert-layer)
 [cascade & specificity](https://piccalil.li/blog/a-primer-on-the-cascade-and-specificity/)
+[Using CSS content-visibility to boost your rendering performance](https://blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/)
+[gap](https://ishadeed.com/article/the-gap/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)

@@ -17,6 +17,10 @@
 [location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
 [typesafe React router in 500 lines](https://sinja.io/blog/build-typesafe-react-router-from-scratch)
 
+# tips
+[Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
+[picking a react state approach](https://x.com/housecor/status/1799435036736778364)
+
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)
 [server component for syntax highlighting](https://bright.codehike.org/)

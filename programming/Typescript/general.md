@@ -23,6 +23,7 @@
 [AST viewer](https://ts-ast-viewer.com/)
 [write you own Zod](https://zackoverflow.dev/writing/write-your-own-zod/)
 [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)
+[Live types in a TypeScript monorepo](https://colinhacks.com/essays/live-types-typescript-monorepo)
 
 ## libraries
 [motion - animated videos using Canvas API](https://motioncanvas.io/)

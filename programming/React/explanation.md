@@ -2,6 +2,7 @@
 [the journey of a react component](https://alexsidorenko.com/react-journey)
 
 [how virtual DOM in implemented in React](https://angularindepth.com/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
+[A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/)
 
 [forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
 [How To Use forwardRef With Generic Components](https://www.totaltypescript.com/forwardref-with-generic-components)

@@ -18,3 +18,5 @@
 ## resources
 [brand icons](https://simpleicons.org/)
 [shapes](https://shapes.framer.website/)
+[svg logos](https://svgl.app/)
+[svg filters](https://yoksel.github.io/svg-filters)
