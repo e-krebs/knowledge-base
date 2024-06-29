@@ -4,6 +4,9 @@
 
 [svg in js](https://kurtextrem.de/posts/svg-in-js)
 
+## advanced
+[morphing arbitrary paths in SVG](https://minus-ze.ro/posts/morphing-arbitrary-paths-in-svg/)
+
 ## viewer
 [svgviewer.dev](https://www.svgviewer.dev/)
 [bézier curves](https://blog.richardekwonye.com/bezier-curves)

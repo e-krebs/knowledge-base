@@ -9,3 +9,5 @@
 [how to write a code formatter](https://yorickpeterse.com/articles/how-to-write-a-code-formatter/)
 
 [Best Practices For Naming Design Tokens, Components And Variables](https://www.smashingmagazine.com/2024/05/naming-best-practices/)
+
+[hot module replacement (HMR) is easy](https://bjornlu.com/blog/hot-module-replacement-is-easy)

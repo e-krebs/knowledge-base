@@ -11,6 +11,7 @@
 [swr](https://swr.vercel.app/)
 [toggle + request & optimistic update (useMutation)](https://www.propelauth.com/post/using-usemutation-to-make-an-advanced-toggle-in-react)
 [Fetching data in React: the case of lost Promises](https://www.developerway.com/posts/fetching-in-react-lost-promises)
+[data fetching patterns in SPA](https://martinfowler.com/articles/data-fetch-spa.html)
 
 ## react router
 [complete guide to React router](https://ui.dev/react-router-tutorial)

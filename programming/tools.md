@@ -6,6 +6,7 @@
 [Rspack bundler](https://www.rspack.dev/)
 [RxDB local database for Js applications](https://rxdb.info/)
 [json visualization](https://jsoncrack.com/)
+[farm fe - extremely fast web build tool written in rust](https://www.farmfe.org/)
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)

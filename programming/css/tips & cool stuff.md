@@ -23,6 +23,7 @@
 [What You Need to Know about Modern CSS (Spring 2024 Edition)](https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/)
 [Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript](https://www.smashingmagazine.com/2024/03/setting-persisting-color-scheme-preferences-css-javascript/)
 [Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/)
+[inline conditionals](https://lea.verou.me/blog/2024/css-conditionals-now/)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
