@@ -14,6 +14,7 @@
 [HTML attributes vs DOM properties](https://jakearchibald.com/2024/attributes-vs-properties/)
 [Promises from the ground up](https://www.joshwcomeau.com/javascript/promises/)
 [how to compose js functions that take multiple parameters](https://jrsinclair.com/articles/2024/how-to-compose-functions-that-take-multiple-parameters-epic-guide/)
+[new Set methods](https://web.dev/blog/set-methods)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

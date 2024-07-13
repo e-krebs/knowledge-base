@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3619594e24161d02",
+        "id": "cbdcae738865cf58",
         "type": "tabs",
         "children": [
           {
-            "id": "4719482c025816bb",
+            "id": "0963262e726cc245",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/tools.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "build",
+                "query": "editor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/tools.md"
+              }
             }
           },
           {
@@ -158,24 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4719482c025816bb",
+  "active": "0963262e726cc245",
   "lastOpenFiles": [
+    "programming/html.md",
+    "programming/Multi-platform.md",
+    "programming/Rust.md",
+    "programming/React/general.md",
+    "programming/React/explanation.md",
+    "programming/packages.md",
+    "programming/Node/general.md",
+    "programming/Node/Libraries.md",
+    "programming/Javascript/general.md",
     "programming/css/tips & cool stuff.md",
     "programming/css/general.md",
     "programming/tools.md",
-    "programming/packages.md",
     "programming/general.md",
-    "programming/Javascript/general.md",
     "programming/SVG/general.md",
-    "programming/React/general.md",
-    "programming/React/explanation.md",
-    "programming/Node/general.md",
-    "programming/Node/Libraries.md",
     "programming/Icons.md",
     "programming/SVG/SVG sprites.md",
     "programming/React/RSC.md",
     "programming/Typescript/general.md",
-    "programming/html.md",
     "programming/wasm.md",
     "programming/css/tailwind css.md",
     "programming/Regex.md",
@@ -184,8 +194,6 @@
     "programming/Typescript/Utility types.md",
     "programming/_memo.md",
     "programming/bun.md",
-    "programming/Tests.md",
-    "programming/Multi-platform.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

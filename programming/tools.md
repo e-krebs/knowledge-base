@@ -7,6 +7,7 @@
 [RxDB local database for Js applications](https://rxdb.info/)
 [json visualization](https://jsoncrack.com/)
 [farm fe - extremely fast web build tool written in rust](https://www.farmfe.org/)
+[code-pen web component](https://darn.es/code-pen-web-component/)
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)
