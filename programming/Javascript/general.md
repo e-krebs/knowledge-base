@@ -15,6 +15,7 @@
 [Promises from the ground up](https://www.joshwcomeau.com/javascript/promises/)
 [how to compose js functions that take multiple parameters](https://jrsinclair.com/articles/2024/how-to-compose-functions-that-take-multiple-parameters-epic-guide/)
 [new Set methods](https://web.dev/blog/set-methods)
+[Object & Map groupBy](https://2ality.com/2024/06/ecmascript-2024.html)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)

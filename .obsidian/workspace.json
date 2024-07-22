@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cbdcae738865cf58",
+        "id": "36540ab8e324542d",
         "type": "tabs",
         "children": [
           {
-            "id": "0963262e726cc245",
+            "id": "8916e5ef6037c82c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "programming/tools.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,8 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0963262e726cc245",
+  "active": "8916e5ef6037c82c",
   "lastOpenFiles": [
+    "programming/Javascript/general.md",
+    "programming/css/tips & cool stuff.md",
+    "programming/css/general.md",
+    "programming/tools.md",
     "programming/html.md",
     "programming/Multi-platform.md",
     "programming/Rust.md",
@@ -176,10 +172,6 @@
     "programming/packages.md",
     "programming/Node/general.md",
     "programming/Node/Libraries.md",
-    "programming/Javascript/general.md",
-    "programming/css/tips & cool stuff.md",
-    "programming/css/general.md",
-    "programming/tools.md",
     "programming/general.md",
     "programming/SVG/general.md",
     "programming/Icons.md",

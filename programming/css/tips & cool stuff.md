@@ -24,6 +24,7 @@
 [Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript](https://www.smashingmagazine.com/2024/03/setting-persisting-color-scheme-preferences-css-javascript/)
 [Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/)
 [inline conditionals](https://lea.verou.me/blog/2024/css-conditionals-now/)
+[get screen width height witout js](https://css-tip.com/screen-dimension/)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
