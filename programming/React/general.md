@@ -1,6 +1,7 @@
 ## Composition
 [parents & owners](https://julesblom.com/writing/parents-owners-data-flow)
 [UI composition](https://kyleshevlin.com/ui-composition)
+[recursive filetree](https://buildui.com/recipes/recursive-filetree)
 
 ## State management
 [signal](https://preactjs.com/blog/signal-boosting/)
@@ -21,6 +22,7 @@
 # tips
 [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
 [picking a react state approach](https://x.com/housecor/status/1799435036736778364)
+[Simplify Component Imports with TypeScript Namespaces](https://sergiodxa.com/tutorials/simplify-component-imports-with-typescript-namespaces)
 
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)

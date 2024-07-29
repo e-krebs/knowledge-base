@@ -13,6 +13,7 @@
 [svg filter maker](https://svgfm.chriskirknielsen.com/)
 [draw svg pattern](https://fffuel.co/pppixelate/)
 [svg pattern generator for isometric backgrounds](https://fffuel.co/mmmotif)
+[svg maker](svg.wtf)
 
 [svg animation](https://www.smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/)
 [moving along a path](https://www.smashingmagazine.com/2023/02/putting-gears-motion-animating-cars-with-html-svg/)
