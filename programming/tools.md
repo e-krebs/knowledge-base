@@ -8,6 +8,8 @@
 [json visualization](https://jsoncrack.com/)
 [farm fe - extremely fast web build tool written in rust](https://www.farmfe.org/)
 [code-pen web component](https://darn.es/code-pen-web-component/)
+[tinybase: local-first reactive data store & sync engine](https://tinybase.org/)
+[neon: postgres database](https://neon.com/)
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/)

@@ -1,4 +1,5 @@
 [source](https://bytes.dev/archives/214)
+[another article on the topic](https://claritydev.net/blog/faster-string-sorting-intl-collator)
 
 ```js
 const people = [

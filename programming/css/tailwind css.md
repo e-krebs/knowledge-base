@@ -7,5 +7,9 @@
 
 [tailwind merge](https://github.com/dcastil/tailwind-merge)
 [tailwindcss signals](https://github.com/brandonmcconnell/tailwindcss-signals)
+[tailwind to inline](https://github.com/vardan-arm/tailwind-to-inline)
 
 [animation examples](https://github.com/canopas/tailwind-animations-examples)
+
+## tailwind 4
+[thoughts on tailwind 4](https://nmn.sh/blog/2024-11-30-thoughts-on-tailwind-4)

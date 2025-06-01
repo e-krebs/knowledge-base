@@ -16,13 +16,24 @@
 [how to compose js functions that take multiple parameters](https://jrsinclair.com/articles/2024/how-to-compose-functions-that-take-multiple-parameters-epic-guide/)
 [new Set methods](https://web.dev/blog/set-methods)
 [Object & Map groupBy](https://2ality.com/2024/06/ecmascript-2024.html)
+[detecting Browser Zoom Changes in JavaScript](https://www.kirupa.com/javascript/detecting_browser_zoom_changes.htm)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
 [destructuring with Js generators](https://macarthur.me/posts/destructuring-with-generators)
 [build a modern JS framework](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
 [Optimizing Javascript for fun and for profit](https://romgrk.com/posts/optimizing-javascript/)
+[Javascript image cropper](https://fengyuanchen.github.io/cropperjs/)
+[wysiwyg markdown editor](https://milkdown.dev/)
+[Carousel library](https://www.embla-carousel.com/)
+[parallax Effect for React & JavaScript](https://simpleparallax.com/)
 
 ## date libraries
 [tempo](https://tempo.formkit.com/)
 [react spectrum - @internationalized/date](https://react-spectrum.adobe.com/internationalized/date/index.html)
+[Using Intl.DurationFormat for Localized Durations](https://www.raymondcamden.com/2025/02/13/using-intldurationformat-for-localized-durations)
+[a natural language date parser in javascript](https://github.com/wanasit/chrono)
+
+## DevX
+[making *this* less annoying](https://daverupert.com/2025/01/like-this-and-like-that-and-like-this-and-uh)
+[faker: generate fake testing data](https://fakerjs.dev/)

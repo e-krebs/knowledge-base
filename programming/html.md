@@ -2,6 +2,9 @@
 [Dialog element for modals](https://blog.webdevsimplified.com/2023-04/html-dialog/)
 [decision trees for UI components](https://www.smashingmagazine.com/2024/05/decision-trees-ui-components/)
 [HTML invoker](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
+[how to Favicon in 2025](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+
+[button command & commandfor](https://developer.chrome.com/blog/command-and-commandfor)
 
 ## a11y
 [accessible headings](https://luhr.co/blog/2023/09/12/all-about-accessible-headings/)

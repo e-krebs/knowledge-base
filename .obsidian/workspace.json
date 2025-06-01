@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/html.md",
+                "file": "programming/general.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "general"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "editor",
+                "query": "diff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -70,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -101,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for html"
             }
           },
           {
@@ -113,7 +126,9 @@
                 "file": "programming/html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from html"
             }
           },
           {
@@ -122,8 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/html.md"
-              }
+                "file": "programming/general.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of general"
             }
           },
           {
@@ -133,8 +153,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -146,7 +170,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -168,32 +194,32 @@
   },
   "active": "90a2fcb3a4ada463",
   "lastOpenFiles": [
-    "programming/SVG/general.md",
-    "programming/Node/general.md",
+    "programming/Typescript/general.md",
+    "programming/css/tips & cool stuff.md",
     "programming/React/general.md",
     "programming/React/explanation.md",
-    "programming/React/RSC.md",
-    "programming/html.md",
     "programming/Javascript/general.md",
-    "programming/css/tips & cool stuff.md",
-    "programming/css/general.md",
-    "programming/tools.md",
-    "programming/Multi-platform.md",
-    "programming/Rust.md",
-    "programming/packages.md",
     "programming/Node/Libraries.md",
-    "programming/general.md",
-    "programming/Icons.md",
-    "programming/SVG/SVG sprites.md",
-    "programming/Typescript/general.md",
-    "programming/wasm.md",
-    "programming/css/tailwind css.md",
-    "programming/Regex.md",
-    "Art.md",
+    "programming/Node/general.md",
+    "programming/css/use flexbox (or grid) with view transitions.md",
+    "programming/css/general.md",
+    "Inspiration.md",
+    "programming/Ressources.md",
+    "programming/tools.md",
     "programming/Javascript/string comparison.md",
-    "programming/Typescript/Utility types.md",
+    "programming/linting.md",
+    "programming/html.md",
+    "programming/Multi-platform.md",
+    "programming/git.md",
+    "programming/algorithms.md",
+    "programming/general.md",
     "programming/_memo.md",
-    "programming/bun.md",
+    "programming/css/tailwind css.md",
+    "programming/SVG/general.md",
+    "programming/Tests.md",
+    "Hardware.md",
+    "programming/React/RSC.md",
+    "programming/Rust.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

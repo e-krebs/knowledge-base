@@ -25,6 +25,7 @@
 [Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/)
 [inline conditionals](https://lea.verou.me/blog/2024/css-conditionals-now/)
 [get screen width height witout js](https://css-tip.com/screen-dimension/)
+[automatically swap between black or white text based on  background color](https://bsky.app/profile/did:plc:6sxf5ndtba4gsh3kp6hrt5g4/post/3lcedcdj4qk2y)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
@@ -49,3 +50,6 @@
 [css border animation](https://web.dev/articles/css-border-animations)
 [glow on hover (with react)](https://github.com/codaworks/react-glow)
 [3d in css](https://garden.bradwoods.io/notes/css/3d)
+[printing music with css grid](https://cruncher.ch/blog/printing-music-with-css-grid/)
+[css only blurry image placeholders](https://leanrada.com/notes/css-only-lqip/)
+[spotlight effect](https://frontendmasters.com/blog/css-spotlight-effect/)

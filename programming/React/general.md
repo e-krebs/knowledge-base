@@ -19,6 +19,12 @@
 [location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
 [typesafe React router in 500 lines](https://sinja.io/blog/build-typesafe-react-router-from-scratch)
 
+## frameworks
+[Preact vs. Svelte](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)
+
+## patterns
+[Preserving and Resetting State in React (don't if/return)](https://www.epicreact.dev/preserving-and-resetting-state-in-react-l2dxl)
+
 # tips
 [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
 [picking a react state approach](https://x.com/housecor/status/1799435036736778364)
@@ -38,6 +44,9 @@
 [semantic autocomplete](https://github.com/Mihaiii/semantic-autocomplete)
 [shadcn charts](https://ui.shadcn.com/charts)
 [dotUI UI components](https://dotui.org/)
+[frimousse (emoji picker)](https://frimousse.liveblocks.io/)
+[a collection of dependency-free React hooks
+](https://www.novajs.dev/)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
@@ -55,6 +64,11 @@
 [radix UI](https://www.radix-ui.com/)
 [shadcdn ui](https://ui.shadcn.com/)
 [components for interactive math](https://mafs.dev/)
+[neobrutalism](https://www.neobrutalism.dev/)
+
+## perf & debug
+[profiler](https://react.dev/reference/react/Profiler)
+[captureOwnerStack](https://react.dev/reference/react/captureOwnerStack)
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)
@@ -63,6 +77,7 @@
 [about memoization](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)
 [performant React apps with Context](https://www.developerway.com/posts/how-to-write-performant-react-apps-with-context)
 [A faster React.memo](https://romgrk.com/posts/react-fast-memo/)
+[beyond React.memo: Smarter Ways to Optimize Performance](https://cekrem.github.io/posts/beyond-react-memo-smarter-performance-optimization/)
 
 [iOS-like modal with react-aria-components & framer-motion](https://codesandbox.io/s/quirky-tharp-or0qip?file=/src/App.js)
 [build.ui recipes](https://buildui.com/recipes)

@@ -4,3 +4,4 @@
 [pattern club](https://patternclub.io/)
 [personal website](https://lisilinhart.info/)
 [Cistercian Numerals](https://kottke.org/23/01/cistercian-numerals)
+[Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)

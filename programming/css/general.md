@@ -6,6 +6,7 @@
 [css 3d effects for images](https://www.smashingmagazine.com/2023/07/shines-perspective-rotations-css-3d-effects-images/)
 [relative color syntax](https://developer.chrome.com/blog/css-relative-color-syntax/)
 [blend modes](https://garden.bradwoods.io/notes/css/blend-modes)
+[which blend mode?](https://www.ctnicholas.dev/articles/which-blend-mode)
 [print layout](https://iangmcdowell.com/blog/posts/laying-out-a-book-with-css/)
 [margin collapsing](https://medium.com/@RitikaAgrawal08/the-6-must-know-rules-of-margin-collapsing-in-css-56968836827d)
 [css grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
@@ -18,6 +19,9 @@
 [cascade & specificity](https://piccalil.li/blog/a-primer-on-the-cascade-and-specificity/)
 [Using CSS content-visibility to boost your rendering performance](https://blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/)
 [gap](https://ishadeed.com/article/the-gap/)
+[the :empty pseudo class](https://gomakethings.com/the-empty-pseudo-class-in-css/)
+[the CSS Transform property and individual transforms are additive](https://polypane.app/blog/the-css-transform-property-and-individual-transforms-are-additive/)
+[css mixins are ready for experimentation](https://nerdy.dev/css-mixins-ready-for-experimentation)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
@@ -48,6 +52,7 @@
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
 [generate color palette](https://coolors.co/generate)
 [create color gradients](https://gradient.style/)
+[RampenSau: color generation library](https://meodai.github.io/rampensau/)
 
 ## css shapes
 [clip-path maker](https://bennettfeely.com/clippy/)
