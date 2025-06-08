@@ -19,3 +19,4 @@
 [applied "Software Engineering at Google"](https://addyo.substack.com/p/applied-software-engineering-at-google)
 [the Prompt Engineering Playbook for Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)
 [the Frontend Treadmill](https://polotek.net/posts/the-frontend-treadmill/)
+[about documentation](https://newsletter.posthog.com/p/what-nobody-tells-developers-about)
