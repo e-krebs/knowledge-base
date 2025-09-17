@@ -14,3 +14,5 @@
 [JavaScript procedural generator for Mazes, Terrains, and Biomes](https://github.com/yantra-core/Labyrinthos.js)
 
 [how planet works](https://www.boristhebrave.com/2022/12/18/how-does-planet-work/)
+
+[The Struggle of Wrapping a JavaScript Game for Desktop](https://jslegenddev.substack.com/p/the-struggle-of-wrapping-a-javascript)

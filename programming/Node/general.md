@@ -17,3 +17,4 @@
 [typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)
 [node modules doctor](https://github.com/ranyitz/qnm)
 [How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
+[How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)

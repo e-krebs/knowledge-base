@@ -5,7 +5,8 @@
 
 ## State management
 [signal](https://preactjs.com/blog/signal-boosting/)
-[Zustand](https://tkdodo.eu/blog/working-with-zustand)
+[Zustand](https://tkdodo.eu/blog/working-with-zustand) - [Introducing Zustand (State Management)](https://frontendmasters.com/blog/introducing-zustand/)
+[fluent-state](https://github.com/marsbos/fluent-state)
 
 ## Data fetching
 [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react)
@@ -18,12 +19,16 @@
 [complete guide to React router](https://ui.dev/react-router-tutorial)
 [location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
 [typesafe React router in 500 lines](https://sinja.io/blog/build-typesafe-react-router-from-scratch)
+[react router middleware](https://reactrouter.com/how-to/middleware)
+[Use Action Routes in React Router](https://sergiodxa.com/tutorials/use-action-routes-in-react-router)
 
 ## frameworks
 [Preact vs. Svelte](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)
 
 ## patterns
 [Preserving and Resetting State in React (don't if/return)](https://www.epicreact.dev/preserving-and-resetting-state-in-react-l2dxl)
+[Composable streaming with Suspense](https://twofoldframework.com/blog/composable-streaming-with-suspense)
+[Unlocking Web Workers with React: A Step-by-Step Guide](https://www.rahuljuliato.com/posts/react-workers)
 
 # tips
 [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)

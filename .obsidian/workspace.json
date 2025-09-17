@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "16c0f7afed30028b",
+        "id": "c439c23aa145341d",
         "type": "tabs",
         "children": [
           {
-            "id": "90a2fcb3a4ada463",
+            "id": "bb4471a094bc9afe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inspiration.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Inspiration"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diff",
+                "query": "chart",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,13 +133,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inspiration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Inspiration"
+              "title": "Outline"
             }
           },
           {
@@ -192,21 +187,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a2fcb3a4ada463",
+  "active": "bb4471a094bc9afe",
   "lastOpenFiles": [
+    "MacOS.md",
+    "programming/AI/General.md",
+    "programming/Javascript/general.md",
+    "programming/Tests.md",
+    "programming/React/general.md",
+    "programming/React/explanation.md",
+    "programming/Typescript/general.md",
+    "programming/Typescript/Utility types.md",
+    "Games.md",
+    "programming/css/general.md",
+    "programming/css/tips & cool stuff.md",
+    "programming/Node/general.md",
+    "programming/css/use flexbox (or grid) with view transitions.md",
+    "programming/AI/MCP.md",
+    "programming/AI",
+    "Inspiration.md",
     "Data viz.md",
     "programming/tools.md",
     "programming/general.md",
-    "programming/Typescript/general.md",
-    "programming/css/tips & cool stuff.md",
-    "programming/React/general.md",
-    "programming/React/explanation.md",
-    "programming/Javascript/general.md",
     "programming/Node/Libraries.md",
-    "programming/Node/general.md",
-    "programming/css/use flexbox (or grid) with view transitions.md",
-    "programming/css/general.md",
-    "Inspiration.md",
     "programming/Ressources.md",
     "programming/Javascript/string comparison.md",
     "programming/linting.md",
@@ -214,12 +216,6 @@
     "programming/Multi-platform.md",
     "programming/git.md",
     "programming/algorithms.md",
-    "programming/_memo.md",
-    "programming/css/tailwind css.md",
-    "programming/SVG/general.md",
-    "programming/Tests.md",
-    "Hardware.md",
-    "programming/React/RSC.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

@@ -6,6 +6,7 @@
 ## tools
 [vitest](https://vitest.dev/)
 [vitest cheat sheet](https://github.com/sapegin/vitest-cheat-sheet)
-[node native test runner](https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/)
+[node native test runner](https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/) - [Using the node 18+ native test runner with TypeScript and React](https://matthewbrown.io/2025/09/04/node-test-runner)
+
 [webdriver.io](https://webdriver.io/)
 [Mentoss: The fetch mocker](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/)

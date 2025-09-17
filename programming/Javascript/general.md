@@ -17,6 +17,8 @@
 [new Set methods](https://web.dev/blog/set-methods)
 [Object & Map groupBy](https://2ality.com/2024/06/ecmascript-2024.html)
 [detecting Browser Zoom Changes in JavaScript](https://www.kirupa.com/javascript/detecting_browser_zoom_changes.htm)
+[async iteration with Array.fromAsync()](https://allthingssmitty.com/2025/07/14/modern-async-iteration-in-javascript-with-array-fromasync/)
+[Unit Formatting with Intl in JavaScript](https://www.raymondcamden.com/2025/08/22/unit-formatting-with-intl-in-javascript)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
@@ -27,6 +29,10 @@
 [wysiwyg markdown editor](https://milkdown.dev/)
 [Carousel library](https://www.embla-carousel.com/)
 [parallax Effect for React & JavaScript](https://simpleparallax.com/)
+[Bringing React's ViewTransition to vanilla JS](https://plainvanillaweb.com/blog/articles/2025-06-12-view-transitions/)
+[SnapDOM - capture HTML to image](https://zumerlab.github.io/snapdom/)
+[Mediabunny - reading, writing, and converting video and audio files](https://mediabunny.dev/)
+[overtype - WYSIWYG markdown editor that's a textarea](https://overtype.dev/)
 
 ## date libraries
 [tempo](https://tempo.formkit.com/)
@@ -37,3 +43,4 @@
 ## DevX
 [making *this* less annoying](https://daverupert.com/2025/01/like-this-and-like-that-and-like-this-and-uh)
 [faker: generate fake testing data](https://fakerjs.dev/)
+[Apache ECharts - Javascript Visualization Library](https://echarts.apache.org/en/index.html)

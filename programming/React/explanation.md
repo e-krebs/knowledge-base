@@ -13,6 +13,7 @@
 [Concurent React (and some Suspense)](https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense)
 [Exploring using Suspense with React Query](https://www.teemutaskula.com/blog/exploring-query-suspense)
 [React's evolution from Hooks to Concurrent React ](https://tigerabrodi.blog/reacts-evolution-from-hooks-to-concurrent-react)
+[React Concurrent Features: An Overview](https://certificates.dev/blog/react-concurrent-features-an-overview)
 
 [Concurrent React, External Stores, and Tearing](https://interbolt.org/blog/react-ui-tearing/)
 

@@ -11,7 +11,7 @@
 [5.8 --erasableSyntaxOnly to disable enums](https://www.totaltypescript.com/erasable-syntax-only)
 
 ## Types
-- [standard schema](https://standardschema.dev/)
+[standard schema](https://standardschema.dev/)
 [Amplify Zod](https://github.com/alii/azs)
 [validate data (zod alternative)](https://valibot.dev/)
 [type-safe env var](https://www.jacobparis.com/content/type-safe-env)
@@ -24,6 +24,7 @@
 [number range](https://catchts.com/range-numbers)
 [Wrangling tuple types](https://kyleshevlin.com/wrangling-tuple-types/)
 [intro to TSConfig for js developers](https://deno.com/blog/intro-to-tsconfig)
+[fp-filters - A curated collection of 130+ common-use filter functions](https://github.com/Oaxoa/fp-filters)
 
 ## advanced
 [AST viewer](https://ts-ast-viewer.com/)

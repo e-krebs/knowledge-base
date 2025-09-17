@@ -10,6 +10,7 @@
 [print layout](https://iangmcdowell.com/blog/posts/laying-out-a-book-with-css/)
 [margin collapsing](https://medium.com/@RitikaAgrawal08/the-6-must-know-rules-of-margin-collapsing-in-css-56968836827d)
 [css grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+[grid - 1fr 1fr vs auto auto vs 50% 50%](https://frontendmasters.com/blog/1fr-1fr-vs-auto-auto-vs-50-50/)
 [scroll snapping](https://www.smashingmagazine.com/2023/12/css-scroll-snapping-aligned-global-page-layout-case-study/)
 [border-image](https://www.smashingmagazine.com/2024/01/css-border-image-property/)
 [12 Modern CSS One-Line Upgrades](https://moderncss.dev/12-modern-css-one-line-upgrades/)
@@ -22,6 +23,10 @@
 [the :empty pseudo class](https://gomakethings.com/the-empty-pseudo-class-in-css/)
 [the CSS Transform property and individual transforms are additive](https://polypane.app/blog/the-css-transform-property-and-individual-transforms-are-additive/)
 [css mixins are ready for experimentation](https://nerdy.dev/css-mixins-ready-for-experimentation)
+[style gaps](https://developer.chrome.com/blog/gap-decorations)
+[5 Useful CSS functions using the new @function rule](https://una.im/5-css-functions/)
+[Using the Custom Highlight API](https://frontendmasters.com/blog/using-the-custom-highlight-api/)
+[The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
@@ -36,6 +41,7 @@
 [anchor positioning: drawing a line to connect elements](https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning/)
 [CSS linear-gradients](https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/)
 [CSS radial-gradients](https://patrickbrosset.com/articles/2022-10-24-do-you-really-understand-CSS-radial-gradients/)
+[container Query for “is there enough space outside this element?”](https://frontendmasters.com/blog/container-query-for-is-there-enough-space-outside-this-element/)
 
 ## animations
 [animated icons](https://useanimations.com/)
@@ -47,6 +53,7 @@
 [tips for better CSS transition & animations](https://joshcollinsworth.com/blog/great-transitions)
 [linear for better animations](https://fullystacked.net/posts/linear/)
 [animate along a path](https://www.smashingmagazine.com/2023/10/animate-along-path-css/)
+[animating zooming using CSS: transform order is important… sometimes](https://jakearchibald.com/2025/animating-zooming/)
 
 ## tools
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
