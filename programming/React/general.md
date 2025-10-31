@@ -2,6 +2,7 @@
 [parents & owners](https://julesblom.com/writing/parents-owners-data-flow)
 [UI composition](https://kyleshevlin.com/ui-composition)
 [recursive filetree](https://buildui.com/recipes/recursive-filetree)
+[the nuance of React rendering behaviour as it relates to children](https://blacksheepcode.com/posts/nuance_of_react_rendering_behaviour)
 
 ## State management
 [signal](https://preactjs.com/blog/signal-boosting/)
@@ -24,6 +25,7 @@
 
 ## frameworks
 [Preact vs. Svelte](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)
+[Rari: Performance-first React framework powered by Rust](https://rari.build/)
 
 ## patterns
 [Preserving and Resetting State in React (don't if/return)](https://www.epicreact.dev/preserving-and-resetting-state-in-react-l2dxl)
@@ -50,8 +52,7 @@
 [shadcn charts](https://ui.shadcn.com/charts)
 [dotUI UI components](https://dotui.org/)
 [frimousse (emoji picker)](https://frimousse.liveblocks.io/)
-[a collection of dependency-free React hooks
-](https://www.novajs.dev/)
+[a collection of dependency-free React hooks](https://www.novajs.dev/)
 
 ## utilities
 [render multiple context providers at once](https://twitter.com/devongovett/status/1685066633147305984?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
@@ -74,6 +75,7 @@
 ## perf & debug
 [profiler](https://react.dev/reference/react/Profiler)
 [captureOwnerStack](https://react.dev/reference/react/captureOwnerStack)
+[you-might-not-need-an-effect](https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect)
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)

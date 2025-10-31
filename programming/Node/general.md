@@ -3,6 +3,7 @@
 [sandpack](https://www.joshwcomeau.com/react/next-level-playground/)
 [env var validation using zod](https://env.t3.gg/)
 [native dotenv in node 20.6](https://francoisbest.com/posts/2023/dotenv-is-dead)
+[15 Recent Node.js Features that Replace Popular npm Packages](https://nodesource.com/blog/nodejs-features-replacing-npm-packages)
 
 [understand node.js event loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
 [event loop (youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
@@ -18,3 +19,4 @@
 [node modules doctor](https://github.com/ranyitz/qnm)
 [How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)
+[mastering NPX: A Cheatsheet for npm and Node.js Power Users](https://www.nodejs-security.com/blog/mastering-npx-cheatsheet-npm-nodejs-power-users)

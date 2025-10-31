@@ -18,6 +18,7 @@
 [data validation server-side](https://vinejs.dev/docs/introduction)
 [narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
 [oRPC - Typesafe APIs Made Simple](https://orpc.unnoq.com/blog/v1-announcement)
+[ts-to-zod](https://github.com/fabien0102/ts-to-zod)
 
 ## Tips
 [Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)
@@ -50,3 +51,6 @@
 
 [JavaScript parser and generator for RSS, Atom, JSON Feed, and RDF feeds](https://github.com/macieklamberski/feedsmith)
 [defuddle: extracts the main content from web pages](https://github.com/kepano/defuddle)
+
+## runtimes
+[Andromeda](https://tryandromeda.dev/)

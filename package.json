@@ -7,10 +7,10 @@
   "devDependencies": {
     "@types/bun": "latest",
     "@types/remarkable": "^2.0.8",
-    "algoliasearch": "^4.23.2",
+    "algoliasearch": "^4.25.2",
     "remarkable": "^2.0.1"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.4.4"
   }
 }

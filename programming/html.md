@@ -5,6 +5,8 @@
 [how to Favicon in 2025](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
 [button command & commandfor](https://developer.chrome.com/blog/command-and-commandfor)
+[dialog: closedBy=any](https://nerdy.dev/closedby-any)
+[HTML’s Best Kept Secret: The output Tag](https://denodell.com/blog/html-best-kept-secret-output-tag)
 
 ## a11y
 [accessible headings](https://luhr.co/blog/2023/09/12/all-about-accessible-headings/)

@@ -31,5 +31,6 @@
 [PureComponent vs. Functional Components with hooks](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks)
 
 [useActionState](https://github.com/facebook/react/pull/28491)
+[you may be looking for a useSyncExternalStore](https://swizec.com/blog/you-may-be-looking-for-a-useSyncExternalStore/)
 
 [react internals explorer](https://jser.dev/2024-05-11-introducing-rie)

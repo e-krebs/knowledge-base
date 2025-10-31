@@ -19,6 +19,8 @@
 [detecting Browser Zoom Changes in JavaScript](https://www.kirupa.com/javascript/detecting_browser_zoom_changes.htm)
 [async iteration with Array.fromAsync()](https://allthingssmitty.com/2025/07/14/modern-async-iteration-in-javascript-with-array-fromasync/)
 [Unit Formatting with Intl in JavaScript](https://www.raymondcamden.com/2025/08/22/unit-formatting-with-intl-in-javascript)
+[AbortController](https://kettanaito.com/blog/dont-sleep-on-abort-controller)
+[array methods: toSorted, toReversed, toSpliced](https://allthingssmitty.com/2025/09/08/finally-safe-array-methods-in-javascript/)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
@@ -33,6 +35,7 @@
 [SnapDOM - capture HTML to image](https://zumerlab.github.io/snapdom/)
 [Mediabunny - reading, writing, and converting video and audio files](https://mediabunny.dev/)
 [overtype - WYSIWYG markdown editor that's a textarea](https://overtype.dev/)
+[feedsmith, RSS, etc.](https://feedsmith.dev/)
 
 ## date libraries
 [tempo](https://tempo.formkit.com/)
