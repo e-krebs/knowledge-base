@@ -22,13 +22,19 @@ export const list = async (): Promise<Item[]> => {
 
   const urls = (
     await Promise.all(
-      fileNames.map(
+      fileNames.slice(0, 1).map(
         async (fileName) =>
           await $`cat ${fileName}`
             .text()
             .then(parse)
             .then((links) =>
-              links.map((link) => ({ ...link, tags: fileNameToTag(fileName) } as Item))
+              links.map(
+                (link) =>
+                  ({
+                    ...link,
+                    tags: [...fileNameToTag(fileName), link.header].filter((t) => t !== undefined),
+                  } as Item)
+              )
             )
       )
     )
