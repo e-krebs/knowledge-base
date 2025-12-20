@@ -22,7 +22,7 @@ export const list = async (): Promise<Item[]> => {
 
   const urls = (
     await Promise.all(
-      fileNames.slice(0, 1).map(
+      fileNames.map(
         async (fileName) =>
           await $`cat ${fileName}`
             .text()
