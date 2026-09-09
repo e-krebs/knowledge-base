@@ -1,5 +1,5 @@
-[tuto (nextinpact)](https://www.nextinpact.com/article/43376/developpez-votre-premiere-application-en-rust)
-[from js to rust](https://github.com/wasmflow/node-to-rust)
+[tuto (nextinpact)](https://next.ink/5817/developpez-votre-premiere-application-en-rust/)
+[from js to rust](https://github.com/jsoverson/node-to-rust)
 [getting started (stackoverflow)](https://stackoverflow.blog/2021/03/15/getting-started-with-rust/)
 [how not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
 
@@ -10,4 +10,4 @@
 [Creating a Rich Text Editor using Rust and React](https://fiberplane.com/blog/creating-a-rich-text-editor-using-rust-and-react)
 
 ## articles
-[Rust Is The Future of JavaScript Infrastructure](https://leerob.io/blog/rust)
+[Rust Is The Future of JavaScript Infrastructure](https://leerob.com/rust)

@@ -20,8 +20,8 @@
 [GenAI scripting](https://microsoft.github.io/genaiscript/)
 
 ## agents
-[custom slash commands](https://docs.claude.com/en/docs/claude-code/slash-commands#custom-slash-commands)
-[subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)
+[custom slash commands](https://code.claude.com/docs/en/slash-commands)
+[subagents](https://code.claude.com/docs/en/sub-agents)
 [the new rules of context engineering](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models)
 
 ## skills
@@ -33,8 +33,8 @@
 
 ## how to
 [getting AI to Work in Complex Codebases](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md)
-[custom chat modes in VS Code](https://code.visualstudio.com/docs/copilot/customization/custom-chat-modes#_custom-chat-modes)
-[customize chat to your workflow](https://code.visualstudio.com/docs/copilot/customization/overview)
+[custom chat modes in VS Code](https://code.visualstudio.com/docs/agent-customization/custom-agents)
+[customize chat to your workflow](https://code.visualstudio.com/docs/agent-customization/overview)
 [agentic code review](https://www.oreilly.com/radar/agentic-code-review/)
 [the art of loop engineering](https://www.langchain.com/blog/the-art-of-loop-engineering)
 [making your site visible to LLMs](https://evilmartians.com/chronicles/how-to-make-your-website-visible-to-llms)

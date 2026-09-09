@@ -1,7 +1,7 @@
-[why react renders](https://ui.dev/why-react-renders)
+[why react renders](https://fireship.dev/why-react-renders)
 [the journey of a react component](https://alexsidorenko.com/react-journey)
 
-[how virtual DOM in implemented in React](https://angularindepth.com/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
+[how virtual DOM in implemented in React](https://angular.love/exploring-how-virtual-dom-is-implemented-in-react)
 [A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/)
 
 [forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
@@ -17,7 +17,7 @@
 
 [Concurrent React, External Stores, and Tearing](https://interbolt.org/blog/react-ui-tearing/)
 
-[React's cache function](https://unicorn-utterances.com/posts/explaining-reacts-cache-function)
+[React's cache function](https://playfulprogramming.com/posts/explaining-reacts-cache-function/)
 
 [handle errors in React](https://www.developerway.com/posts/how-to-handle-errors-in-react)
 
@@ -30,7 +30,7 @@
 
 [PureComponent vs. Functional Components with hooks](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks)
 
-[useActionState](https://github.com/facebook/react/pull/28491)
+[useActionState](https://github.com/react/react/pull/28491)
 [you may be looking for a useSyncExternalStore](https://swizec.com/blog/you-may-be-looking-for-a-useSyncExternalStore/)
 
 [react internals explorer](https://jser.dev/2024-05-11-introducing-rie)

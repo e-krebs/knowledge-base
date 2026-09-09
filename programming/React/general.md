@@ -7,7 +7,7 @@
 ## State management
 [signal](https://preactjs.com/blog/signal-boosting/)
 [Zustand](https://tkdodo.eu/blog/working-with-zustand) - [Introducing Zustand (State Management)](https://frontendmasters.com/blog/introducing-zustand/)
-[fluent-state](https://github.com/marsbos/fluent-state)
+[fluent-state](https://www.npmjs.com/package/fluent-state)
 
 ## Data fetching
 [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react)
@@ -17,14 +17,14 @@
 [data fetching patterns in SPA](https://martinfowler.com/articles/data-fetch-spa.html)
 
 ## react router
-[complete guide to React router](https://ui.dev/react-router-tutorial)
-[location aware sidebar with React router](https://ui.dev/react-router-sidebar-breadcrumbs)
+[complete guide to React router](https://fireship.dev/react-router-tutorial)
+[location aware sidebar with React router](https://fireship.dev/react-router-sidebar-breadcrumbs)
 [typesafe React router in 500 lines](https://sinja.io/blog/build-typesafe-react-router-from-scratch)
 [react router middleware](https://reactrouter.com/how-to/middleware)
 [Use Action Routes in React Router](https://sergiodxa.com/tutorials/use-action-routes-in-react-router)
 
 ## frameworks
-[Preact vs. Svelte](https://sentry.engineering/blog/preact-or-svelte-an-embedded-widget-use-case)
+[Preact vs. Svelte](https://blog.sentry.io/preact-or-svelte-an-embedded-widget-use-case/)
 [Rari: Performance-first React framework powered by Rust](https://rari.build/)
 
 ## patterns
@@ -52,7 +52,7 @@
 [react print pdf](https://github.com/OnedocLabs/react-print-pdf)
 [sitemap & RSS feed in Next.js](https://spacejelly.dev/posts/how-to-add-a-sitemap-rss-feed-in-next-js-app-router)
 [semantic autocomplete](https://github.com/Mihaiii/semantic-autocomplete)
-[shadcn charts](https://ui.shadcn.com/charts)
+[shadcn charts](https://ui.shadcn.com/charts/area)
 [dotUI UI components](https://dotui.org/)
 [frimousse (emoji picker)](https://frimousse.liveblocks.io/)
 [a collection of dependency-free React hooks](https://www.novajs.dev/)
@@ -66,10 +66,9 @@
 
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
-[react-aria (styling guide)](https://react-spectrum.adobe.com/react-aria/styling.html)
-[react-aria-components client side routing](https://react-spectrum.adobe.com/react-aria/routing.html)
-[react-aria examples](https://react-spectrum.adobe.com/react-aria/examples/)
-[neo brutalism](https://neobrutalism-components.vercel.app/)
+[react-aria (styling guide)](https://react-aria.adobe.com/styling)
+[react-aria-components client side routing](https://react-aria.adobe.com/frameworks)
+[react-aria examples](https://react-aria.adobe.com/examples/)
 [radix UI](https://www.radix-ui.com/)
 [shadcdn ui](https://ui.shadcn.com/)
 [components for interactive math](https://mafs.dev/)
@@ -78,7 +77,7 @@
 ## perf & debug
 [profiler](https://react.dev/reference/react/Profiler)
 [captureOwnerStack](https://react.dev/reference/react/captureOwnerStack)
-[you-might-not-need-an-effect](https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect)
+[you-might-not-need-an-effect](https://github.com/nickjvandyke/eslint-plugin-react-you-might-not-need-an-effect)
 
 ## Advanced
 [React.StrictMode](https://www.youtube.com/watch?v=1UOAI7pFDek)

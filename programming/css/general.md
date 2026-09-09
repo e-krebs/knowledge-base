@@ -20,7 +20,7 @@
 [cascade & specificity](https://piccalil.li/blog/a-primer-on-the-cascade-and-specificity/)
 [Using CSS content-visibility to boost your rendering performance](https://blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/)
 [gap](https://ishadeed.com/article/the-gap/)
-[the :empty pseudo class](https://gomakethings.com/the-empty-pseudo-class-in-css/)
+[the :empty pseudo class](https://gomakethings.com/articles/the-empty-pseudo-class-in-css/)
 [the CSS Transform property and individual transforms are additive](https://polypane.app/blog/the-css-transform-property-and-individual-transforms-are-additive/)
 [css mixins are ready for experimentation](https://nerdy.dev/css-mixins-ready-for-experimentation)
 [style gaps](https://developer.chrome.com/blog/gap-decorations)

@@ -8,7 +8,7 @@
 [understand node.js event loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
 [event loop (youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-[spawning process in node](https://blog.val.town/blog/node-spawn-performance/)
+[spawning process in node](https://blog.val.town/node-spawn-performance)
 
 [tsx (run typescript in node)](https://tsx.is/)
 
@@ -18,7 +18,7 @@
 [how to make an http request](https://nodejsdesignpatterns.com/blog/nodejs-http-request/)
 
 ## packages
-[typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)
+[typescript node package](https://www.strictmode.io/articles/build-test-and-publish-typescript-npm-package-2022)
 [node modules doctor](https://github.com/ranyitz/qnm)
 [How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)

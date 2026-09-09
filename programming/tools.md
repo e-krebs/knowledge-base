@@ -1,5 +1,5 @@
 [platform for building dev portals](https://backstage.io/)
-[edge database](https://www.edgedb.com/)
+[edge database](https://www.geldata.com/)
 [tunelling](https://github.com/unjs/untun)
 [penpot - figma alternative](https://penpot.app/)
 [MySQL platform](https://planetscale.com/)

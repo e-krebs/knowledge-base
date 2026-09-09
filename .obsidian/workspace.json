@@ -197,6 +197,8 @@
   },
   "active": "d4ddc54c90b52eeb",
   "lastOpenFiles": [
+    "scripts/check.ts",
+    "scripts/checkUrl.ts",
     "programming/React/RSC.md",
     "programming/React/general.md",
     "programming/React/explanation.md",
@@ -223,7 +225,6 @@
     "programming/general.md",
     "programming/Node/Libraries.md",
     "programming/Ressources.md",
-    "programming/Multi-platform.md",
     "programming/React",
     "programming/css",
     "programming/Javascript",

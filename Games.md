@@ -1,7 +1,7 @@
 [Godot game engine](https://godotengine.org/)
 
 [wave function collapse](https://github.com/mxgmn/WaveFunctionCollapse)
-[generating words with wave function collapse](https://www.procjam.com/tutorials/wfc/)
+[generating worlds with wave function collapse](https://www.procjam.sekritforum.com/tutorials/wfc/)
 [model synthesis](https://paulmerrell.org/model-synthesis/)
 
 [hexagonal grids](https://www.redblobgames.com/grids/hexagons/)

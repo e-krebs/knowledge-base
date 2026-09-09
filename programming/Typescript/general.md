@@ -13,7 +13,7 @@
 ## Types
 [type-safe env var](https://www.jacobparis.com/content/type-safe-env)
 [narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
-[oRPC - Typesafe APIs Made Simple](https://orpc.unnoq.com/blog/v1-announcement)
+[oRPC - Typesafe APIs Made Simple](https://orpc.dev/blog/v1-announcement)
 
 ## validation libraries
 [standard schema](https://standardschema.dev/)
@@ -46,7 +46,7 @@
 
 [object hashing, serialization and comparison utils](https://github.com/unjs/ohash)
 
-[Heat Map](https://www.william-troup.com/heat-js/)
+[Heat Map](https://www.heatjs.com/)
 
 [ANSI color library for terminals, CI and Chromium-based browser consoles](https://github.com/webdiscus/ansis)
 [Building a CLI from scratch with TypeScript and oclif](https://www.joshcanhelp.com/oclif/)

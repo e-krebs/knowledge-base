@@ -2,7 +2,7 @@
 [react component tests clean & maintainable](https://medium.com/globant/achieving-clean-and-maintainable-react-component-tests-b3d5e0483307)
 [running 1000 tests in 1s](https://marvinh.dev/blog/running-1000-test-in-1s/)
 [Best Practices for Writing Tests with React Testing Library](https://claritydev.net/blog/improving-react-testing-library-tests)
-[What tests to write for React](https://www.franciscomoretti.com/blog/what-tests-to-write-for-react)
+[What tests to write for React](https://dev.to/franciscomoretti/what-tests-to-write-for-react-56ki)
 [react testing questions that trip up engineers](https://howtotestfrontend.com/resources/react-testing-interview-questions)
 [37 tips to write good frontend tests](https://howtotestfrontend.com/resources/how-to-write-good-frontend-tests)
 [everything about act() in react tests](https://howtotestfrontend.com/resources/react-act-function-everything-you-need-to-know)
