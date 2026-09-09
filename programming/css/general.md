@@ -27,6 +27,10 @@
 [5 Useful CSS functions using the new @function rule](https://una.im/5-css-functions/)
 [Using the Custom Highlight API](https://frontendmasters.com/blog/using-the-custom-highlight-api/)
 [The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)
+[the great css expansion](https://blog.gitbutler.com/the-great-css-expansion)
+[prop for that](https://nerdy.dev/prop-for-that)
+[relative alpha](https://nerdy.dev/relative-alpha)
+[use cases for field-sizing](https://ishadeed.com/article/field-sizing/)
 
 ## how
 [how custom property values are computed](https://moderncss.dev/how-custom-property-values-are-computed/)
@@ -43,6 +47,10 @@
 [CSS radial-gradients](https://patrickbrosset.com/articles/2022-10-24-do-you-really-understand-CSS-radial-gradients/)
 [container Query for “is there enough space outside this element?”](https://frontendmasters.com/blog/container-query-for-is-there-enough-space-outside-this-element/)
 [transition to the Other Side with Container Query Units](https://ryanmulligan.dev/blog/transition-to-the-other-side/)
+[5 css properties for better text designs](https://blog.master.dev/typographic-css-tricks/)
+[improved css text-stroke](https://tylersticka.com/journal/improved-css-text-stroke/)
+[using safe-area-inset for mobile-safe layouts](https://polypane.app/blog/using-safe-area-inset-to-build-mobile-safe-layouts/)
+[the weird parts of position: sticky](https://frontendmasters.com/blog/the-weird-parts-of-position-sticky/)
 
 ## animations
 [animated icons](https://useanimations.com/)
@@ -55,6 +63,9 @@
 [linear for better animations](https://fullystacked.net/posts/linear/)
 [animate along a path](https://www.smashingmagazine.com/2023/10/animate-along-path-css/)
 [animating zooming using CSS: transform order is important… sometimes](https://jakearchibald.com/2025/animating-zooming/)
+[animating css grid layouts with anchor positioning](https://www.bram.us/2026/09/07/animating-css-grid-layouts-with-css-anchor-positioning/)
+[7 practical animation tips](https://emilkowal.ski/ui/7-practical-animation-tips)
+[anchor interpolated morphing](https://nerdy.dev/anchor-interpolated-morphing)
 
 ## tools
 [build your color palette](https://www.refactoringui.com/previews/building-your-color-palette)
@@ -66,3 +77,4 @@
 [clip-path maker](https://bennettfeely.com/clippy/)
 [The Modern Guide For Making CSS Shapes](https://www.smashingmagazine.com/2024/05/modern-guide-making-css-shapes/)
 [Collection of CSS-only Shapes](https://css-shape.com/)
+[border-shape: the non-rectangular web](https://una.im/border-shape/)

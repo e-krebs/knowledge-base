@@ -28,6 +28,7 @@
 [automatically swap between black or white text based on  background color](https://bsky.app/profile/did:plc:6sxf5ndtba4gsh3kp6hrt5g4/post/3lcedcdj4qk2y)
 [using @starting-style and transition-behavior for enter and exit stage effects](https://nerdy.dev/using-starting-style-and-transition-behavior-for-enter-and-exit-stage-effects)
 [the Big Gotcha With @starting-style](https://www.joshwcomeau.com/css/starting-style/)
+[sneaky header blocker trick](https://www.joshwcomeau.com/css/header-blockers/)
 
 ### nested rounded corners
 [nested radius](https://twitter.com/aleksliving/status/1687889580555407361)
@@ -56,3 +57,5 @@
 [css only blurry image placeholders](https://leanrada.com/notes/css-only-lqip/)
 [spotlight effect](https://frontendmasters.com/blog/css-spotlight-effect/)
 [Liquid Glass](https://kube.io/blog/liquid-glass-css-svg/)
+[spinning diagrams with css](https://x.st/spinning-diagrams-with-css/)
+[gamepad api visual debugging with css layers](https://www.smashingmagazine.com/2025/11/css-gamepad-api-visual-debugging-css-layers/)

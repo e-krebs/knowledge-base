@@ -36,6 +36,9 @@
 [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
 [picking a react state approach](https://x.com/housecor/status/1799435036736778364)
 [Simplify Component Imports with TypeScript Namespaces](https://sergiodxa.com/tutorials/simplify-component-imports-with-typescript-namespaces)
+[open a modal dialog with the invoker commands api](https://sergiodxa.com/tutorials/open-a-modal-dialog-in-react-with-the-invoker-commands-api)
+[why we banned useEffect](https://x.com/alvinsng/status/2033969062834045089)
+[a trick to improve exit animations](https://barvian.me/react-exit-animations)
 
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)
@@ -89,3 +92,5 @@
 [iOS-like modal with react-aria-components & framer-motion](https://codesandbox.io/s/quirky-tharp-or0qip?file=/src/App.js)
 [build.ui recipes](https://buildui.com/recipes)
 [animated toast](https://buildui.com/recipes/animated-toast)
+
+[view transitions for images and titles](https://www.epicreact.dev/use-react-view-transition-to-smoothly-transition-images-and-titles-lu6ks)

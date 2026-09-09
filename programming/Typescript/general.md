@@ -11,14 +11,18 @@
 [5.8 --erasableSyntaxOnly to disable enums](https://www.totaltypescript.com/erasable-syntax-only)
 
 ## Types
+[type-safe env var](https://www.jacobparis.com/content/type-safe-env)
+[narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
+[oRPC - Typesafe APIs Made Simple](https://orpc.unnoq.com/blog/v1-announcement)
+
+## validation libraries
 [standard schema](https://standardschema.dev/)
 [Amplify Zod](https://github.com/alii/azs)
 [validate data (zod alternative)](https://valibot.dev/)
-[type-safe env var](https://www.jacobparis.com/content/type-safe-env)
 [data validation server-side](https://vinejs.dev/docs/introduction)
-[narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
-[oRPC - Typesafe APIs Made Simple](https://orpc.unnoq.com/blog/v1-announcement)
 [ts-to-zod](https://github.com/fabien0102/ts-to-zod)
+[write you own Zod](https://zackoverflow.dev/writing/write-your-own-zod/)
+[reducing zod's memory footprint](https://zod.dev/blog/reducing-memory-footprint)
 
 ## Tips
 [Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)
@@ -26,12 +30,13 @@
 [Wrangling tuple types](https://kyleshevlin.com/wrangling-tuple-types/)
 [intro to TSConfig for js developers](https://deno.com/blog/intro-to-tsconfig)
 [fp-filters - A curated collection of 130+ common-use filter functions](https://github.com/Oaxoa/fp-filters)
+[typescript tips everyone should know](https://github.com/AllThingsSmitty/typescript-tips-everyone-should-know)
 
 ## advanced
 [AST viewer](https://ts-ast-viewer.com/)
-[write you own Zod](https://zackoverflow.dev/writing/write-your-own-zod/)
 [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)
 [Live types in a TypeScript monorepo](https://colinhacks.com/essays/live-types-typescript-monorepo)
+[progress on typescript 7](https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/)
 
 ## libraries
 [motion - animated videos using Canvas API](https://motioncanvas.io/)
@@ -51,6 +56,9 @@
 
 [JavaScript parser and generator for RSS, Atom, JSON Feed, and RDF feeds](https://github.com/macieklamberski/feedsmith)
 [defuddle: extracts the main content from web pages](https://github.com/kepano/defuddle)
+
+[freerange: static @fit checks for layout code](https://github.com/chenglou/freerange)
+[better auth](https://www.better-auth.com/)
 
 ## runtimes
 [Andromeda](https://tryandromeda.dev/)

@@ -1,3 +1,6 @@
+## tips
+[targeting child elements](https://cekrem.github.io/posts/tailwind-targeting-child-elements/)
+
 ## tools
 [tailwind shades](https://www.tailwindshades.com)
 [tailwind palette](https://www.tints.dev)
@@ -10,6 +13,8 @@
 [tailwind to inline](https://github.com/vardan-arm/tailwind-to-inline)
 
 [animation examples](https://github.com/canopas/tailwind-animations-examples)
+
+[joyco tailwind toolbox](https://hub.joyco.studio/toolbox/tailwind)
 
 ## tailwind 4
 [thoughts on tailwind 4](https://nmn.sh/blog/2024-11-30-thoughts-on-tailwind-4)

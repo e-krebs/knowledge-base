@@ -14,9 +14,17 @@
 
 [understanding email sending application](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
 
-## npm
+[nub: all-in-one toolkit for node](https://nubjs.com/)
+[how to make an http request](https://nodejsdesignpatterns.com/blog/nodejs-http-request/)
+
+## packages
 [typescript node package](https://www.strictmode.io/articles/build-test-and-publish-npm-package-2022)
 [node modules doctor](https://github.com/ranyitz/qnm)
 [How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
 [How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)
 [mastering NPX: A Cheatsheet for npm and Node.js Power Users](https://www.nodejs-security.com/blog/mastering-npx-cheatsheet-npm-nodejs-power-users)
+[how to evaluate an npm package](https://blog.gaborkoos.com/posts/2026-05-29-How-to-Evaluate-an-npm-Package-2026-Edition/)
+[npm packument size limits](https://www.vlt.io/blog/packument-size-limits)
+[safely resolving CVEs in your dependencies](https://charpeni.com/blog/minimizing-risk-properly-and-safely-resolving-cves-in-your-dependencies)
+[stop using yarn classic](https://charpeni.com/blog/stop-using-yarn-classic)
+[minimum release age as a supply chain defense](https://daniakash.com/posts/simplest-supply-chain-defense)

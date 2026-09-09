@@ -3,6 +3,9 @@
 [running 1000 tests in 1s](https://marvinh.dev/blog/running-1000-test-in-1s/)
 [Best Practices for Writing Tests with React Testing Library](https://claritydev.net/blog/improving-react-testing-library-tests)
 [What tests to write for React](https://www.franciscomoretti.com/blog/what-tests-to-write-for-react)
+[react testing questions that trip up engineers](https://howtotestfrontend.com/resources/react-testing-interview-questions)
+[37 tips to write good frontend tests](https://howtotestfrontend.com/resources/how-to-write-good-frontend-tests)
+[everything about act() in react tests](https://howtotestfrontend.com/resources/react-act-function-everything-you-need-to-know)
 
 ## tools
 [vitest](https://vitest.dev/)
@@ -11,3 +14,5 @@
 
 [webdriver.io](https://webdriver.io/)
 [Mentoss: The fetch mocker](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/)
+
+[vitest browser mode](https://howtotestfrontend.com/resources/vitest-browser-mode-guide-and-setup-info)

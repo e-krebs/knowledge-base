@@ -7,9 +7,12 @@
 [button command & commandfor](https://developer.chrome.com/blog/command-and-commandfor)
 [dialog: closedBy=any](https://nerdy.dev/closedby-any)
 [HTML’s Best Kept Secret: The output Tag](https://denodell.com/blog/html-best-kept-secret-output-tag)
+[my HTML boilerplate in 2026](https://www.matuzo.at/blog/2026/html-boilerplate)
+[modal dialogs without react or javascript](https://laktek.com/modal-dialogs-without-react-javascript)
 
 ## a11y
 [accessible headings](https://luhr.co/blog/2023/09/12/all-about-accessible-headings/)
 [disabled vs. aria-disabled](https://kittygiraudel.com/2024/03/29/on-disabled-and-aria-disabled-attributes/)
 [hidden vs. disabled in UX](https://www.smashingmagazine.com/2024/05/hidden-vs-disabled-ux/)
 [ARIA role vs. HTML element](https://www.w3.org/TR/html-aria/#docconformance)
+[tooltip components should not exist](https://tkdodo.eu/blog/tooltip-components-should-not-exist)

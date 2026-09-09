@@ -21,6 +21,9 @@
 [Unit Formatting with Intl in JavaScript](https://www.raymondcamden.com/2025/08/22/unit-formatting-with-intl-in-javascript)
 [AbortController](https://kettanaito.com/blog/dont-sleep-on-abort-controller)
 [array methods: toSorted, toReversed, toSpliced](https://allthingssmitty.com/2025/09/08/finally-safe-array-methods-in-javascript/)
+[stop turning everything into arrays](https://allthingssmitty.com/2026/01/12/stop-turning-everything-into-arrays-and-do-less-work-instead/)
+[error chaining with Error.cause](https://allthingssmitty.com/2025/11/10/error-chaining-in-javascript-cleaner-debugging-with-error-cause/)
+[web features explorer](https://web-platform-dx.github.io/web-features-explorer/)
 
 ## cool stuff
 [draw regular shapes](https://developer.mozilla.org/en-US/blog/javascript-shape-drawing-function/)
@@ -36,12 +39,14 @@
 [Mediabunny - reading, writing, and converting video and audio files](https://mediabunny.dev/)
 [overtype - WYSIWYG markdown editor that's a textarea](https://overtype.dev/)
 [feedsmith, RSS, etc.](https://feedsmith.dev/)
+[faking two-phase view transitions with the navigation api](https://www.bram.us/2025/11/17/faking-two-phase-view-transitions-with-the-navigation-apis-precommithandler/)
 
 ## date libraries
 [tempo](https://tempo.formkit.com/)
 [react spectrum - @internationalized/date](https://react-spectrum.adobe.com/internationalized/date/index.html)
 [Using Intl.DurationFormat for Localized Durations](https://www.raymondcamden.com/2025/02/13/using-intldurationformat-for-localized-durations)
 [a natural language date parser in javascript](https://github.com/wanasit/chrono)
+[pikaday: date picker](https://pikaday.dbushell.com/)
 
 ## DevX
 [making *this* less annoying](https://daverupert.com/2025/01/like-this-and-like-that-and-like-this-and-uh)

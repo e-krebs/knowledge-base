@@ -11,10 +11,10 @@
 [refraction, dispersion, ...](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)
 
 ### generative sketches
-https://yuanchuan.dev/daily-sketch-1
-https://yuanchuan.dev/daily-sketch-2
-https://yuanchuan.dev/daily-sketch-3
-https://yuanchuan.dev/daily-sketch-4
+[daily sketch 1](https://yuanchuan.dev/daily-sketch-1)
+[daily sketch 2](https://yuanchuan.dev/daily-sketch-2)
+[daily sketch 3](https://yuanchuan.dev/daily-sketch-3)
+[daily sketch 4](https://yuanchuan.dev/daily-sketch-4)
 
 [azulejo](https://github.com/nemutas/azulejo)
 [faces](https://github.com/zengm-games/facesjs)
@@ -22,3 +22,4 @@ https://yuanchuan.dev/daily-sketch-4
 ## music
 [printing music with css grid](https://cruncher.ch/blog/printing-music-with-css-grid/)
 [render music in html](https://github.com/stephband/scribe)
+[ChordSheetJS: parse & format chord sheets](https://github.com/martijnversluis/ChordSheetJS)

@@ -2,3 +2,5 @@
 [Differences between ESLint and TypeScript](https://eslint.org/blog/2025/01/differences-between-eslint-and-typescript/)
 [oxlint](https://oxc.rs/docs/guide/usage/linter.html)
 [eslint config inspector](https://github.com/eslint/config-inspector)
+[eslint v10](https://eslint.org/blog/2026/02/eslint-v10.0.0-released/)
+[baseline js docs](https://baselinejs.vercel.app/)
