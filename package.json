@@ -2,7 +2,8 @@
   "name": "knowledge-base",
   "type": "module",
   "scripts": {
-    "algolia": "bun scripts/algolia.ts"
+    "algolia": "bun scripts/algolia.ts",
+    "check": "bun scripts/check.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",

@@ -46,15 +46,22 @@ export const parse = (text: string) => {
       return;
     }
 
-    token.children.forEach((child, index) => {
+    const children = token.children;
+    children.forEach((child, index) => {
       if (!isLinkOpenToken(child)) return;
       const url = child.href;
       let text: string = url;
-      const nextChild = token.children![index + 1];
+      const nextChild = children[index + 1];
       if (isTextToken(nextChild) && nextChild.content) {
         text = nextChild.content;
       }
-      links.push({ url, text, headers: headers.map(({ text }) => text) });
+      const softbreaks = children.slice(0, index).filter(({ type }) => type === "softbreak").length;
+      links.push({
+        url,
+        text,
+        headers: headers.map(({ text }) => text),
+        line: (token.lines?.[0] ?? 0) + softbreaks + 1,
+      });
     });
   });
 

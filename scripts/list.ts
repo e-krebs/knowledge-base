@@ -13,12 +13,16 @@ const fileNameToTag = (fileName: string): string[] =>
     .toLowerCase()
     .split("/");
 
-export const list = async (): Promise<Item[]> => {
+export const mdFiles = async (): Promise<string[]> => {
   const glob = new Glob("**/*.md");
 
-  const fileNames = (await Array.fromAsync(glob.scan("."))).filter(
+  return (await Array.fromAsync(glob.scan("."))).filter(
     (f) => !f.startsWith("node_modules") && !f.startsWith("README.md")
   );
+};
+
+export const list = async (): Promise<Item[]> => {
+  const fileNames = await mdFiles();
 
   const urls = (
     await Promise.all(
@@ -29,7 +33,7 @@ export const list = async (): Promise<Item[]> => {
             .then(parse)
             .then((links) =>
               links.map(
-                ({ headers, ...link }): Item => ({
+                ({ headers, line, ...link }): Item => ({
                   ...link,
                   tags: [...fileNameToTag(fileName), ...headers],
                 })

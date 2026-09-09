@@ -1,0 +1,44 @@
+name: dead-links
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  dead-links:
+    name: dead-links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+
+      - run: bun install
+      - name: check every link
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bun run check "$RUNNER_TEMP/dead-links.md"
+
+      - name: report into one issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPORT: ${{ runner.temp }}/dead-links.md
+        run: |
+          gh label create dead-links --color d73a4a --description "links the checker proved dead" --force
+          number=$(gh issue list --label dead-links --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ ! -s "$REPORT" ]; then
+            if [ -n "$number" ]; then
+              gh issue close "$number" --comment "Every link checks out again."
+            fi
+            exit 0
+          fi
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file "$REPORT"
+          else
+            gh issue create --title "dead links" --label dead-links --body-file "$REPORT"
+          fi
