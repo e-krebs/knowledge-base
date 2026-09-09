@@ -1,9 +1,9 @@
 export interface Link {
   url: string;
   text: string;
-  header?: string;
+  headers: string[];
 }
 
-export interface Item extends Omit<Link, "header"> {
+export interface Item extends Omit<Link, "headers"> {
   tags: string[];
 }

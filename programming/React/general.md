@@ -32,7 +32,7 @@
 [Composable streaming with Suspense](https://twofoldframework.com/blog/composable-streaming-with-suspense)
 [Unlocking Web Workers with React: A Step-by-Step Guide](https://www.rahuljuliato.com/posts/react-workers)
 
-# tips
+## tips
 [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
 [picking a react state approach](https://x.com/housecor/status/1799435036736778364)
 [Simplify Component Imports with TypeScript Namespaces](https://sergiodxa.com/tutorials/simplify-component-imports-with-typescript-namespaces)

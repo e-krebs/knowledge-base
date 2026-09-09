@@ -22,27 +22,39 @@ const isHeadingCloseToken = (token: Token): token is HeadingCloseToken =>
 export const parse = (text: string) => {
   const links: Link[] = [];
   const tokens = md.parse(text, {});
-  let header: string | undefined = undefined;
+  let headers: { level: number; text: string }[] = [];
+  let headerLevel = 0;
   let isHeaderOpen = false;
 
   tokens.forEach((token) => {
-    if (isHeadingOpenToken(token)) isHeaderOpen = true;
+    if (isHeadingOpenToken(token)) {
+      headers = headers.filter(({ level }) => level < token.hLevel);
+      headerLevel = token.hLevel;
+      isHeaderOpen = true;
+    }
     if (isHeadingCloseToken(token)) isHeaderOpen = false;
 
     if (token.type !== "inline" || !isBlockContentToken(token)) return;
     if (!Array.isArray(token.children)) return;
+
+    if (isHeaderOpen) {
+      const header = token.children
+        .filter(isTextToken)
+        .map(({ content }) => content)
+        .join("");
+      if (header) headers.push({ level: headerLevel, text: header });
+      return;
+    }
+
     token.children.forEach((child, index) => {
-      if (isHeaderOpen && isTextToken(child)) {
-        header = child.content;
-      } else if (isLinkOpenToken(child)) {
-        const url = child.href;
-        let text: string = url;
-        const nextChild = token.children![index + 1];
-        if (isTextToken(nextChild) && nextChild.content) {
-          text = nextChild.content;
-        }
-        links.push({ url, text, header });
+      if (!isLinkOpenToken(child)) return;
+      const url = child.href;
+      let text: string = url;
+      const nextChild = token.children![index + 1];
+      if (isTextToken(nextChild) && nextChild.content) {
+        text = nextChild.content;
       }
+      links.push({ url, text, headers: headers.map(({ text }) => text) });
     });
   });
 

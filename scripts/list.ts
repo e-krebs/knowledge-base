@@ -29,11 +29,10 @@ export const list = async (): Promise<Item[]> => {
             .then(parse)
             .then((links) =>
               links.map(
-                (link) =>
-                  ({
-                    ...link,
-                    tags: [...fileNameToTag(fileName), link.header].filter((t) => t !== undefined),
-                  } as Item)
+                ({ headers, ...link }): Item => ({
+                  ...link,
+                  tags: [...fileNameToTag(fileName), ...headers],
+                })
               )
             )
       )
