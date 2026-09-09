@@ -20,8 +20,6 @@ jobs:
 
       - run: bun install
       - name: check every link
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
         run: bun run check "$RUNNER_TEMP/dead-links.md"
 
       - name: report into one issue

@@ -138,30 +138,10 @@ const pen = oembed({
     `${origin}${pathname.replace(/^\/([^/]+)\/(pen|full|details|pres)\//, "/$1/pen/")}`,
 });
 
-const github = async (url: string): Promise<Check | undefined> => {
-  const token = Bun.env.GITHUB_TOKEN;
-  if (!token) return undefined;
-  const [owner, repo] = new URL(url).pathname.split("/").filter(Boolean);
-  if (!owner) return undefined;
-  const endpoint = repo
-    ? `https://api.github.com/repos/${owner}/${repo}`
-    : `https://api.github.com/users/${owner}`;
-  const response = await fetch(endpoint, {
-    headers: { ...headers, authorization: `Bearer ${token}` },
-    redirect: "manual",
-    signal: AbortSignal.timeout(TIMEOUT),
-  });
-  // 404 also covers a private repo, and 403/429 is the rate limit rather than a death.
-  if (response.status === 404) return { verdict: "dead", detail: "github api 404" };
-  if (response.status === 451) return { verdict: "dead", detail: "github api 451 (dmca)" };
-  if (response.status === 301) {
-    const moved = response.headers.get("location");
-    return moved
-      ? { verdict: "moved", detail: "github repo renamed", movedTo: moved }
-      : { verdict: "unverified", detail: "github api 301" };
-  }
-  return undefined;
-};
+// github.com needs no API handler: its pages answer 404 for a deleted repo or a missing
+// file, and 301 for a rename, which the redirect walk already follows. The API is worse
+// here, because a reserved route such as /mcp or /features/copilot is neither a user nor
+// a repo, so the API calls a live page dead.
 
 // Stack Overflow answers every script with a Cloudflare challenge. The API needs no key,
 // and it always returns 200, so existence is the item count.
@@ -180,7 +160,6 @@ const stackOverflow = async (url: string): Promise<Check | undefined> => {
 };
 
 const authoritative: Record<string, (url: string) => Promise<Check | undefined>> = {
-  "github.com": github,
   "stackoverflow.com": stackOverflow,
   "x.com": tweet,
   "twitter.com": tweet,
