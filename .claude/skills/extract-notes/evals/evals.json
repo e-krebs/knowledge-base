@@ -1,0 +1,30 @@
+{
+  "skill_name": "extract-notes",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/extract-notes programming/React/explanation.md",
+      "expected_output": "The agent takes a baseline dump, delegates classification to one Sonnet worker, runs a live freshness pass, presents review.md at gate 1, writes notes and gists through workers, verifies them, presents reorg.md at gate 2, applies the layout, diffs the dump, commits with a dated message and asks before pushing.",
+      "assertions": [
+        "Runs dump.ts before any vault edit and again after apply.ts, and explains every lost URL",
+        "Hands the classifier brief to a single worker told to run in the foreground",
+        "Runs the freshness brief with web search on every extract and link + gist row before gate 1",
+        "Shows review.md as a link and takes flips in the `12 → link` form before any note is written",
+        "Every note has frontmatter source, fetched, status, no # heading, and a body from the page text",
+        "Every non-extract line ends with ` — gist` under 15 words",
+        "Presents reorg.md as before/after with cross-file targets checked against the target file's headings",
+        "Runs wikilinks.ts on every edited file and reports 0 unresolved",
+        "Commits as `YYYY-MM-DD notes: <topic>` and asks push now or review first"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add these three links to programming/css/general.md: https://example.com/a, https://example.com/b, https://example.com/c",
+      "expected_output": "The agent adds the links without invoking extract-notes.",
+      "assertions": [
+        "Does not invoke the extract-notes skill",
+        "Does not classify, fetch or write notes for the new links"
+      ]
+    }
+  ]
+}
