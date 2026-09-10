@@ -6,6 +6,7 @@
 
 ## advanced
 [morphing arbitrary paths in SVG](https://minus-ze.ro/posts/morphing-arbitrary-paths-in-svg/)
+📝 [[fun with stroke-dasharray]]
 
 ## viewer
 [svgviewer.dev](https://www.svgviewer.dev/)

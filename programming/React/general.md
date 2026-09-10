@@ -39,6 +39,7 @@
 [open a modal dialog with the invoker commands api](https://sergiodxa.com/tutorials/open-a-modal-dialog-in-react-with-the-invoker-commands-api)
 [why we banned useEffect](https://x.com/alvinsng/status/2033969062834045089)
 [a trick to improve exit animations](https://barvian.me/react-exit-animations)
+📝 [[temporary highlight]]
 
 ## Tools
 [react charts](https://www.react-graph-gallery.com/)
@@ -63,6 +64,7 @@
 [why did you render](https://github.com/welldone-software/why-did-you-render)
 [react ts form (zod-based)](https://github.com/iway1/react-ts-form)
 [The Best Way to Write React Forms](https://ianmitchell.dev/blog/the-best-way-to-write-react-forms)
+[glow on hover (with react)](https://github.com/codaworks/react-glow) — npm library masking a radial gradient overlay to trace the cursor, mouse-only
 
 ## Design system
 [France State](https://react-dsfr-components.etalab.studio/?path=/docs/%F0%9F%87%AB%F0%9F%87%B7-introduction--page)
