@@ -34,8 +34,13 @@ const shape = (url: string): string => {
   }
 };
 
+const NOTES_FOLDER = "_notes";
+
 const baseName = (file: string): string => file.split("/").at(-1)!.replace(/\.md$/, "");
 const dirName = (file: string): string => file.split("/").slice(0, -1).join("/");
+// A note's own folder is a filing detail, never a tag.
+const pathTags = (file: string): string[] =>
+  fileNameToTag(file.split("/").filter((segment) => segment !== NOTES_FOLDER).join("/"));
 
 const content = ({ text, file }: { text: string; file: string }): string => {
   const bytes = new TextEncoder().encode(text);
@@ -70,9 +75,9 @@ const noteFields = (note: Note): Pick<Item, "type" | "note" | "status" | "conten
   content: content({ text: note.body, file: note.file }),
 });
 
-// A `[[note]]` line resolves to the note in the same folder first, then to any note of
-// that name. A `[title](url)` line whose url is a note's source is enriched by that note.
-// A note neither linked nor referenced becomes its own record.
+// A `[[note]]` line resolves to the note in the link file's `_notes/` folder first, then its
+// own folder, then any note of that name. A `[title](url)` line whose url is a note's source
+// is enriched by that note. A note neither linked nor referenced becomes its own record.
 export const list = async (): Promise<Item[]> => {
   const fileNames = await mdFiles();
   const notesBySource = new Map<string, Note>();
@@ -96,8 +101,11 @@ export const list = async (): Promise<Item[]> => {
   );
 
   const byBaseName = new Map([...notesByFile.values()].map((note) => [baseName(note.file), note]));
-  const resolve = ({ fileName, name }: { fileName: string; name: string }): Note | undefined =>
-    notesByFile.get(`${dirName(fileName)}/${name}.md`.replace(/^\//, "")) ?? byBaseName.get(name);
+  const resolve = ({ fileName, name }: { fileName: string; name: string }): Note | undefined => {
+    const dir = dirName(fileName);
+    const at = (folder: string) => notesByFile.get(`${folder}/${name}.md`.replace(/^\//, ""));
+    return at(`${dir}/${NOTES_FOLDER}`) ?? at(dir) ?? byBaseName.get(name);
+  };
 
   const matched = new Set<Note>();
   const items = links.flatMap(({ fileName, link: { headers, line, gist, note: name, ...link } }): Item[] => {
@@ -122,7 +130,7 @@ export const list = async (): Promise<Item[]> => {
   const orphans = [...notesByFile.values()]
     .filter((note) => !matched.has(note))
     .map((note): Item => {
-      const path = fileNameToTag(note.file);
+      const path = pathTags(note.file);
       return {
         url: note.source,
         text: note.title,
