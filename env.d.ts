@@ -3,6 +3,7 @@ declare module "bun" {
     APPID: string;
     APIKEY: string;
     INDEXNAME: string;
+    SEARCHKEY?: string;
     TMPDIR?: string;
   }
 }
