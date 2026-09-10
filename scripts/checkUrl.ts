@@ -26,14 +26,13 @@ const UNCHECKABLE = ["codesandbox.io"];
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// A redirect that only adds https, www or a trailing slash points at the same page.
-const sameResource = (a: string, b: string): boolean => {
-  const shape = (url: string) => {
-    const { hostname, pathname, search } = new URL(url);
-    return `${hostname.replace(/^www\./, "")}${pathname.replace(/\/$/, "")}${search}`;
-  };
-  return shape(a) === shape(b);
+// Two URLs that differ only by https, www or a trailing slash point at the same page.
+export const urlShape = (url: string): string => {
+  const { hostname, pathname, search } = new URL(url);
+  return `${hostname.replace(/^www\./, "")}${pathname.replace(/\/$/, "")}${search}`;
 };
+
+const sameResource = (a: string, b: string): boolean => urlShape(a) === urlShape(b);
 
 const bareHost = (url: string) => new URL(url).hostname.replace(/^www\./, "");
 

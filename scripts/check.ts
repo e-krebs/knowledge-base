@@ -1,7 +1,9 @@
 import { $ } from "bun";
 import { mdFiles } from "./list";
 import { parse } from "./parse";
+import { frontmatter } from "./frontmatter";
 import { checkUrl, wayback, type Check } from "./checkUrl";
+import type { NoteKey } from "./types";
 
 interface Found {
   url: string;
@@ -17,16 +19,18 @@ const HOST_INTERVAL = 500;
 
 const outPath = process.argv[2] ?? `${Bun.env.TMPDIR ?? "/tmp"}/dead-links.md`;
 
+// A note is checked by its source alone: the links in its body are citations.
 const found = (
   await Promise.all(
-    (await mdFiles()).map(async (file) =>
-      (await $`cat ${file}`.text().then(parse)).map(({ url, text, line }) => ({
-        url,
-        text,
-        file,
-        line,
-      }))
-    )
+    (await mdFiles()).map(async (file): Promise<Found[]> => {
+      const text = await $`cat ${file}`.text();
+      const { data } = frontmatter<NoteKey>(text);
+      if (data.source) {
+        const at = text.split(/\r?\n/).findIndex((l) => l.trimStart().startsWith("source:"));
+        return [{ url: data.source, text: file, file, line: at === -1 ? 1 : at + 1 }];
+      }
+      return parse(text).map(({ url, text, line }) => ({ url, text, file, line }));
+    })
   )
 ).flat();
 

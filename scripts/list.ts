@@ -1,8 +1,13 @@
 import { $, Glob } from "bun";
 import { parse } from "./parse";
-import type { Item } from "./types";
+import { frontmatter } from "./frontmatter";
+import { urlShape } from "./checkUrl";
+import type { Item, Link, Note, NoteKey } from "./types";
 
 const clean = new RegExp(/(?:.\/)?(.*).md$/);
+
+// Algolia caps a record at 10 KB on this plan, and a note is meant to stay far below it.
+const MAX_CONTENT_BYTES = 8000;
 
 const fileNameToTag = (fileName: string): string[] =>
   clean
@@ -21,27 +26,110 @@ export const mdFiles = async (): Promise<string[]> => {
   );
 };
 
+const shape = (url: string): string => {
+  try {
+    return urlShape(url);
+  } catch {
+    return url;
+  }
+};
+
+const baseName = (file: string): string => file.split("/").at(-1)!.replace(/\.md$/, "");
+const dirName = (file: string): string => file.split("/").slice(0, -1).join("/");
+
+const content = ({ text, file }: { text: string; file: string }): string => {
+  const bytes = new TextEncoder().encode(text);
+  if (bytes.length <= MAX_CONTENT_BYTES) return text;
+  console.warn(`${file}: content cut at ${MAX_CONTENT_BYTES} bytes`);
+  return new TextDecoder().decode(bytes.slice(0, MAX_CONTENT_BYTES)).replace(/�$/, "");
+};
+
+// The file name is the title, as in Obsidian.
+const readNote = ({
+  file,
+  data,
+  body,
+}: {
+  file: string;
+  data: Partial<Record<NoteKey, string>>;
+  body: string;
+}): Note => ({
+  source: data.source!,
+  title: baseName(file),
+  body: body.trim(),
+  status: data.status ?? "fresh",
+  fetched: data.fetched ?? "",
+  published: data.published,
+  file,
+});
+
+const noteFields = (note: Note): Pick<Item, "type" | "note" | "status" | "content"> => ({
+  type: "note",
+  note: note.file,
+  status: note.status,
+  content: content({ text: note.body, file: note.file }),
+});
+
+// A `[[note]]` line resolves to the note in the same folder first, then to any note of
+// that name. A `[title](url)` line whose url is a note's source is enriched by that note.
+// A note neither linked nor referenced becomes its own record.
 export const list = async (): Promise<Item[]> => {
   const fileNames = await mdFiles();
+  const notesBySource = new Map<string, Note>();
+  const notesByFile = new Map<string, Note>();
+  const links: { fileName: string; link: Link }[] = [];
 
-  const urls = (
-    await Promise.all(
-      fileNames.map(
-        async (fileName) =>
-          await $`cat ${fileName}`
-            .text()
-            .then(parse)
-            .then((links) =>
-              links.map(
-                ({ headers, line, ...link }): Item => ({
-                  ...link,
-                  tags: [...fileNameToTag(fileName), ...headers],
-                })
-              )
-            )
-      )
-    )
-  ).flatMap((x) => x);
+  await Promise.all(
+    fileNames.map(async (fileName) => {
+      const { data, body } = frontmatter<NoteKey>(await $`cat ${fileName}`.text());
+      if (data.source) {
+        const note = readNote({ file: fileName, data, body });
+        const key = shape(data.source);
+        const twin = notesBySource.get(key);
+        if (twin) console.warn(`${fileName}: same source as ${twin.file}, only one is indexed`);
+        notesBySource.set(key, note);
+        notesByFile.set(fileName, note);
+        return;
+      }
+      parse(body).forEach((link) => links.push({ fileName, link }));
+    })
+  );
 
-  return urls;
+  const byBaseName = new Map([...notesByFile.values()].map((note) => [baseName(note.file), note]));
+  const resolve = ({ fileName, name }: { fileName: string; name: string }): Note | undefined =>
+    notesByFile.get(`${dirName(fileName)}/${name}.md`.replace(/^\//, "")) ?? byBaseName.get(name);
+
+  const matched = new Set<Note>();
+  const items = links.flatMap(({ fileName, link: { headers, line, gist, note: name, ...link } }): Item[] => {
+    const tags = [...fileNameToTag(fileName), ...headers];
+    if (name !== undefined) {
+      const note = resolve({ fileName, name });
+      if (!note) {
+        console.warn(`${fileName}:${line}: [[${name}]] points at no note`);
+        return [];
+      }
+      matched.add(note);
+      return [{ url: note.source, text: note.title, tags, ...noteFields(note) }];
+    }
+    const note = notesBySource.get(shape(link.url));
+    if (note) {
+      matched.add(note);
+      return [{ ...link, tags, ...noteFields(note) }];
+    }
+    return [gist ? { ...link, tags, content: gist } : { ...link, tags }];
+  });
+
+  const orphans = [...notesByFile.values()]
+    .filter((note) => !matched.has(note))
+    .map((note): Item => {
+      const path = fileNameToTag(note.file);
+      return {
+        url: note.source,
+        text: note.title,
+        tags: path.length > 1 ? path.slice(0, -1) : path,
+        ...noteFields(note),
+      };
+    });
+
+  return [...items, ...orphans];
 };
