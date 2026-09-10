@@ -1,7 +1,7 @@
 [Cross-platform package scripts](https://2ality.com/2022/08/npm-package-scripts.html)
 [nest practices for npm package](https://snyk.io/blog/best-practices-create-modern-npm-package/)
 [sandpack](https://www.joshwcomeau.com/react/next-level-playground/)
-[env var validation using zod](https://env.t3.gg/)
+[t3-env: env var validation](https://env.t3.gg/) — validates process.env at startup from a schema, split into server and client vars
 [native dotenv in node 20.6](https://francoisbest.com/posts/2023/dotenv-is-dead)
 [15 Recent Node.js Features that Replace Popular npm Packages](https://nodesource.com/blog/nodejs-features-replacing-npm-packages)
 

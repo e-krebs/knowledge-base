@@ -14,3 +14,9 @@
 
 ## image
 [canvas for Node.js](https://skia-canvas.org/)
+
+## auth
+[better auth](https://www.better-auth.com/) — config-as-code auth framework with plugins covering sso, saml, and scim
+
+## content extraction
+[defuddle: extracts the main content from web pages](https://github.com/kepano/defuddle) — debug mode shows exactly why each element got removed or kept

@@ -1,64 +1,51 @@
-## linting
-[Method Shorthand Syntax Considered Harmful](https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful)
-[markcheck – test Markdown code blocks](https://github.com/rauschma/markcheck)
+## Types
+📝 [[narrow function parameters]]
+📝 [[types are sets]]
+📝 [[Method Shorthand Syntax Considered Harmful]]
+[oRPC - Typesafe APIs Made Simple](https://orpc.dev/blog/v1-announcement) — v1 release claims faster typechecking and smaller bundles than tRPC
 
 ## typesafe string literal/router
-[Extract parameter types from string literal types with TypeScript](https://lihautan.com/extract-parameters-type-from-string-literal-types-with-typescript)
-[typesafe router (react)](https://speakerdeck.com/zoontek/advanced-typescript-how-we-made-our-router-typesafe)
+📝 [[Extract parameter types from string literal types with TypeScript]]
+[typesafe router (react)](https://speakerdeck.com/zoontek/advanced-typescript-how-we-made-our-router-typesafe) — conference talk deriving route param types via template literals and infer
 
 ## enum
-[use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html)
-[5.8 --erasableSyntaxOnly to disable enums](https://www.totaltypescript.com/erasable-syntax-only)
-
-## Types
-[type-safe env var](https://www.jacobparis.com/content/type-safe-env)
-[narrow function parameters](https://www.learningtypescript.com/articles/narrowing-function-parameters-with-rests-and-tuples)
-[oRPC - Typesafe APIs Made Simple](https://orpc.dev/blog/v1-announcement)
+[use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html) — concludes unions and object literals beat enums in nearly every scenario
+📝 [[5.8 --erasableSyntaxOnly to disable enums]]
 
 ## validation libraries
-[standard schema](https://standardschema.dev/)
-[Amplify Zod](https://github.com/alii/azs)
-[validate data (zod alternative)](https://valibot.dev/)
-[data validation server-side](https://vinejs.dev/docs/introduction)
-[ts-to-zod](https://github.com/fabien0102/ts-to-zod)
-[write you own Zod](https://zackoverflow.dev/writing/write-your-own-zod/)
-[reducing zod's memory footprint](https://zod.dev/blog/reducing-memory-footprint)
+[standard schema](https://standardschema.dev/) — shared validation interface so tools work across zod valibot and others
+[Amplify Zod](https://github.com/alii/azs) — attaches custom methods directly onto zod-parsed objects for oop-style access
+[validate data (zod alternative)](https://valibot.dev/) — modular tree-shakable validator with per-function imports
+[data validation server-side](https://vinejs.dev/docs/introduction) — node-only form validator claiming five to ten times zod's speed
+[ts-to-zod](https://github.com/fabien0102/ts-to-zod) — generates zod schemas from ts types, honoring jsdoc validation tags
+[write you own Zod](https://zackoverflow.dev/writing/write-your-own-zod/) — walks through building a tiny zod clone to demystify how it works
+📝 [[reducing zod's memory footprint]]
 
 ## Tips
-[Omit on Union](https://stackoverflow.com/questions/57103834/typescript-omit-a-property-from-all-interfaces-in-a-union-but-keep-the-union-s)
-[number range](https://catchts.com/range-numbers)
-[Wrangling tuple types](https://kyleshevlin.com/wrangling-tuple-types/)
-[intro to TSConfig for js developers](https://deno.com/blog/intro-to-tsconfig)
-[fp-filters - A curated collection of 130+ common-use filter functions](https://github.com/Oaxoa/fp-filters)
-[typescript tips everyone should know](https://github.com/AllThingsSmitty/typescript-tips-everyone-should-know)
+📝 [[Omit on Union]]
+📝 [[number range]]
+📝 [[Wrangling tuple types]]
+📝 [[typescript tips everyone should know]]
+[fp-filters - A curated collection of 130+ common-use filter functions](https://github.com/Oaxoa/fp-filters) — tree-shakable one-liners with zero deps and built-in negated aliases
 
-## advanced
-[AST viewer](https://ts-ast-viewer.com/)
-[Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)
-[Live types in a TypeScript monorepo](https://colinhacks.com/essays/live-types-typescript-monorepo)
-[progress on typescript 7](https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/)
+## tooling
+📝 [[intro to TSConfig for js developers]]
+📝 [[Live types in a TypeScript monorepo]]
+[AST viewer](https://ts-ast-viewer.com/) — paste typescript source and click through the parsed syntax tree live
+[markcheck – test Markdown code blocks](https://github.com/rauschma/markcheck) — runs the code blocks of a markdown file, directives hidden in html comments
+
+## CLI
+📝 [[Building a CLI from scratch with TypeScript and oclif]]
+[ink: React for interactive command-line apps](https://github.com/vadimdemedes/ink) — powers claude code and other real cli tools via flexbox layout
+[ANSI color library for terminals, CI and Chromium-based browser consoles](https://github.com/webdiscus/ansis) — a much smaller drop-in chalk replacement with faster chained styles
 
 ## libraries
-[motion - animated videos using Canvas API](https://motioncanvas.io/)
-[path to regex](https://github.com/pillarjs/path-to-regexp)
-[replaces spread: default composer](https://aralroca.com/blog/default-composer) [default-composer GitHub](https://github.com/aralroca/default-composer)
-[Effect: helps to handle synchronous & asynchronous programs/tasks](https://effect.website/)
-
-[object hashing, serialization and comparison utils](https://github.com/unjs/ohash)
-
-[Heat Map](https://www.heatjs.com/)
-
-[ANSI color library for terminals, CI and Chromium-based browser consoles](https://github.com/webdiscus/ansis)
-[Building a CLI from scratch with TypeScript and oclif](https://www.joshcanhelp.com/oclif/)
-[ink: React for interactive command-line apps](https://github.com/vadimdemedes/ink)
-
-[types are sets](https://www.rob.directory/blog/a-different-way-to-think-about-typescript)
-
-[JavaScript parser and generator for RSS, Atom, JSON Feed, and RDF feeds](https://github.com/macieklamberski/feedsmith)
-[defuddle: extracts the main content from web pages](https://github.com/kepano/defuddle)
-
-[freerange: static @fit checks for layout code](https://github.com/chenglou/freerange)
-[better auth](https://www.better-auth.com/)
+[path to regex](https://github.com/pillarjs/path-to-regexp) — also compiles params back into a path string, not just matching
+[replaces spread: default composer](https://aralroca.com/blog/default-composer) — recurses into nested fields that spread and object.assign skip entirely
+[default-composer GitHub](https://github.com/aralroca/default-composer) — lets you customize which values count as defaultable and array merging
+[Effect: helps to handle synchronous & asynchronous programs/tasks](https://effect.website/) — tracks errors and dependencies right in the type signature itself
+[object hashing, serialization and comparison utils](https://github.com/unjs/ohash) — sha-256 hashing plus a nested diff between two objects' contents
+[Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) — 7kb zero-dependency database toolkit targeting serverless postgres mysql and sqlite
 
 ## runtimes
-[Andromeda](https://tryandromeda.dev/)
+[Andromeda](https://tryandromeda.dev/) — rust-built js runtime with gpu-accelerated canvas and a built-in http server

@@ -40,6 +40,8 @@
 [overtype - WYSIWYG markdown editor that's a textarea](https://overtype.dev/)
 [feedsmith, RSS, etc.](https://feedsmith.dev/)
 [faking two-phase view transitions with the navigation api](https://www.bram.us/2025/11/17/faking-two-phase-view-transitions-with-the-navigation-apis-precommithandler/)
+[motion - animated videos using Canvas API](https://motioncanvas.io/) — animations coded as generator functions, previewed live in a synced editor
+[Heat Map](https://www.heatjs.com/) — calendar heatmap library with six view types and year-over-year compare
 
 ## date libraries
 [tempo](https://tempo.formkit.com/)
@@ -52,3 +54,4 @@
 [making *this* less annoying](https://daverupert.com/2025/01/like-this-and-like-that-and-like-this-and-uh)
 [faker: generate fake testing data](https://fakerjs.dev/)
 [Apache ECharts - Javascript Visualization Library](https://echarts.apache.org/en/index.html)
+[freerange: static @fit checks for layout code](https://github.com/chenglou/freerange) — tracks every number's possible range to catch nan and division bugs
