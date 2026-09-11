@@ -1,36 +1,34 @@
-[why react renders](https://fireship.dev/why-react-renders)
-[the journey of a react component](https://alexsidorenko.com/react-journey)
+## rendering
+📝 [[why react renders]]
+📝 [[the journey of a react component]]
+📝 [[how virtual DOM in implemented in React]]
+[A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/) — ends with a queued update loop that diffs and patches the real dom
 
-[how virtual DOM in implemented in React](https://angular.love/exploring-how-virtual-dom-is-implemented-in-react)
-[A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/)
+## refs
+📝 [[forwardRef - how to pass refs to child components|forwardRef / how to pass refs to child components]]
+📝 [[How To Use forwardRef With Generic Components]]
+📝 [[refs in React- from access to DOM to imperative API|refs in React: from access to DOM to imperative API]]
+📝 [[avoiding useEffect with callback refs]]
 
-[forwardRef / how to pass refs to child components](https://dmitripavlutin.com/react-forwardref/)
-[How To Use forwardRef With Generic Components](https://www.totaltypescript.com/forwardref-with-generic-components)
+## concurrency
+📝 [[concurrency in React]]
+[Concurent React (and some Suspense)](https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense) — low and high priority renders are single-tiered, with no in-between levels
+📝 [[Exploring using Suspense with React Query]]
+[React's evolution from Hooks to Concurrent React](https://tigerabrodi.blog/reacts-evolution-from-hooks-to-concurrent-react) — fiber splits rendering into a pausable render phase and an uninterruptible commit phase
+[React Concurrent Features: An Overview](https://certificates.dev/blog/react-concurrent-features-an-overview) — each hook maps to one coordination problem, shown with runnable code examples
+📝 [[Concurrent React, External Stores, and Tearing]]
+📝 [[you may be looking for a useSyncExternalStore]]
 
-[refs in React: from access to DOM to imperative API](https://www.developerway.com/posts/refs-from-dom-to-api)
+## effects
+📝 [[separating events from effects]]
+📝 [[removing Effect dependencies]]
+📝 [[how to debounce & throttle in react]]
 
-[concurrency in React](https://sinja.io/blog/guide-to-concurrency-in-react-18)
-[Concurent React (and some Suspense)](https://blog.codeminer42.com/everything-you-need-to-know-about-concurrent-react-with-a-little-bit-of-suspense)
-[Exploring using Suspense with React Query](https://www.teemutaskula.com/blog/exploring-query-suspense)
-[React's evolution from Hooks to Concurrent React ](https://tigerabrodi.blog/reacts-evolution-from-hooks-to-concurrent-react)
-[React Concurrent Features: An Overview](https://certificates.dev/blog/react-concurrent-features-an-overview)
+## performance
+📝 [[Optimizing React performance without refs and memo]]
+[PureComponent vs. Functional Components with hooks](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks) — memo replaces PureComponent, prefer useCallback over updater functions over mirrored refs
 
-[Concurrent React, External Stores, and Tearing](https://interbolt.org/blog/react-ui-tearing/)
-
-[React's cache function](https://playfulprogramming.com/posts/explaining-reacts-cache-function/)
-
-[handle errors in React](https://www.developerway.com/posts/how-to-handle-errors-in-react)
-
-[how to debounce & throttle in react](https://www.developerway.com/posts/debouncing-in-react)
-
-[Optimizing React performance without refs and memo](https://alexsidorenko.com/blog/react-optimize-rerenders-without-refs-memo/)
-[avoiding useEffect with callback refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
-[separating events from effects](https://react.dev/learn/separating-events-from-effects)
-[removing Effect dependencies](https://react.dev/learn/removing-effect-dependencies)
-
-[PureComponent vs. Functional Components with hooks](https://www.developerway.com/posts/pure-components-vs-functional-and-hooks)
-
-[useActionState](https://github.com/react/react/pull/28491)
-[you may be looking for a useSyncExternalStore](https://swizec.com/blog/you-may-be-looking-for-a-useSyncExternalStore/)
-
-[react internals explorer](https://jser.dev/2024-05-11-introducing-rie)
+## errors, cache & actions
+📝 [[handle errors in React]]
+📝 [[React's cache function]]
+[useActionState](https://github.com/react/react/pull/28491) — the PR renaming useFormState and adding isPending, shipped in React 19
