@@ -50,7 +50,7 @@ const action: Record<string, string> = { extract: "📝 note", "link + gist": "l
 
 const freshness = (row: Row) => {
   const f = freshByN.get(row.n);
-  if (!f) return row.verdict === "extract" ? "not checked" : "not checked (link)";
+  if (!f) return "not checked";
   return f.verdict === "fresh" ? "fresh ✓" : `**${f.verdict}**: ${cell(f.evidence)}`;
 };
 
@@ -86,7 +86,7 @@ const doc = [
   `# ${vaultFile} — extraction review`,
   "",
   `${rows.length} links: ${counts["extract"] ?? 0} become notes, ${(counts["link"] ?? 0) + (counts["link + gist"] ?? 0)} stay links with a one-line gist. ` +
-    `The live freshness check (web search per technique, Baseline status from MDN or caniuse) covered the ${fresh.length} notes and flagged gists; a plain link is not checked.`,
+    `The live freshness check (web search per technique, Baseline status from MDN or caniuse) covered ${fresh.length} rows; a plain link was visited in the browser for liveness and maintenance.`,
   ...extrasBlock,
   "",
   "## flagged by the live check",

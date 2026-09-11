@@ -41,7 +41,14 @@ writing and checking through the briefs in [references/](references/).
    filled in. Tell it to run in the foreground and never to fan out to sub-agents: a worker
    that spawns workers stops before its files exist. Done when `classify.json` holds every
    link.
-3. Unreadable rows, judge: a tweet's text comes from
+3. Verbatim text, judge: `bun .claude/skills/extract-notes/scripts/fulltext.ts <SCRATCH>/classify.json <SCRATCH>`
+   writes `pages/NN-full.md` for every non-link row from the raw HTML (Wayback when the site
+   blocks), because a WebFetch page is a summary and note writers must work from page text. A
+   row that comes back under 2 KB is read in the browser instead (chrome-devtools MCP, an
+   `evaluate_script` dump of `h1,h2,h3,p,pre,li` from the largest content block). Then point
+   each row's `page` at its full dump. Done when every extract row has a dump over 2 KB or a
+   browser read.
+   Unreadable rows, judge: a tweet's text comes from
    `https://publish.x.com/oembed?omit_script=true&url=<url>`; its code usually sits in an
    image, so open the tweet in the browser (chrome-devtools MCP), read the `pbs.twimg.com`
    image `src`, open it with `?format=png&name=large`, screenshot, transcribe. Bluesky the same
@@ -52,11 +59,15 @@ writing and checking through the briefs in [references/](references/).
 4. Freshness, Sonnet workers with WebSearch, 12 to 14 rows each, background: hand
    [references/freshness-brief.md](references/freshness-brief.md) for every `extract` and
    `link + gist` row. The classifier's own freshness column is a guess and once missed
-   TypeScript 7 shipping; only this pass counts. Done when every such row has a verdict with a
-   cited URL.
+   TypeScript 7 shipping; only this pass counts. Plain `link` rows (tools, libraries, docs,
+   galleries) go to one more Sonnet worker that visits each page in the browser (chrome-devtools
+   MCP) and reads the maintenance signals, per the brief's second section. Done when every row
+   has a verdict with a cited URL.
 5. Gate 1, judge: `bun .claude/skills/extract-notes/scripts/review.ts <SCRATCH> "<file>"`,
-   then give Emmanuel the link to `review.md` (and the `code <path>` command) and take flips as
-   `12 → link`, `20 → note`, `17 → remove`. His standing flips: a long article with a simple
+   append a `## judge notes` table for the rows you handle differently, then hand Emmanuel the
+   clickable `[review.md](/absolute/path)` link in a plain message that ends on the 🙋 baton:
+   the question tool renders no links and hides the text before it, and a table pasted into the
+   chat is refused. Take flips from his reply as `12 → link`, `20 → note`, `17 → remove`. His standing flips: a long article with a simple
    core becomes a note; a `superseded` row is removed or becomes a link whose gist names the
    successor, never a stale note; a `stale` row keeps its note with the successor and its
    support status in `## gotchas` and `status: stale`. Done when he answers.
@@ -71,8 +82,8 @@ writing and checking through the briefs in [references/](references/).
    is fine when the trick is that small. Done when no CHECK is open.
 8. Gate 2, judge: write `reorg.md` as before/after, cross-file moves with target file and
    heading (check the target's headings first), removals, and the tag effect (every heading is a
-   tag). Ask through the question tool: everything, within-file only, flatter, or flips. Done
-   when he answers.
+   tag), with a within-file-only and a flatter alternative at the end. Hand the link the same
+   way as Gate 1 and read his choice from the reply. Done when he answers.
 9. Apply, judge: write `layout.json` (see
    [scripts/layout-css-example.json](scripts/layout-css-example.json)), dry-run
    `bun .claude/skills/extract-notes/scripts/apply.ts <SCRATCH> <layout.json>`, then `--write`.
