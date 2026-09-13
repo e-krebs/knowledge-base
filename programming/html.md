@@ -1,18 +1,24 @@
-[safely break a long word](https://www.amitmerchant.com/two-ways-to-safely-break-a-long-word-in-html/)
-[Dialog element for modals](https://blog.webdevsimplified.com/2023-04/html-dialog/)
-[decision trees for UI components](https://www.smashingmagazine.com/2024/05/decision-trees-ui-components/)
-[HTML invoker](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
-[how to Favicon in 2025](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+## page setup
+📝 [[my HTML boilerplate in 2026]]
+📝 [[how to Favicon in 2025]]
 
-[button command & commandfor](https://developer.chrome.com/blog/command-and-commandfor)
-[dialog: closedBy=any](https://nerdy.dev/closedby-any)
-[HTML’s Best Kept Secret: The output Tag](https://denodell.com/blog/html-best-kept-secret-output-tag)
-[my HTML boilerplate in 2026](https://www.matuzo.at/blog/2026/html-boilerplate)
-[modal dialogs without react or javascript](https://laktek.com/modal-dialogs-without-react-javascript)
+## elements
+📝 [[HTML's Best Kept Secret- The output Tag|HTML's Best Kept Secret: The output Tag]]
+📝 [[safely break a long word]]
+
+## dialogs & commands
+📝 [[Dialog element for modals]]
+📝 [[dialog- closedBy=any|dialog: closedBy=any]]
+📝 [[modal dialogs without react or javascript]]
+📝 [[button command & commandfor]]
+📝 [[HTML invoker]]
+
+## components
+📝 [[decision trees for UI components]]
+📝 [[tooltip components should not exist]]
 
 ## a11y
-[accessible headings](https://luhr.co/blog/2023/09/12/all-about-accessible-headings/)
-[disabled vs. aria-disabled](https://kittygiraudel.com/2024/03/29/on-disabled-and-aria-disabled-attributes/)
-[hidden vs. disabled in UX](https://www.smashingmagazine.com/2024/05/hidden-vs-disabled-ux/)
-[ARIA role vs. HTML element](https://www.w3.org/TR/html-aria/#docconformance)
-[tooltip components should not exist](https://tkdodo.eu/blog/tooltip-components-should-not-exist)
+📝 [[ARIA role vs. HTML element]]
+📝 [[accessible headings]]
+📝 [[disabled vs. aria-disabled]]
+📝 [[hidden vs. disabled in UX]]
