@@ -80,7 +80,8 @@ const copies = extracts.map((r) => {
 const absent = (await Promise.all(copies.map((c) => Bun.file(c.from).exists()))).map((ok, i) => (ok ? null : copies[i]!.from)).filter(Boolean);
 if (absent.length) throw new Error(`notes missing:\n${absent.join("\n")}`);
 
-const body = layout.map(([heading, entries]) => [heading, ...entries.map(lineFor)].join("\n")).join("\n\n") + "\n";
+// An empty heading is an untitled block, so it adds no line of its own.
+const body = layout.map(([heading, entries]) => [heading, ...entries.map(lineFor)].filter((l) => l !== "").join("\n")).join("\n\n") + "\n";
 
 if (flag !== "--write") {
   process.stdout.write(body);
