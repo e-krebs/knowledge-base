@@ -1,18 +1,21 @@
-## tips
-[react component tests clean & maintainable](https://medium.com/globant/achieving-clean-and-maintainable-react-component-tests-b3d5e0483307)
-[running 1000 tests in 1s](https://marvinh.dev/blog/running-1000-test-in-1s/)
-[Best Practices for Writing Tests with React Testing Library](https://claritydev.net/blog/improving-react-testing-library-tests)
-[What tests to write for React](https://dev.to/franciscomoretti/what-tests-to-write-for-react-56ki)
-[react testing questions that trip up engineers](https://howtotestfrontend.com/resources/react-testing-interview-questions)
-[37 tips to write good frontend tests](https://howtotestfrontend.com/resources/how-to-write-good-frontend-tests)
-[everything about act() in react tests](https://howtotestfrontend.com/resources/react-act-function-everything-you-need-to-know)
+## react testing library
+📝 [[Best Practices for Writing Tests with React Testing Library]]
+📝 [[What tests to write for React]]
+📝 [[react component tests clean & maintainable]]
+📝 [[everything about act() in react tests]]
+📝 [[react testing questions that trip up engineers]]
 
-## tools
-[vitest](https://vitest.dev/)
-[vitest cheat sheet](https://github.com/sapegin/vitest-cheat-sheet)
-[node native test runner](https://pawelgrzybek.com/you-might-not-need-jest-the-node-js-native-test-runner-is-great/) - [Using the node 18+ native test runner with TypeScript and React](https://matthewbrown.io/2025/09/04/node-test-runner)
+## practice
+📝 [[37 tips to write good frontend tests]]
+[running 1000 tests in 1s](https://marvinh.dev/blog/running-1000-test-in-1s/) — pick the isolation level you actually need instead of the default maximum
 
-[webdriver.io](https://webdriver.io/)
-[Mentoss: The fetch mocker](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/)
+## runners
+[vitest](https://vitest.dev/) — vite-native test runner reusing vite's config, with jest-compatible apis for easy migration
+[vitest cheat sheet](https://github.com/sapegin/vitest-cheat-sheet) — matchers and mocking reference, last commit october 2024, targets an older vitest major
+📝 [[vitest browser mode]]
+📝 [[node native test runner]]
+📝 [[Using the node 18+ native test runner with TypeScript and React]]
 
-[vitest browser mode](https://howtotestfrontend.com/resources/vitest-browser-mode-guide-and-setup-info)
+## e2e & mocks
+[webdriver.io](https://webdriver.io/) — e2e and component testing across real browsers and mobile via appium, with automatic element waiting
+[Mentoss: The fetch mocker](https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker/) — single-use sequential routes, urlpattern matching, and real mismatch diffs beat msw and nock
