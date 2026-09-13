@@ -65,6 +65,8 @@ Verdict per row: `fresh` (alive, maintained within 18 months or docs current), `
 but older than 18 months, or a deprecation or legacy notice, or two majors behind), `superseded`
 (a named replacement or rename is the documented default), `dead` (gone, hijacked, parked or
 login-walled). A `dead` row is removed at Gate 1 unless a Wayback snapshot carries the content.
+When the page redirects to a new home, put the final URL in `replacement` so the judge can swap
+the link's `url` at Gate 1.
 
 Output: the same array shape as above, `evidence` naming the signal (last release date,
 deprecation notice, redirect target). Return the `n — title — verdict — evidence` lines in the

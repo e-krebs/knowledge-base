@@ -70,7 +70,10 @@ writing and checking through the briefs in [references/](references/).
    chat is refused. Take flips from his reply as `12 → link`, `20 → note`, `17 → remove`, `14 → note, long`. A
    `long` flip (or "can be long", "even long") lifts the length cap for that row: record it as
    `"long": true` in `classify.json`, and the note and verify briefs then accept up to 90 body
-   lines and 8 KB, the indexer's `content` cut. His standing flips: a long article with a simple
+   lines and 8 KB, the indexer's `content` cut. A page that redirects to a new home (moved docs,
+   renamed project, hijacked domain with a live mirror) gets its `url` swapped to the final URL
+   in `classify.json` before apply, proposed in the judge notes; a removal is for a page with no
+   home left. His standing flips: a long article with a simple
    core becomes a note; a `superseded` row is removed or becomes a link whose gist names the
    successor, never a stale note; a `stale` row keeps its note with the successor and its
    support status in `## gotchas` and `status: stale`. Done when he answers.
