@@ -1,5 +1,8 @@
-[insertion sort](https://kyleshevlin.com/algorithms-insertion-sort)
-[bloom filters](https://www.kirupa.com/data_structures_algorithms/bloom_filter.htm)
-[a simple clustering algorithm for lists](https://cassidoo.co/post/clustering-tiles/)
-[ditherpunk: monochrome image dithering](https://surma.dev/things/ditherpunk/)
-[javascript algorithms & data structures](https://github.com/trekhleb/javascript-algorithms)
+## data structures & sorting
+📝 [[insertion sort]]
+📝 [[bloom filters]]
+📝 [[a simple clustering algorithm for lists]]
+[javascript algorithms & data structures](https://github.com/trekhleb/javascript-algorithms) — repo pairs each implementation with explanations, further reading links, and complexity charts
+
+## graphics
+📝 [[ditherpunk- monochrome image dithering|ditherpunk: monochrome image dithering]]
