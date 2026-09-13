@@ -1,30 +1,31 @@
-[Cross-platform package scripts](https://2ality.com/2022/08/npm-package-scripts.html)
-[nest practices for npm package](https://snyk.io/blog/best-practices-create-modern-npm-package/)
-[sandpack](https://www.joshwcomeau.com/react/next-level-playground/)
+## runtime
+📝 [[understand node.js event loop]]
+[event loop (youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ) — philip roberts' jsconf eu 2014 talk visualizing the call stack and task queue
+📝 [[15 Recent Node.js Features that Replace Popular npm Packages]]
+📝 [[how to make an http request]]
+[spawning process in node](https://blog.val.town/node-spawn-performance) — benchmarks find spawn slow, mitigate via process pooling or a node+bun hybrid
+
+## env & config
+📝 [[native dotenv in node 20.6]]
 [t3-env: env var validation](https://env.t3.gg/) — validates process.env at startup from a schema, split into server and client vars
-[native dotenv in node 20.6](https://francoisbest.com/posts/2023/dotenv-is-dead)
-[15 Recent Node.js Features that Replace Popular npm Packages](https://nodesource.com/blog/nodejs-features-replacing-npm-packages)
 
-[understand node.js event loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
-[event loop (youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+## scripts & tooling
+📝 [[Cross-platform package scripts]]
+[tsx (run typescript in node)](https://tsx.hirok.io/) — runs typescript in node without any configuration setup
+[nub: all-in-one toolkit for node](https://nubjs.com/) — a rust binary replacing node, npm, npx and nvm with matching flags
+[sandpack](https://www.joshwcomeau.com/react/next-level-playground/) — bundles code in an iframe hosted by codesandbox, weak for plain html css js
 
-[spawning process in node](https://blog.val.town/node-spawn-performance)
+## publishing packages
+📝 [[How To Create An NPM Package]]
+📝 [[How to document your JavaScript package]]
+📝 [[mastering NPX- A Cheatsheet for npm and Node.js Power Users|mastering NPX: A Cheatsheet for npm and Node.js Power Users]]
+📝 [[npm packument size limits]]
 
-[tsx (run typescript in node)](https://tsx.is/)
+## supply chain
+📝 [[how to evaluate an npm package]]
+📝 [[minimum release age as a supply chain defense]]
+📝 [[safely resolving CVEs in your dependencies]]
+📝 [[stop using yarn classic]]
 
-[understanding email sending application](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
-
-[nub: all-in-one toolkit for node](https://nubjs.com/)
-[how to make an http request](https://nodejsdesignpatterns.com/blog/nodejs-http-request/)
-
-## packages
-[typescript node package](https://www.strictmode.io/articles/build-test-and-publish-typescript-npm-package-2022)
-[node modules doctor](https://github.com/ranyitz/qnm)
-[How to document your JavaScript package](https://deno.com/blog/document-javascript-package)
-[How To Create An NPM Package](https://www.totaltypescript.com/how-to-create-an-npm-package)
-[mastering NPX: A Cheatsheet for npm and Node.js Power Users](https://www.nodejs-security.com/blog/mastering-npx-cheatsheet-npm-nodejs-power-users)
-[how to evaluate an npm package](https://blog.gaborkoos.com/posts/2026-05-29-How-to-Evaluate-an-npm-Package-2026-Edition/)
-[npm packument size limits](https://www.vlt.io/blog/packument-size-limits)
-[safely resolving CVEs in your dependencies](https://charpeni.com/blog/minimizing-risk-properly-and-safely-resolving-cves-in-your-dependencies)
-[stop using yarn classic](https://charpeni.com/blog/stop-using-yarn-classic)
-[minimum release age as a supply chain defense](https://daniakash.com/posts/simplest-supply-chain-defense)
+## email
+📝 [[understanding email sending application]]
