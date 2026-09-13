@@ -40,7 +40,9 @@ status: fresh
 ```
 
 Rules:
-- Body 15 to 40 lines, file under 6 KB. Terse, no marketing, no "in this article".
+- Body 15 to 40 lines, file under 6 KB. Terse, no marketing, no "in this article". A row
+  marked `"long": true` in classify.json (a reference table, a spec excerpt) may run to 90 body
+  lines and 8 KB: keep every row of the source table, never pad prose.
 - Code blocks come from the source, shortened but never invented. When the source shows a
   before/after, keep the after.
 - Every claim must come from the page text or the freshness evidence. Read the `page` file first.

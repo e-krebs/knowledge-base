@@ -20,7 +20,8 @@ n, then check every sentence and every code line: stated in the source, a faithf
 or backed by the freshness evidence? Grep the page for key identifiers: property names,
 numbers, version names, quoted phrases, selectors. Also check the shape: frontmatter has
 `source`, `fetched`, `status`; no `# ` heading line; body 15 to 45 lines (a cheat sheet or a
-one-line trick may be shorter); file under 6 KB; `## gotchas` absent when empty.
+one-line trick may be shorter, and a row marked `"long": true` in classify.json may run to 90
+body lines and 8 KB); file under 6 KB unless `long`; `## gotchas` absent when empty.
 
 Output: one line per note, `OK — <file>` or `CHECK — <file>: <the unsupported claim, quoted,
 and what the source says instead>`, then a `## summary` with counts. Do not edit any note.
