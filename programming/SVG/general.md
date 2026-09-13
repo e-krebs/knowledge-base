@@ -9,6 +9,7 @@
 📝 [[fun with stroke-dasharray]]
 📝 [[svg animation]]
 [svg loading spinner](https://fffuel.co/svg-spinner/) — walks through building one via animated stroke-dasharray, dashoffset and linecap tricks
+📝 [[SVG sprites]]
 
 ## tools
 [svgviewer.dev](https://www.svgviewer.dev/) — pastes an svg to optimize it and export as react, png or data uri
@@ -17,6 +18,7 @@
 [svg filters](https://yoksel.github.io/svg-filters) — previews ready-made effect presets live but hasn't been updated since 2019
 [draw svg pattern](https://fffuel.co/pppixelate/) — turns pixel art you sketch into a tileable vector background
 [svg pattern generator for isometric backgrounds](https://fffuel.co/mmmotif) — keeps output under 1kb thanks to chroma.js and svg.js doing the work
+[online SVG sprite optimization](https://sprite-your-svgs.vercel.app/) — pastes raw svg and outputs an optimized symbol-based sprite for reuse
 
 ## resources
 [brand icons](https://simpleicons.org/) — ships 3000+ cc0 brand svgs bundled with each brand's official hex color

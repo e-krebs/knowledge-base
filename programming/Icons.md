@@ -1,5 +1,5 @@
-[apple - SF Symbols](https://developer.apple.com/sf-symbols/)
-[brand icons](https://simpleicons.org/)
-[huge icons react](https://github.com/hugeicons/hugeicons-react)
-[flowbite svg icons](https://flowbite.com/icons/)
-[Design Systems: Easy Troubleshooting And Maintenance](https://www.smashingmagazine.com/2024/04/iconography-design-systems-troubleshooting-maintenance/) — focuses on icon libraries: grid sizing, weight rules, and color-coded status tracking
+[apple - SF Symbols](https://developer.apple.com/sf-symbols/) — apple's icon library spans 7,000+ glyphs in nine weights with built-in animation
+[brand icons](https://simpleicons.org/) — free svg logo set covering over 3,400 popular brands
+[huge icons react](https://github.com/hugeicons/hugeicons) — deprecated, replaced by @hugeicons/react with @hugeicons/core-free-icons for the free icon pack
+[flowbite svg icons](https://flowbite.com/icons/) — ships 430+ solid and outline icons with react, svelte and figma support
+📝 [[Design Systems- Easy Troubleshooting And Maintenance|Design Systems: Easy Troubleshooting And Maintenance]]

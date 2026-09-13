@@ -15,6 +15,7 @@
 [json visualization](https://jsoncrack.com/) — also converts yaml, csv, xml into interactive tree graphs and generates typescript or go code
 [penpot - figma alternative](https://penpot.app/) — open source, self-hostable, with built-in ai agents for code-to-design workflows
 📝 [[code-pen web component]]
+[lorem faces](https://loremfaces.com/) — generates free ai faces for avatars and mockups under mit license
 
 ## formatting / linting
 [dprint – formatter](https://dprint.dev/) — wasm-sandboxed plugin runtime that can wrap prettier or biome for any language

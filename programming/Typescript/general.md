@@ -3,6 +3,7 @@
 📝 [[types are sets]]
 📝 [[Method Shorthand Syntax Considered Harmful]]
 [oRPC - Typesafe APIs Made Simple](https://orpc.dev/blog/v1-announcement) — v1 release claims faster typechecking and smaller bundles than tRPC
+📝 [[Utility types]]
 
 ## typesafe string literal/router
 📝 [[Extract parameter types from string literal types with TypeScript]]

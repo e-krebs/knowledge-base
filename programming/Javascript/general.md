@@ -32,6 +32,8 @@
 📝 [[Intl.Segmenter to split strings]]
 📝 [[Unit Formatting with Intl in JavaScript]]
 📝 [[Using Intl.DurationFormat for Localized Durations]]
+📝 [[string comparison]]
+[another article on the topic](https://claritydev.net/blog/faster-string-sorting-intl-collator) — reusing intl.collator instead of localecompare cuts sort time 60-80%
 
 ## dates
 [tempo](https://tempo.formkit.com/) — wraps native date and intl.datetimeformat instead of introducing new date primitives

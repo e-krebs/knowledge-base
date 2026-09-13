@@ -1,5 +1,2 @@
-[MCP: What It Is and Why It Matters](https://addyo.substack.com/p/mcp-what-it-is-and-why-it-matters)
-
-[mcp registry](https://github.com/mcp)
-
-[MDN mcp server](https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/)
+[mcp registry](https://github.com/mcp) — github's directory lists 250+ community servers connecting models to apis and files
+[MDN mcp server](https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/) — experimental server giving coding agents live, accurate web platform documentation

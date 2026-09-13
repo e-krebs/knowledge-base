@@ -1,3 +1,1 @@
-[guides](https://bun.sh/guides)
-[make bun.lockb git diff](https://twitter.com/jarredsumner/status/1689732536895946752?s=12&t=ZH1Ik7pNNVqu-pR9slxUow)
-[Power of Partial Prerendering with Bun](https://aralroca.com/blog/partial-prerendering)
+[guides](https://bun.sh/guides) — official index of short code samples across bun's runtime, tooling and ecosystem
