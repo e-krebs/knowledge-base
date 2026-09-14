@@ -3,7 +3,7 @@ name: extract-notes
 description: >-
   Extract knowledge notes from one vault link file: classify, live freshness check, notes and
   gists, reorganisation, commit. Use when asked to extract, convert or run the process on a
-  vault file. Not for adding links, dead links or the indexer.
+  vault file. Not for adding new links (add-links), dead links or the indexer.
 ---
 
 # extract-notes

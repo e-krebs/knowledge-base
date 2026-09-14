@@ -3,6 +3,7 @@ import { Glob } from "bun";
 interface Row {
   n: number;
   heading: string;
+  file?: string;
   title: string;
   url: string;
   verdict: string;
@@ -54,10 +55,12 @@ const freshness = (row: Row) => {
   return f.verdict === "fresh" ? "fresh ✓" : `**${f.verdict}**: ${cell(f.evidence)}`;
 };
 
-const headings = [...new Set(rows.map((r) => r.heading))];
+// An intake row carries its target file, so the table groups by file and heading.
+const groupOf = (r: Row) => (r.file ? `${r.file} · ${r.heading || "(untitled block)"}` : r.heading);
+const headings = [...new Set(rows.map(groupOf))];
 const sections = headings.map((h) => {
   const lines = rows
-    .filter((r) => r.heading === h)
+    .filter((r) => groupOf(r) === h)
     .map(
       (r) =>
         `| ${String(r.n).padStart(2, "0")} | [${cell(r.title)}](${r.url}) | ${action[r.verdict]} | ${freshness(r)} | ${cell(r.published || freshByN.get(r.n)?.published)} | ${cell(r.reason)} |`
@@ -107,7 +110,9 @@ const doc = [
   ...sections.flatMap((s) => [s, ""]),
   "## how to answer",
   "",
-  "Reply with row numbers and the change: `12 → link`, `20 → note`, `17 → remove`. Anything not named is applied as shown.",
+  "Reply with row numbers and the change: `12 → link`, `20 → note`, `17 → remove`" +
+    (rows.some((r) => r.file) ? ", `9 → programming/css/general.md ## layout`, `accept 7` for a `new:` heading" : "") +
+    ". Anything not named is applied as shown.",
 ].join("\n");
 
 await Bun.write(`${scratch}review.md`, doc);

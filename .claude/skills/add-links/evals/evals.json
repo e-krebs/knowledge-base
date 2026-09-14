@@ -1,0 +1,37 @@
+{
+  "skill_name": "add-links",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/add-links ~/Downloads/raindrop-export.csv",
+      "expected_output": "The agent takes a baseline dump, runs intake.ts and reports the duplicates it dropped, delegates classification and placement to one Sonnet worker, runs the full-text and freshness passes, presents review.md at gate 1 with every new-heading proposal in the judge notes, writes notes and gists through workers, verifies them, dry-runs then writes add.ts, diffs the dump, commits a dated update and asks before pushing.",
+      "assertions": [
+        "Runs dump.ts before any vault edit and again after add.ts, and urlsAdded equals the kept rows",
+        "Runs intake.ts and names every URL the vault already held with its file",
+        "Hands the placement brief to a single worker told to run in the foreground",
+        "Shows review.md as a link and settles every `new:` proposal before add.ts runs",
+        "Runs add.ts without --write first and shows the per-file plan",
+        "Every note lands in the _notes folder next to its link file",
+        "Runs wikilinks.ts on every written file and reports 0 unresolved",
+        "Commits as `YYYY-MM-DD update: <n> links` and asks push now or review first"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add https://example.com/a and https://example.com/b to the vault",
+      "expected_output": "The agent writes the two URLs to a pasted.md file in the scratchpad and runs the add-links steps on it.",
+      "assertions": [
+        "Does not paste the URLs into a vault file by hand",
+        "Runs intake.ts on a text file holding the two URLs"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Rework programming/css/general.md into notes",
+      "expected_output": "The agent invokes extract-notes, not add-links.",
+      "assertions": [
+        "Does not run intake.ts or add.ts"
+      ]
+    }
+  ]
+}
