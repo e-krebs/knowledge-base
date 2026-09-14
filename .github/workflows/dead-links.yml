@@ -19,8 +19,15 @@ jobs:
       - uses: oven-sh/setup-bun@v1
 
       - run: bun install
+      # A cache entry is immutable, so every run saves under its own id and restores the
+      # latest one. The checker reuses an alive verdict under a week old from it.
+      - uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/verdicts.json
+          key: dead-links-${{ github.run_id }}
+          restore-keys: dead-links-
       - name: check every link
-        run: bun run check "$RUNNER_TEMP/dead-links.md"
+        run: bun run check "$RUNNER_TEMP/dead-links.md" "$RUNNER_TEMP/verdicts.json"
 
       - name: report into one issue
         env:
