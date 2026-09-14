@@ -1,25 +1,19 @@
 ## svg
-[magical svg techniques](https://www.smashingmagazine.com/2022/05/magical-svg-techniques/)
-[creating generative svg grids](https://frontend.horse/articles/generative-grids/)
-[creating realistic art with css](https://frontend.horse/articles/realistic-art-with-css/)
-[draw svg pattern](https://fffuel.co/pppixelate/)
-
-[painting with math](https://blog.maximeheckel.com/posts/painting-with-math-a-gentle-study-of-raymarching/)
-
-[frontend horse](https://frontend.horse/articles/)
-[dreamy blur effect](https://yuanchuan.dev/dreamy-blur)
-[refraction, dispersion, ...](https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/)
+📝 [[magical svg techniques]]
+📝 [[creating generative svg grids]]
+📝 [[creating realistic art with css]]
+[draw svg pattern](https://fffuel.co/pppixelate/) — lets you paint pixels then export the result as a tileable vector for backgrounds
+[frontend horse](https://frontend.horse/articles/) — index of animation, svg and css craft articles by many different guest authors
+📝 [[dreamy blur effect]]
 
 ### generative sketches
-[daily sketch 1](https://yuanchuan.dev/daily-sketch-1)
-[daily sketch 2](https://yuanchuan.dev/daily-sketch-2)
-[daily sketch 3](https://yuanchuan.dev/daily-sketch-3)
-[daily sketch 4](https://yuanchuan.dev/daily-sketch-4)
-
-[azulejo](https://github.com/nemutas/azulejo)
-[faces](https://github.com/zengm-games/facesjs)
+📝 [[daily sketch 1]]
+📝 [[daily sketch 2]]
+📝 [[daily sketch 3]]
+📝 [[daily sketch 4]]
+[azulejo](https://github.com/nemutas/azulejo) — three.js tile-pattern demo, unmaintained since 2024 but the live demo still works
+[faces](https://github.com/zengm-games/facesjs) — generates mii-style svg characters as reusable objects, with a family-resemblance option
 
 ## music
-[printing music with css grid](https://cruncher.ch/blog/printing-music-with-css-grid/)
-[render music in html](https://github.com/stephband/scribe)
-[ChordSheetJS: parse & format chord sheets](https://github.com/martijnversluis/ChordSheetJS)
+[render music in html](https://github.com/stephband/scribe) — custom element consuming json note data, now the maintained successor to the css-grid stave technique
+[ChordSheetJS: parse & format chord sheets](https://github.com/martijnversluis/ChordSheetJS) — transposes chords across four notation styles including nashville numbers and roman numerals
