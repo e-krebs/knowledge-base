@@ -35,3 +35,4 @@
 [AI companies will fail](https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur) — frames workers as blamed 'reverse centaurs' propping up an AI growth-stock bubble
 [code is clay](https://campedersen.com/code-is-clay) — argues AI will automate routine code the way factories automated pottery, leaving craft for humans
 [treat agent output like compiler output](https://skiplabs.io/blog/codegen_as_compiler) — argues we still lack the specs, tests, and monitoring that made compiler trust possible
+[The Multiplayer AI Manifesto](https://multiplayer-ai.com/) — argues ai agents should be shared team sessions, not private one-person chats

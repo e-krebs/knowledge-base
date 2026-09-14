@@ -7,13 +7,14 @@
 📝 [[use Maps more & Objects less]]
 📝 [[data structures (Map, Set, Stack, Queue, Tree)]]
 📝 [[new Set methods]]
-📝 [[Object & Map groupBy]]
+📝 [[ECMAScript 2024 features]]
 📝 [[async iteration with Array.fromAsync()]]
 📝 [[array methods- toSorted, toReversed, toSpliced|array methods: toSorted, toReversed, toSpliced]]
 📝 [[stop turning everything into arrays]]
 📝 [[error chaining with Error.cause]]
 [structured clone](https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone) — deep-clones circular references and can transfer array buffers instead of copying them
 [devalue: JSON.stringify on steroids](https://github.com/sveltejs/devalue) — serializes cycles, dates, maps, bigints and even pending promises safely
+📝 [[Object & Map groupBy]]
 
 ## browser apis
 📝 [[why fetch does not reject on error response]]
