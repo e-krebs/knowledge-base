@@ -1,5 +1,5 @@
 ---
-source: https://www.jacobparis.com/content/svg-icons
+source: https://web.archive.org/web/20250717044055/https://www.jacobparis.com/content/svg-icons
 fetched: 2026-09-13
 status: stale
 ---

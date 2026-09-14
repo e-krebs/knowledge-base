@@ -1,5 +1,5 @@
 ---
-source: https://alexsidorenko.com/react-journey
+source: https://web.archive.org/web/20231210192548/https://alexsidorenko.com/react-journey
 fetched: 2026-09-11
 status: fresh
 ---

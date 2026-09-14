@@ -1,5 +1,5 @@
 ---
-source: https://polar.sh/emilwidlund/posts/a-new-kind-of-color-picker-with-react-typescript
+source: https://web.archive.org/web/20240531224357/https://polar.sh/emilwidlund/posts/a-new-kind-of-color-picker-with-react-typescript
 fetched: 2026-09-11
 published: 2024-01-13
 status: fresh

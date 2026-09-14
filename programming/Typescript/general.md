@@ -10,7 +10,7 @@
 [typesafe router (react)](https://speakerdeck.com/zoontek/advanced-typescript-how-we-made-our-router-typesafe) — conference talk deriving route param types via template literals and infer
 
 ## enum
-[use cases and alternatives](https://2ality.com/2025/01/typescript-enum-patterns.html) — concludes unions and object literals beat enums in nearly every scenario
+[use cases and alternatives](https://web.archive.org/web/20260213180315/https://2ality.com/2025/01/typescript-enum-patterns.html) — concludes unions and object literals beat enums in nearly every scenario
 📝 [[5.8 --erasableSyntaxOnly to disable enums]]
 
 ## validation libraries
