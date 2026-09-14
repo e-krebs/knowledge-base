@@ -23,6 +23,7 @@ const PERMANENT = [301, 308];
 
 // Cloudflare Turnstile blocks every client here, a real browser included.
 const UNCHECKABLE = ["codesandbox.io"];
+const DNS_DEAD = "hostname resolves to nothing";
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -77,7 +78,7 @@ const walk = async ({
 const resolves = async (hostname: string): Promise<boolean> => {
   const attempts = await Promise.all(
     ["1.1.1.1", "8.8.8.8"].map(async (server) => {
-      const resolver = new Resolver({ timeout: 5000, tries: 2 });
+      const resolver = new Resolver({ timeout: 3000, tries: 1 });
       resolver.setServers([server]);
       try {
         const addresses = await resolver.resolve4(hostname).catch(() => resolver.resolve6(hostname));
@@ -205,8 +206,14 @@ const verdictOf = async (url: string): Promise<Check> => {
   } catch (error) {
     const reason = error instanceof Error ? error.message : String(error);
     if (await resolves(hostname)) return { verdict: "unverified", detail: reason };
-    return { verdict: "dead", detail: "hostname resolves to nothing" };
+    return { verdict: "dead", detail: DNS_DEAD };
   }
+};
+
+// A DNS death is re-confirmed by resolving alone: the fetch would only hang again.
+const again = async (url: string, previous: Check): Promise<Check> => {
+  if (previous.detail !== DNS_DEAD) return verdictOf(url);
+  return (await resolves(new URL(url).hostname)) ? verdictOf(url) : previous;
 };
 
 // The newest snapshot the archive holds, for a link that is already proven dead. The CDX
@@ -216,12 +223,12 @@ export const wayback = async (url: string, attempt = 1): Promise<string | undefi
   const endpoint =
     "https://web.archive.org/cdx/search/cdx?output=json&filter=statuscode:200" +
     `&fl=timestamp,original&limit=-1&url=${encodeURIComponent(url)}`;
-  const rows = await fetch(endpoint, { headers, signal: AbortSignal.timeout(40_000) })
+  const rows = await fetch(endpoint, { headers, signal: AbortSignal.timeout(20_000) })
     .then((response) => (response.ok ? (response.json() as Promise<string[][]>) : undefined))
     .catch(() => undefined);
 
   if (!rows) {
-    if (attempt >= 3) return undefined;
+    if (attempt >= 2) return undefined;
     await sleep(attempt * 4_000);
     return wayback(url, attempt + 1);
   }
@@ -238,11 +245,11 @@ export const checkUrl = async (url: string): Promise<Check> => {
   if (first.verdict !== "dead") return first;
 
   await sleep(2_000);
-  const second = await verdictOf(url);
+  const second = await again(url, first);
   if (second.verdict !== "dead") return { ...second, detail: `${second.detail}, was dead once` };
 
   await sleep(5_000);
-  const third = await verdictOf(url);
+  const third = await again(url, second);
   return third.verdict === "dead"
     ? { ...third, detail: `${third.detail}, three times` }
     : { ...third, detail: `${third.detail}, was dead twice` };

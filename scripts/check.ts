@@ -14,7 +14,7 @@ interface Found {
 
 type Result = Found & Check & { archived?: string };
 
-const CONCURRENCY = 8;
+const CONCURRENCY = 16;
 const HOST_INTERVAL = 500;
 
 const outPath = process.argv[2] ?? `${Bun.env.TMPDIR ?? "/tmp"}/dead-links.md`;
@@ -84,13 +84,13 @@ const section = ({ title, rows }: { title: string; rows: Result[] }): string => 
   return [`## ${title} (${rows.length})`, "", ...groups].join("\n");
 };
 
-// One at a time: the archive rate-limits a burst, and every refusal loses a suggestion.
-const dead = await results
-  .filter(({ verdict }) => verdict === "dead")
-  .reduce(
-    async (chain, row) => [...(await chain), { ...row, archived: await wayback(row.url) }],
-    Promise.resolve([] as Result[])
-  );
+// A handful of dead links at once stays under the archive's rate limit, and the retry
+// inside wayback() covers a refusal.
+const dead = await Promise.all(
+  results
+    .filter(({ verdict }) => verdict === "dead")
+    .map(async (row) => ({ ...row, archived: await wayback(row.url) }))
+);
 const moved = results.filter(({ verdict }) => verdict === "moved");
 const unverified = results.filter(({ verdict }) => verdict === "unverified");
 
