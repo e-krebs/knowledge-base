@@ -86,6 +86,9 @@ if (cachePath) {
 }
 const fromCache = urls.length - pending.length;
 
+// A dead page whose content the vault keeps has its url — a link's `url`, a note's `source` —
+// swapped for the `archived at` snapshot printed below. No frontmatter key and no ignore file:
+// the note holds the content, so the original url is only a citation and the snapshot checks alive.
 const section = ({ title, rows }: { title: string; rows: Result[] }): string => {
   const files = [...new Set(rows.map(({ file }) => file))].sort();
   const groups = files.map((file) => {
@@ -119,7 +122,14 @@ const report =
         `Checked ${urls.length} links across ${new Set(found.map(({ file }) => file)).size} files` +
           (fromCache ? `, ${fromCache} of them alive in a cache under a week old.` : "."),
         "",
-        ...(dead.length ? [section({ title: "dead", rows: dead }), ""] : []),
+        ...(dead.length
+          ? [
+              section({ title: "dead", rows: dead }),
+              "",
+              "Where the vault already holds a dead page's content, swap the url for its `archived at` snapshot instead of removing the link.",
+              "",
+            ]
+          : []),
         ...(moved.length ? [section({ title: "moved", rows: moved }), ""] : []),
         `${unverified.length} links could not be checked, usually a bot challenge or a rate limit. They are in the workflow log, not here, because a block proves nothing.`,
       ].join("\n")
