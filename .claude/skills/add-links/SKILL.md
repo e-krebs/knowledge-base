@@ -42,7 +42,9 @@ Layout section once: a note, a note line and a link line keep the same shape her
    proposal with your recommendation, then hand the `[review.md](/absolute/path)` link the
    extract-notes way, ending on the 🙋 baton. Flips: `12 → link`, `12 → note`, `12 → note, long`,
    `12 → remove` (sets `verdict: remove`), `12 → programming/css/general.md ## layout` (sets
-   `file` and `heading`), and `accept 7` for a `new:` proposal, which strips the `new: ` prefix.
+   `file` and `heading`), `12 → note, source <url>` for a reference row whose note comes from
+   the canonical docs rather than the imported page, and `accept 7` for a `new:` proposal, which
+   strips the `new: ` prefix.
    Done when he answers and no `new:` prefix remains.
 5. Notes, gists and verify, Sonnet workers: extract-notes steps 6 and 7. Write `gists.json` as
    `[]` when no row needs a gist. Done when every kept row has its file or gist and no CHECK is
@@ -67,3 +69,10 @@ Layout section once: a note, a note line and a link line keep the same shape her
   intake.ts parses that, a hand-made CSV must keep the `url` column name.
 - Multi-line `git commit -m` trips the commit-subject hook here; write the message to a file and
   use `-F`.
+- A `note, source <url>` flip re-points the whole row: swap `url` in `classify.json`, drop the
+  row's `pages/` dump and its freshness entry, and repeat steps 3 and 4 for it, so the note is
+  written and verified against the docs it cites. Check the new url against intake's held list
+  too, because the vault often holds a canonical docs page already.
+- macOS blocks this process from reading `~/Downloads`, so a CSV sitting there must be moved
+  where the run can read it; ask him to move it, and delete it after the commit. Keep it out of
+  the vault root, where a `git add -A` would commit it.
