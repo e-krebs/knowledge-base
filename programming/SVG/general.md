@@ -10,6 +10,7 @@
 📝 [[svg animation]]
 [svg loading spinner](https://fffuel.co/svg-spinner/) — walks through building one via animated stroke-dasharray, dashoffset and linecap tricks
 📝 [[SVG sprites]]
+[One SVG, nine posters: CSS linked parameters — Vadim Makeev](https://pepelsbey.dev/articles/svg-link-params/) — feeds values into an external SVG via link-parameters, experimental, Firefox Nightly and Safari TP only.
 
 ## tools
 [svgviewer.dev](https://www.svgviewer.dev/) — pastes an svg to optimize it and export as react, png or data uri

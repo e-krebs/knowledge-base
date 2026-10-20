@@ -1,3 +1,4 @@
+[Krita | Peinture numérique. Liberté créative.](https://krita.org/fr/) — free GPL painting program by artists, with brush engines, layers, drawing assistants and animation tools
 ## svg
 📝 [[magical svg techniques]]
 📝 [[creating generative svg grids]]

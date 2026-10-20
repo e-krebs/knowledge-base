@@ -3,3 +3,4 @@
 [huge icons react](https://github.com/hugeicons/hugeicons) — deprecated, replaced by @hugeicons/react with @hugeicons/core-free-icons for the free icon pack
 [flowbite svg icons](https://flowbite.com/icons/) — ships 430+ solid and outline icons with react, svelte and figma support
 📝 [[Design Systems- Easy Troubleshooting And Maintenance|Design Systems: Easy Troubleshooting And Maintenance]]
+[AnimateIcons | 1170+ Free Animated React Icons](https://animateicons.in/) — hand-built animated icons from Lucide and Huge sets, installable via npm, shadcn CLI or copy-paste

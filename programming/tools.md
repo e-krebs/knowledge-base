@@ -26,3 +26,4 @@
 [two slash queries](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries) — lets you insert // ^? comments to inline-preview typescript types in vs code
 📝 [[spoof timezone in chrome]]
 📝 [[override network request in Chrome]]
+[Devframe: a framework-neutral foundation for building devtools](https://devfra.me/) — one devtool definition runs as web handler, CLI, static report, MCP server or hub dock

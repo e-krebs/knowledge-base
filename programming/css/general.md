@@ -10,6 +10,7 @@
 📝 [[stacking]]
 📝 [[the CSS Transform property and individual transforms are additive]]
 📝 [[Using CSS content-visibility to boost your rendering performance]]
+📝 [[12 CSS features you can use today with no build step]]
 
 ## selectors
 📝 [[conditional css -has -nth-last-child|conditional css :has :nth-last-child]]
@@ -34,6 +35,7 @@
 📝 [[transition to the Other Side with Container Query Units]]
 📝 [[use cases for field-sizing]]
 📝 [[print layout]]
+📝 [[Stop Treating CSS Container Queries Like Traditional Media Queries — Smashing Magazine]]
 
 ## anchor positioning
 📝 [[The Basics of Anchor Positioning]]

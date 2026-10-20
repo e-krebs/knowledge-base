@@ -3,6 +3,7 @@
 📝 [[the journey of a react component]]
 📝 [[how virtual DOM in implemented in React]]
 [A virtual DOM in 200 lines of JavaScript](https://lazamar.github.io/virtual-dom/) — ends with a queued update loop that diffs and patches the real dom
+📝 [[A visual notation for React's parent and owner trees - JulesBlom.com|A visual notation for React's parent and owner trees | JulesBlom.com]]
 
 ## refs
 📝 [[forwardRef - how to pass refs to child components|forwardRef / how to pass refs to child components]]

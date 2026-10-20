@@ -21,9 +21,11 @@
 📝 [[AI skills for real engineers]]
 📝 [[SimpleEnglish- skill to write docs in ASD-STE100|SimpleEnglish: skill to write docs in ASD-STE100]]
 📝 [[Builder.io- skills for coding agents|Builder.io: skills for coding agents]]
+[google-research/harness2](https://github.com/google-research/harness2) — plug-and-play framework that recursively improves an agent's scaffolding while the underlying model stays fixed
 
 ## tools
 [goose: local AI agent](https://goose-docs.ai/) — moved to the Agentic AI Foundation, supporting 15+ LLM providers via MCP extensions
+📝 [[claude-code-mods-agents-md at main · anthropics-claude-code|claude-code/mods/agents-md at main · anthropics/claude-code]]
 
 ## opinions
 [What are AI Agents? why do they matter?](https://addyo.substack.com/p/what-are-ai-agents-why-do-they-matter) — distinguishes agents from one-shot LLM calls by persistent context, tool use, and autonomous multi-step planning
@@ -36,3 +38,5 @@
 [code is clay](https://campedersen.com/code-is-clay) — argues AI will automate routine code the way factories automated pottery, leaving craft for humans
 [treat agent output like compiler output](https://skiplabs.io/blog/codegen_as_compiler) — argues we still lack the specs, tests, and monitoring that made compiler trust possible
 [The Multiplayer AI Manifesto](https://multiplayer-ai.com/) — argues ai agents should be shared team sessions, not private one-person chats
+📝 [[mal (@mal_shaik) on X]]
+📝 [[The Pulse- new trend of building “internal vibe-coding apps” at tech companies|The Pulse: new trend of building “internal vibe-coding apps” at tech companies]]

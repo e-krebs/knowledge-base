@@ -5,6 +5,7 @@
 ## elements
 📝 [[HTML's Best Kept Secret- The output Tag|HTML's Best Kept Secret: The output Tag]]
 📝 [[safely break a long word]]
+📝 [[New in Chrome 154- iframes that automatically resize themselves to their content – Bram.us|New in Chrome 154: iframes that automatically resize themselves to their content – Bram.us]]
 
 ## dialogs & commands
 📝 [[Dialog element for modals]]
@@ -16,6 +17,7 @@
 ## components
 📝 [[decision trees for UI components]]
 📝 [[tooltip components should not exist]]
+📝 [[New HTML and CSS features you should be using in your design system - zeroheight]]
 
 ## a11y
 📝 [[ARIA role vs. HTML element]]

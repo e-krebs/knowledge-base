@@ -40,6 +40,7 @@
 [captureOwnerStack](https://react.dev/reference/react/captureOwnerStack) — dev-only api for building a custom error overlay with the owner stack
 [you-might-not-need-an-effect](https://github.com/nickjvandyke/eslint-plugin-react-you-might-not-need-an-effect) — eslint rules catch derived state, chained updates and effects misused as handlers
 [why did you render](https://github.com/welldone-software/why-did-you-render) — reports which parent and prop caused an avoidable re-render, incompatible with react compiler
+[Improving site performance by shipping more CSS - The GitHub Blog](https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/) — Primer's flag-gated migration to CSS Modules cut server render time 55% and component init 25%
 
 ## animations & transitions
 📝 [[a trick to improve exit animations]]
@@ -73,6 +74,8 @@
 [a collection of dependency-free React hooks](https://www.novajs.dev/) — installs via cli or vs code extension, not just copy-paste, zero deps
 [react ts form (zod-based)](https://github.com/iway1/react-ts-form) — generates typesafe forms from zod via react-hook-form, unreleased since 2022
 [glow on hover (with react)](https://github.com/codaworks/react-glow) — clones children into a mouse-tracked gradient mask, unreleased since jan 2024
+[React Bits - Animated UI Components For React](https://reactbits.dev/) — animated components and backgrounds copied in as editable source, with CSS or Tailwind variants
+[useLayouts | Free animated React components](https://uselayouts.com/) — copy-in animated React components on Next.js, Tailwind and Motion, with source you own and edit
 
 ## design systems
 [France State](https://react-dsfr-components.etalab.studio/) — french state design-system components now live at the storybook root, npm sep 2026

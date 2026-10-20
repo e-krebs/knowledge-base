@@ -33,6 +33,7 @@
 📝 [[css only tooltips]]
 📝 [[floating label for input in css]]
 📝 [[collapsible Q&A - Accordion without JS|collapsible Q&A / Accordion without JS]]
+[neat-annotations — neat hand-drawn CSS annotations](https://neat-annotations.syabro.com/) — pure CSS library with no JavaScript that draws hand-drawn arrows and handwritten labels around elements
 
 ### selectors & logic
 📝 [[-is() selector to avoid repetition|:is() selector to avoid repetition]]

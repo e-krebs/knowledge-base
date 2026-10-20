@@ -16,3 +16,4 @@
 📝 [[applied -Software Engineering at Google-|applied "Software Engineering at Google"]]
 📝 [[the Prompt Engineering Playbook for Programmers]]
 [the Frontend Treadmill](https://polotek.net/posts/the-frontend-treadmill/) — argues teams should stop chasing frameworks and invest in core web platform skills
+[Weird little guys of FOSS](https://drewdevault.com/weird-guys/) — list of influential FOSS figures with weird public politics
