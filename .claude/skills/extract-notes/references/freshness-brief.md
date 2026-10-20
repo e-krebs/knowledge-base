@@ -12,9 +12,8 @@ Read-only; write only `SCRATCH/freshness-<letter>.json`.
 Inputs: `SCRATCH/classify.json` holds one object per link with `n`, `title`, `url`, `fresh`
 (a first guess, unverified), `page` (the fetched text, relative to SCRATCH). Your rows:
 n = <list>. A social post whose page holds only the post text is judged on the technique the
-text names. A survey article gets, in `evidence`, one clause per feature it lists with that
-feature's current status, semicolon separated, and `stale` when any status changed since the
-article.
+text names. A survey article gets, in `evidence`, one clause per feature it lists, each marked
+`current`, `emerging` or `stale`, semicolon separated.
 
 For each row: read the page, then run one to three WebSearch queries to establish (a) whether
 the technique still works and is still the recommended way, (b) whether a native feature, a
@@ -25,11 +24,16 @@ sources: MDN, web.dev, caniuse, the CSS WG drafts, release notes, the library's 
 the article itself.
 
 Verdict per row:
-- `fresh`: still the current way, nothing replaced it.
+- `fresh`: still the current way, nothing replaced it. Also a feature that ships with a graceful
+  fallback (progressive enhancement, works everywhere without it), even when not Baseline.
 - `superseded`: a named replacement exists and is Baseline widely available or the library's
   documented default; say what and since when.
-- `stale`: still valid, but a replacement is arriving (name it, not yet Baseline), or the page's
-  support claims are outdated, or the version it targets is two or more majors behind.
+- `emerging`: a spec or implementation exists, not Baseline, and there is no working fallback.
+  Current, not old: name it with its support status.
+- `stale`: the page's support claims are outdated, or the version it targets is two or more
+  majors behind, or a deprecation notice.
+- A survey article's row: `emerging` when any feature is `emerging` and none is `stale`, `stale`
+  when any is `stale`, else `fresh`.
 
 Output: an array of `{ n, title, verdict, evidence, evidence_url, published, replacement }`,
 `evidence` one sentence (survey rows excepted), `evidence_url` the page relied on, `published`

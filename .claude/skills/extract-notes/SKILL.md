@@ -76,7 +76,8 @@ writing and checking through the briefs in [references/](references/).
    home left. His standing flips: a long article with a simple
    core becomes a note; a `superseded` row is removed or becomes a link whose gist names the
    successor, never a stale note; a `stale` row keeps its note with the successor and its
-   support status in `## gotchas` and `status: stale`. Done when he answers.
+   support status in `## gotchas` and `status: stale`; an `emerging` row keeps its note with the
+   feature and its support status in `## gotchas` and `status: emerging`. Done when he answers.
 6. Notes and gists, Sonnet workers, background: batches of 5 to 7 `extract` rows each on
    [references/note-brief.md](references/note-brief.md); one worker on
    [references/gist-brief.md](references/gist-brief.md) for every non-extract row. Workers
@@ -110,7 +111,7 @@ writing and checking through the briefs in [references/](references/).
   unless the freshness evidence confirms it.
 - A worker that cannot read a source stops and reports; the judge decides.
 - File name: the title with `/ \ : * ? " < > |` replaced by `-`.
-- `status` is `fresh` or `stale`; `superseded` never reaches a note.
+- `status` is `fresh`, `emerging` or `stale`; `superseded` never reaches a note.
 - A pre-existing prose file in the folder joins the pass: frontmatter added, body trimmed to the
   schema, a `📝 [[name]]` line placed by the layout.
 

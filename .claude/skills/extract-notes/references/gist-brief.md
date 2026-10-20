@@ -10,8 +10,8 @@ Objective: write a one-line gist for these links, from page text already fetched
 
 Inputs: `SCRATCH/classify.json` holds one object per link with `n`, `title`, `url`, `page`
 (fetched text relative to SCRATCH, null when unreadable). Your rows: n = <list>. Read
-`SCRATCH/freshness-*.json` too: a row with verdict `stale` or `superseded` gets a gist that
-names the replacement and its support status, taken from `evidence`.
+`SCRATCH/freshness-*.json` too: a row with verdict `stale`, `emerging` or `superseded` gets a gist
+that names the replacement or feature and its support status, taken from `evidence`.
 
 Rules for a gist:
 - One line, 6 to 15 words, lowercase start, no final period, no em dash inside (the vault uses

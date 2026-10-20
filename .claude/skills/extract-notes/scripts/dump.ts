@@ -54,6 +54,7 @@ console.log(
       tagsChanged,
       notes: sorted.filter((i) => i.type === "note").length,
       stale: sorted.filter((i) => i.status === "stale").length,
+      emerging: sorted.filter((i) => i.status === "emerging").length,
       largest,
       missingUrlOrTags,
     },

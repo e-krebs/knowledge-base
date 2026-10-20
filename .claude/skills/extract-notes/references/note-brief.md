@@ -1,8 +1,8 @@
 # Note brief
 
 Fill in SCRATCH and the row numbers (five to seven `extract` rows per worker) before handing this
-to a Sonnet worker. Name any row whose freshness verdict is `stale` so the worker adds the
-successor line.
+to a Sonnet worker. Name any row whose freshness verdict is `stale` or `emerging` so the worker
+adds the successor or status line.
 
 ---
 
@@ -13,9 +13,10 @@ Inputs:
 - SCRATCH/classify.json: one object per link with `n`, `title`, `url`, `published`, `page` (the
   fetched page text, path relative to SCRATCH).
 - SCRATCH/freshness-*.json: live freshness verdicts per `n`
-  (`verdict`, `evidence`, `replacement`, `published`). When your row's verdict is `stale`, the
-  note's `## gotchas` gets one line naming the replacement and its support status, taken from
-  `evidence`. When the row is absent from both files, treat it as fresh.
+  (`verdict`, `evidence`, `replacement`, `published`). When your row's verdict is `stale` or
+  `emerging`, the note's `## gotchas` gets one line naming the replacement or the emerging feature
+  and its support status, taken from `evidence`. When the row is absent from both files, treat it
+  as fresh.
 
 File name: the link `title` exactly, with each of the characters / \ : * ? " < > | replaced by
 `-`, plus `.md`. Example: `collapsible Q&A - Accordion without JS.md`, `-is() selector to avoid
@@ -28,7 +29,7 @@ Content, in this order, nothing else. No `# title` heading anywhere: the file na
 source: <url>
 fetched: <today, ISO date>
 published: <ISO date from classify.json, else from the freshness file; omit the line when neither has one>
-status: fresh
+status: fresh | emerging | stale
 ---
 <one paragraph, 2 to 4 sentences: what the technique does and when to reach for it>
 
@@ -36,7 +37,7 @@ status: fresh
 <the steps or the snippet, trimmed to the part that matters; a fenced code block copied from the source, tagged with its language>
 
 ## gotchas
-- <one line each, only when the source names one, plus the freshness line when the row is stale; omit the whole section when there is nothing>
+- <one line each, only when the source names one, plus the freshness line when the row is stale or emerging; omit the whole section when there is nothing>
 ```
 
 Rules:
@@ -51,6 +52,8 @@ Rules:
   enough to write the note, do not write it: stop on that row and report it.
 - Never write from memory about the topic. Never add a citation the source does not carry.
 - A browser-support claim in the source is dropped unless the freshness evidence confirms it.
+- A survey row's note gives each feature its own `##` heading: current features first, emerging
+  ones after, each emerging heading marked `(emerging)`.
 
 Return, in under 30 lines: for each row, the file path, the line count, the byte size
 (`wc -l -c`), and any claim you were unsure the source supports. Name any row you skipped and why.

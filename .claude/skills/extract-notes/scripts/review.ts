@@ -102,8 +102,8 @@ const doc = [
       f.verdict === "superseded"
         ? "you decide: gist saying `superseded by …`, or remove the line"
         : r.verdict === "extract"
-          ? "note keeps the technique and names the successor in `## gotchas`"
-          : "gist names the successor and its support status";
+          ? "note keeps the technique and names the successor or feature and its status in `## gotchas`"
+          : "gist names the successor or feature and its support status";
     return `| ${String(f.n).padStart(2, "0")} | [${cell(r.title)}](${r.url}) | **${f.verdict}** | ${cell(f.evidence)} ([source](${f.evidence_url})) | ${cell(f.replacement) || "—"} | ${handling} |`;
   }),
   "",
