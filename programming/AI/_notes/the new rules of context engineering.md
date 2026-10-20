@@ -1,5 +1,5 @@
 ---
-source: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
+source: https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/
 fetched: 2026-09-13
 published: 2026-07-24
 status: fresh

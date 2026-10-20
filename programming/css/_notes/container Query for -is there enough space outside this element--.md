@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/container-query-for-is-there-enough-space-outside-this-element/
+source: https://blog.master.dev/container-query-for-is-there-enough-space-outside-this-element/
 fetched: 2026-09-11
 published: 2025-05-13
 status: fresh

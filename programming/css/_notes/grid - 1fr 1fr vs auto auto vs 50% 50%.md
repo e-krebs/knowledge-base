@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/1fr-1fr-vs-auto-auto-vs-50-50/
+source: https://blog.master.dev/1fr-1fr-vs-auto-auto-vs-50-50/
 fetched: 2026-09-11
 published: 2025-06-11
 status: fresh

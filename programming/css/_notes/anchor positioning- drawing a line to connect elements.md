@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning/
+source: https://blog.master.dev/drawing-a-line-to-connect-elements-with-css-anchor-positioning/
 fetched: 2026-09-11
 published: 2024-04-02
 status: stale

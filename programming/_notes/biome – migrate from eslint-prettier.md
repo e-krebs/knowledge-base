@@ -1,5 +1,5 @@
 ---
-source: https://biomejs.dev/guides/migrate-eslint-prettier/
+source: https://biomejs.dev/installation/migrate-eslint-prettier/
 fetched: 2026-09-13
 published: 2024-04-15
 status: fresh

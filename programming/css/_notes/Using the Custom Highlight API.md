@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/using-the-custom-highlight-api/
+source: https://blog.master.dev/using-the-custom-highlight-api/
 fetched: 2026-09-11
 published: 2025-08-07
 status: fresh

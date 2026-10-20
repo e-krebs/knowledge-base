@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/css-spotlight-effect/
+source: https://blog.master.dev/css-spotlight-effect/
 fetched: 2026-09-10
 published: 2025-05-26
 status: fresh

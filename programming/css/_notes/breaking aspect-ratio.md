@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/things-that-can-break-aspect-ratio-in-css/
+source: https://blog.master.dev/things-that-can-break-aspect-ratio-in-css/
 fetched: 2026-09-11
 published: 2024-04-16
 status: fresh

@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/
+source: https://blog.master.dev/what-you-need-to-know-about-modern-css-spring-2024-edition/
 fetched: 2026-09-10
 published: 2024-03-26
 status: fresh

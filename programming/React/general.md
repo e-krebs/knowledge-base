@@ -9,7 +9,7 @@
 ## state management
 [signal](https://preactjs.com/blog/signal-boosting/) — explains how preact signals use doubly-linked lists for fast dependency tracking
 📝 [[Zustand]]
-[Introducing Zustand (State Management)](https://frontendmasters.com/blog/introducing-zustand/) — compares zustand selectors against react context to show fewer re-renders
+[Introducing Zustand (State Management)](https://blog.master.dev/introducing-zustand/) — compares zustand selectors against react context to show fewer re-renders
 [fluent-state](https://www.npmjs.com/package/fluent-state) — tiny proxy hook merges state, computed values and effects into one fluent api
 📝 [[picking a react state approach]]
 📝 [[Preserving and Resetting State in React (don't if-return)|Preserving and Resetting State in React (don't if/return)]]

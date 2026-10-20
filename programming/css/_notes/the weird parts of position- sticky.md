@@ -1,5 +1,5 @@
 ---
-source: https://frontendmasters.com/blog/the-weird-parts-of-position-sticky/
+source: https://blog.master.dev/the-weird-parts-of-position-sticky/
 fetched: 2026-09-11
 published: 2025-11-05
 status: fresh
