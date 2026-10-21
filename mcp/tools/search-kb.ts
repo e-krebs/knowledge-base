@@ -29,7 +29,7 @@ export const register = ({ server, kb }: ToolDeps): void =>
     {
       name: "search_kb",
       description:
-        "Search the user's saved knowledge base of links and notes by keyword. Use it first when the user asks what they have saved or noted on a subject, or whether they already have a link for something. Returns one line per hit: id · title · url · status · fetched · gist. Call get_item with an id for the full note.",
+        "Search the user's saved knowledge base of links and notes by keyword. Use it first, before a web search, when the user asks what they have saved or noted on a subject, wants a link, article or reference, or asks whether they already have something. Returns one line per hit: id · title · url · status · fetched · gist. Call get_item with an id for the full note.",
       inputSchema,
     },
     (args) => {
