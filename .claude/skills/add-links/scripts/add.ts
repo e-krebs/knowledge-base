@@ -1,4 +1,4 @@
-export {};
+import { vaultPath } from "../../../../scripts/list";
 
 interface Row {
   n: number;
@@ -54,7 +54,7 @@ const notes = await Promise.all(
     .map(async (r) => {
       const name = `${sanitize(r.title)}.md`;
       const from = `${scratch}notes/${name}`;
-      const to = `${notesFolder(r.file)}${name}`;
+      const to = vaultPath(`${notesFolder(r.file)}${name}`);
       if (!(await Bun.file(from).exists())) throw new Error(`note missing: ${from}`);
       if (await Bun.file(to).exists()) throw new Error(`note exists already: ${to}`);
       return { from, to };
@@ -87,8 +87,8 @@ const place = ({ lines, heading, added }: { lines: string[]; heading: string; ad
 const files = [...new Set(kept.map((r) => r.file))].sort();
 const plan = await Promise.all(
   files.map(async (file) => {
-    const exists = await Bun.file(file).exists();
-    let lines = exists ? (await Bun.file(file).text()).replace(/\n+$/, "").split("\n") : [];
+    const exists = await Bun.file(vaultPath(file)).exists();
+    let lines = exists ? (await Bun.file(vaultPath(file)).text()).replace(/\n+$/, "").split("\n") : [];
     if (!exists) lines = [];
     const headings = [...new Set(kept.filter((r) => r.file === file).map((r) => r.heading))];
     const report: string[] = [`${file}${exists ? "" : " (new file)"}`];
@@ -107,5 +107,5 @@ console.log(`${kept.length} lines into ${files.length} files, ${notes.length} no
 if (!write) process.exit(0);
 
 await Promise.all(notes.map(async (n) => Bun.write(n.to, await Bun.file(n.from).text())));
-await Promise.all(plan.map((p) => Bun.write(p.file, p.text)));
+await Promise.all(plan.map((p) => Bun.write(vaultPath(p.file), p.text)));
 console.log(`written: ${files.join(" ")}`);

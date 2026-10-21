@@ -10,6 +10,10 @@ description: >-
 
 Entry: `/extract-notes <vault file>`, for example `/extract-notes programming/React/general.md`.
 
+The vault is the `vault/` folder at the repo root, and Obsidian opens that folder. Vault file
+arguments are relative to `vault/`; git paths and filesystem paths from the repo root take the
+`vault/` prefix.
+
 A link line carries a title and nothing else, so search finds titles. This skill turns each
 link whose core fits a short page into a note next to it, gives every other link a one-line
 gist, regroups the file, and leaves the index richer without changing the pile extension. The
@@ -117,8 +121,8 @@ writing and checking through the briefs in [references/](references/).
 
 ## Gotchas
 
-- `.claude/` is a dot folder, so Bun's Glob in `mdFiles()` and Obsidian both ignore it; the
-  skill's own markdown never reaches the index.
+- `.claude/` sits outside `vault/`, so Bun's Glob in `mdFiles()` and Obsidian never see the
+  skill's own markdown.
 - Multi-line `git commit -m` trips the commit-subject hook here; write the message to a file and
   use `-F`.
 - Substack pages fetch as paraphrase; workers must re-fetch the URL for verbatim code.

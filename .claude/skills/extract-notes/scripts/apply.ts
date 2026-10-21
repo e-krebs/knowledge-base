@@ -1,4 +1,4 @@
-export {};
+import { VAULT_DIR } from "../../../../scripts/list";
 
 type Entry = number | { note: string };
 
@@ -36,7 +36,7 @@ if (!scratchArg || !layoutPath) {
 }
 
 const scratch = scratchArg.endsWith("/") ? scratchArg : `${scratchArg}/`;
-const vault = process.cwd().endsWith("/") ? process.cwd() : `${process.cwd()}/`;
+const vault = `${process.cwd()}/${VAULT_DIR}/`;
 
 const { file, notesFolder, layout, crossFile, removed }: Layout = JSON.parse(await Bun.file(layoutPath).text());
 const FILE = `${vault}${file}`;

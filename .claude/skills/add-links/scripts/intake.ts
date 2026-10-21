@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { mdFiles } from "../../../../scripts/list";
+import { mdFiles, vaultPath } from "../../../../scripts/list";
 import { parse } from "../../../../scripts/parse";
 import { frontmatter } from "../../../../scripts/frontmatter";
 import { urlShape } from "../../../../scripts/checkUrl";
@@ -105,7 +105,7 @@ const held = new Map<string, string>();
 const headings = new Map<string, string[]>();
 await Promise.all(
   (await mdFiles()).map(async (file) => {
-    const text = await $`cat ${file}`.text();
+    const text = await $`cat ${vaultPath(file)}`.text();
     const { data, body } = frontmatter<NoteKey>(text);
     if (data.source) {
       held.set(shape(data.source), file);

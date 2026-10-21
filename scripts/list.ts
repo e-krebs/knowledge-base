@@ -4,6 +4,9 @@ import { frontmatter } from "./frontmatter";
 import { urlShape } from "./checkUrl";
 import type { Item, Link, Note, NoteKey } from "./types";
 
+export const VAULT_DIR = "vault";
+export const vaultPath = (file: string): string => `${VAULT_DIR}/${file}`;
+
 const clean = new RegExp(/(?:.\/)?(.*).md$/);
 
 // Algolia caps a record at 10 KB on this plan, and a note is meant to stay far below it.
@@ -21,9 +24,7 @@ const fileNameToTag = (fileName: string): string[] =>
 export const mdFiles = async (): Promise<string[]> => {
   const glob = new Glob("**/*.md");
 
-  return (await Array.fromAsync(glob.scan("."))).filter(
-    (f) => !f.startsWith("node_modules") && !f.startsWith("README.md")
-  );
+  return Array.fromAsync(glob.scan({ cwd: VAULT_DIR }));
 };
 
 const shape = (url: string): string => {
@@ -86,7 +87,7 @@ export const list = async (): Promise<Item[]> => {
 
   await Promise.all(
     fileNames.map(async (fileName) => {
-      const { data, body } = frontmatter<NoteKey>(await $`cat ${fileName}`.text());
+      const { data, body } = frontmatter<NoteKey>(await $`cat ${vaultPath(fileName)}`.text());
       if (data.source) {
         const note = readNote({ file: fileName, data, body });
         const key = shape(data.source);

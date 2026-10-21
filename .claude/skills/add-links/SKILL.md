@@ -11,6 +11,10 @@ description: >-
 Entry: `/add-links <input>...`, each input a raindrop `.csv` export or a text file of URLs, one
 per line, `[title](url)` allowed. Pasted URLs go into `<SCRATCH>/pasted.md` first.
 
+The vault is the `vault/` folder at the repo root, and Obsidian opens that folder. Vault file
+arguments are relative to `vault/`; git paths and filesystem paths from the repo root take the
+`vault/` prefix.
+
 Intake repeats the decisions of [extract-notes](../extract-notes/SKILL.md) for links the vault
 does not hold yet, plus one: where each link goes. The steps below reuse that skill's briefs and
 scripts by path and add only the intake parser, the placement column and the writer. Read its
@@ -75,4 +79,4 @@ Layout section once: a note, a note line and a link line keep the same shape her
   too, because the vault often holds a canonical docs page already.
 - macOS blocks this process from reading `~/Downloads`, so a CSV sitting there must be moved
   where the run can read it; ask him to move it, and delete it after the commit. Keep it out of
-  the vault root, where a `git add -A` would commit it.
+  the repo root and out of `vault/`: a `git add -A` would commit it from the root, and Obsidian would show it inside `vault/`.

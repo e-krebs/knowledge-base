@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { mdFiles } from "./list";
+import { mdFiles, vaultPath } from "./list";
 import { parse } from "./parse";
 import { frontmatter } from "./frontmatter";
 import { checkUrl, wayback, type Check } from "./checkUrl";
@@ -33,7 +33,7 @@ const stillAlive = (entry?: Cached): boolean =>
 const found = (
   await Promise.all(
     (await mdFiles()).map(async (file): Promise<Found[]> => {
-      const text = await $`cat ${file}`.text();
+      const text = await $`cat ${vaultPath(file)}`.text();
       const { data } = frontmatter<NoteKey>(text);
       if (data.source) {
         const at = text.split(/\r?\n/).findIndex((l) => l.trimStart().startsWith("source:"));

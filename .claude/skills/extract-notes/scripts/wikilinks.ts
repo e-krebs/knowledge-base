@@ -1,4 +1,5 @@
 import { Glob } from "bun";
+import { VAULT_DIR, vaultPath } from "../../../../scripts/list";
 
 const files = Bun.argv.slice(2);
 if (files.length === 0) {
@@ -13,15 +14,15 @@ const dirName = (file: string): string => file.split("/").slice(0, -1).join("/")
 let anyUnresolved = false;
 
 for (const file of files) {
-  const text = await Bun.file(file).text();
+  const text = await Bun.file(vaultPath(file)).text();
   const names = [...text.matchAll(WIKILINK)].map((m) => m[1]!.trim());
   const dir = dirName(file);
 
   const unresolved: string[] = [];
   for (const name of names) {
     const local = dir ? `${dir}/${name}.md` : `${name}.md`;
-    if (await Bun.file(local).exists()) continue;
-    const hit = await new Glob(`**/${name}.md`).scan(".").next();
+    if (await Bun.file(vaultPath(local)).exists()) continue;
+    const hit = await new Glob(`**/${name}.md`).scan({ cwd: VAULT_DIR }).next();
     if (!hit.done) continue;
     unresolved.push(name);
   }
