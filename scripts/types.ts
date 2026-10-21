@@ -26,3 +26,25 @@ export interface Item extends Omit<Link, "headers" | "line" | "gist"> {
   note?: string;
   status?: string;
 }
+
+export type Freshness = "fresh" | "stale" | "emerging";
+
+export interface KbRecord {
+  id: string;
+  kind: "note" | "link";
+  url: string;
+  title: string;
+  topic: string;
+  tags: string[];
+  headers: string[];
+  gist?: string;
+  body?: string;
+  gotchas?: string;
+  status?: Freshness;
+  rawStatus?: string;
+  fetched?: string;
+  published?: string;
+  file: string;
+  line?: number;
+  noteFile?: string;
+}
