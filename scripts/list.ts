@@ -1,8 +1,9 @@
+import { createHash } from "node:crypto";
 import { $, Glob } from "bun";
 import { parse } from "./parse";
 import { frontmatter } from "./frontmatter";
 import { urlShape } from "./checkUrl";
-import type { Item, Link, Note, NoteKey } from "./types";
+import type { Freshness, Item, KbRecord, Link, Note, NoteKey } from "./types";
 
 export const VAULT_DIR = "vault";
 export const vaultPath = (file: string): string => `${VAULT_DIR}/${file}`;
@@ -69,17 +70,84 @@ const readNote = ({
   file,
 });
 
-const noteFields = (note: Note): Pick<Item, "type" | "note" | "status" | "content"> => ({
-  type: "note",
-  note: note.file,
-  status: note.status,
-  content: content({ text: note.body, file: note.file }),
+const FRESHNESS: readonly string[] = ["fresh", "stale", "emerging"];
+const isFreshness = (raw: string): raw is Freshness => FRESHNESS.includes(raw);
+
+const freshnessOf = (raw: string): Freshness | undefined => {
+  if (isFreshness(raw)) return raw;
+  console.warn(`unknown status "${raw}", kept as rawStatus only`);
+  return undefined;
+};
+
+const recordId = ({ file, url }: { file: string; url: string }): string =>
+  createHash("sha1").update(file + shape(url)).digest("hex").slice(0, 12);
+
+const firstParagraph = (body: string): string | undefined =>
+  body.split(/\n\s*\n/)[0]!.trim() || undefined;
+
+const gotchasOf = (body: string): string | undefined =>
+  /^## gotchas[ \t]*\n([\s\S]*?)(?=^## |(?![\s\S]))/im.exec(body)?.[1]!.trim() || undefined;
+
+const noteRecord = ({
+  note,
+  file,
+  url,
+  title,
+  topic,
+  tags,
+  headers,
+  line,
+}: {
+  note: Note;
+  file: string;
+  url: string;
+  title: string;
+  topic: string;
+  tags: string[];
+  headers: string[];
+  line?: number;
+}): KbRecord => ({
+  id: recordId({ file, url }),
+  kind: "note",
+  url,
+  title,
+  topic,
+  tags,
+  headers,
+  line,
+  gist: firstParagraph(note.body),
+  body: note.body,
+  gotchas: gotchasOf(note.body),
+  status: freshnessOf(note.status),
+  rawStatus: note.status,
+  fetched: note.fetched || undefined,
+  published: note.published,
+  file,
+  noteFile: note.file,
 });
+
+const toItem = (record: KbRecord): Item =>
+  record.kind === "note"
+    ? {
+        url: record.url,
+        text: record.title,
+        tags: record.tags,
+        type: "note",
+        note: record.noteFile,
+        status: record.rawStatus,
+        content: content({ text: record.body!, file: record.noteFile! }),
+      }
+    : {
+        url: record.url,
+        text: record.title,
+        tags: record.tags,
+        ...(record.gist ? { content: record.gist } : {}),
+      };
 
 // A `[[note]]` line resolves to the note in the link file's `_notes/` folder first, then its
 // own folder, then any note of that name. A `[title](url)` line whose url is a note's source
 // is enriched by that note. A note neither linked nor referenced becomes its own record.
-export const list = async (): Promise<Item[]> => {
+export const records = async (): Promise<KbRecord[]> => {
   const fileNames = await mdFiles();
   const notesBySource = new Map<string, Note>();
   const notesByFile = new Map<string, Note>();
@@ -109,8 +177,9 @@ export const list = async (): Promise<Item[]> => {
   };
 
   const matched = new Set<Note>();
-  const items = links.flatMap(({ fileName, link: { headers, line, gist, note: name, ...link } }): Item[] => {
+  const items = links.flatMap(({ fileName, link: { headers, line, gist, note: name, ...link } }): KbRecord[] => {
     const tags = [...fileNameToTag(fileName), ...headers];
+    const topic = pathTags(fileName).join("/");
     if (name !== undefined) {
       const note = resolve({ fileName, name });
       if (!note) {
@@ -118,27 +187,45 @@ export const list = async (): Promise<Item[]> => {
         return [];
       }
       matched.add(note);
-      return [{ url: note.source, text: note.title, tags, ...noteFields(note) }];
+      return [noteRecord({ note, file: fileName, url: note.source, title: note.title, topic, tags, headers, line })];
     }
     const note = notesBySource.get(shape(link.url));
     if (note) {
       matched.add(note);
-      return [{ ...link, tags, ...noteFields(note) }];
+      return [noteRecord({ note, file: fileName, url: link.url, title: link.text, topic, tags, headers, line })];
     }
-    return [gist ? { ...link, tags, content: gist } : { ...link, tags }];
+    return [
+      {
+        id: recordId({ file: fileName, url: link.url }),
+        kind: "link",
+        url: link.url,
+        title: link.text,
+        topic,
+        tags,
+        headers,
+        gist,
+        file: fileName,
+        line,
+      },
+    ];
   });
 
   const orphans = [...notesByFile.values()]
     .filter((note) => !matched.has(note))
-    .map((note): Item => {
+    .map((note): KbRecord => {
       const path = pathTags(note.file);
-      return {
+      return noteRecord({
+        note,
+        file: note.file,
         url: note.source,
-        text: note.title,
+        title: note.title,
+        topic: path.slice(0, -1).join("/"),
         tags: path.length > 1 ? path.slice(0, -1) : path,
-        ...noteFields(note),
-      };
+        headers: [],
+      });
     });
 
   return [...items, ...orphans];
 };
+
+export const list = async (): Promise<Item[]> => (await records()).map(toItem);
